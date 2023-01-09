@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_CONVOLUTION">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Convolution</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_CGU_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxFlexGridSizer">
+                    <cols>5</cols>
+                    <rows>0</rows>
+                    <vgap>0</vgap>
+                    <hgap>0</hgap>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="wxID_STATIC">
+                            <label>Tamanio:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxSpinCtrl" name="ID_SPIN_SIZE">
+                            <style>wxSP_ARROW_KEYS</style>
+                            <value>1</value>
+                            <min>1</min>
+                            <max>100</max>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxGROW|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_REFRESH_BTN">
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-RefreshEnhancement-16.png</bitmap>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Filtros</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT</flag>
+                        <border>5</border>
+                        <object class="wxPanel" name="ID_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>5</border>
+                                    <object class="wxStaticText" name="wxID_STATIC">
+                                        <label>Multiplicidad: </label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_NEW_FILTER">
+                                        <tooltip>Agregar filtro</tooltip>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-AddColumn-16.png</bitmap>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_DELETE_FILTER">
+                                        <tooltip>Eliminar filtro</tooltip>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-DeleteColumn-16.png</bitmap>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <object class="wxPanel" name="ID_CONVOLUTION_FILTERS_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxStaticBoxSizer" name="wxID_ANY">
+                            <orient>wxHORIZONTAL</orient>
+                            <label>Ecuacion</label>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALL</flag>
+                                <border>5</border>
+                                <option>1</option>
+                                <object class="wxTextCtrl" name="ID_EQ_TEXTCTRL">
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxBitmapButton" name="ID_CHECK_EQ_BTN">
+                                    <style>wxBU_AUTODRAW</style>
+                                    <bitmap>bitmaps/icon-Check-16.png</bitmap>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

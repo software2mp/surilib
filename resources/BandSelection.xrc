@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_BAND_SELECTION_PART">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Seleccion de Bandas</title>
+        <centered>1</centered>
+        <object class="wxStaticBoxSizer" name="ID_BAND_LISTS_SIZER">
+            <orient>wxVERTICAL</orient>
+            <label>Static</label>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_OUTPUT_BANDS_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <option>1</option>
+                            <object class="wxListCtrl" name="ID_INPUT_BAND_LIST" subclass="wxListView">
+                                <style>wxLC_REPORT|wxSUNKEN_BORDER</style>
+                            </object>
+                        </object>
+                        <object class="spacer">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <size>5,5</size>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

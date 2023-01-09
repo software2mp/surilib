@@ -1,0 +1,9 @@
+/** \file $(filename) */
+/*!
+ *  Software de Procesamiento de Imagenes Satelitales de CONAE.
+ *  Copyright 2011-2007 CONAE.
+ *
+ *  Este producto contiene software desarrollado por
+ *  SUR Emprendimientos Tecnologicos S.R.L. (http://www.suremptec.com/)
+ *
+ */

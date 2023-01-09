@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_REFERENCE_SYSTEM_EDITION_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>ref__sist</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxHORIZONTAL</orient>
+                    <label>Nombre</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxPanel" name="ID_REFERENCE_SYSTEM_NAME_PANEL">
+                            <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxHORIZONTAL</orient>
+                    <label>Autoridad</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                        <border>2</border>
+                        <option>1</option>
+                        <object class="wxTextCtrl" name="ID_AUTHORITY_NAME_TEXT">
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                        <border>2</border>
+                        <object class="wxStaticText" name="wxID_STATIC">
+                            <label>:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                        <border>2</border>
+                        <option>1</option>
+                        <object class="wxTextCtrl" name="ID_AUTHORITY_CODE_TEXT">
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxHORIZONTAL</orient>
+                    <label>Datum</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxPanel" name="ID_DATUM_SELECT_PANEL">
+                            <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxHORIZONTAL</orient>
+                    <label>Unidades</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxChoice" name="ID_UNITS_CHOICE">
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Ejes</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxLEFT</flag>
+                        <border>5</border>
+                        <object class="wxCheckBox" name="ID_USE_TWIN_AXES_CHECK">
+                            <label>Usar ejes gemelos</label>
+                            <checked>0</checked>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALL</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxFlexGridSizer">
+                            <cols>2</cols>
+                            <rows>0</rows>
+                            <vgap>4</vgap>
+                            <hgap>4</hgap>
+                            <growablecols>1</growablecols>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Eje 1</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                                        <border>2</border>
+                                        <option>1</option>
+                                        <object class="wxTextCtrl" name="ID_TWIN1_NAME_TEXT">
+                                            <enabled>0</enabled>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                                        <border>2</border>
+                                        <object class="wxChoice" name="ID_TWIN1_ORIENTATION_CHOICE">
+                                            <enabled>0</enabled>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Eje 2</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                                        <border>2</border>
+                                        <option>1</option>
+                                        <object class="wxTextCtrl" name="ID_TWIN2_NAME_TEXT">
+                                            <enabled>0</enabled>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                                        <border>2</border>
+                                        <object class="wxChoice" name="ID_TWIN2_ORIENTATION_CHOICE">
+                                            <enabled>0</enabled>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_PROJ_DATA_CONTAINER">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxStaticBoxSizer" name="wxID_ANY">
+                        <orient>wxHORIZONTAL</orient>
+                        <label>Proyeccion</label>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <option>1</option>
+                            <object class="wxPanel" name="ID_PARAMETERS_PANEL">
+                                <style>wxSUNKEN_BORDER</style>
+                                <object class="wxBoxSizer">
+                                    <orient>wxVERTICAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxGROW|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxBoxSizer">
+                                            <orient>wxHORIZONTAL</orient>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                    <label>Tipo proyeccion:</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxGROW|wxALL</flag>
+                                                <border>5</border>
+                                                <option>1</option>
+                                                <object class="wxChoice" name="ID_PROJ_CHOICE">
+                                                    <content>
+                                                        <item>Albers Equal-Area Conic</item>
+                                                        <item>Azimuthal Equidistant</item>
+                                                        <item>Cassini-Soldner</item>
+                                                        <item>Cylindrical Equal Area</item>
+                                                        <item>Eckert IV</item>
+                                                        <item>Eckert VI</item>
+                                                        <item>Equidistant Conic</item>
+                                                        <item>Equidistant Cylindrical</item>
+                                                        <item>Equirectangular</item>
+                                                        <item>Gauss-Kruger</item>
+                                                        <item>Gall Stereographic</item>
+                                                        <item>GEOS - Geostationary Satellite View</item>
+                                                        <item>Gnomonic</item>
+                                                        <item>Hotine Oblique Mercator</item>
+                                                        <item>Krovak</item>
+                                                        <item>Laborde Oblique Mercator</item>
+                                                        <item>Lambert Azimuthal Equal Area</item>
+                                                        <item>Lambert Conic Conformal (1SP)</item>
+                                                        <item>Lambert Conic Conformal (2SP)</item>
+                                                        <item>Lambert Conic Conformal (2SP Belgium)</item>
+                                                        <item>Lambert Cylindrical Equal Area</item>
+                                                        <item>Mercator (1SP)</item>
+                                                        <item>Mercator (2SP)</item>
+                                                        <item>Miller Cylindrical</item>
+                                                        <item>Mollweide</item>
+                                                        <item>New Zealand Map Grid</item>
+                                                        <item>Oblique Mercator</item>
+                                                        <item>Oblique Stereographic</item>
+                                                        <item>Orthographic</item>
+                                                        <item>Polar Stereographic</item>
+                                                        <item>Polyconic</item>
+                                                        <item>Robinson</item>
+                                                        <item>Rosenmund Oblique Mercator</item>
+                                                        <item>Sinusoidal</item>
+                                                        <item>Swiss Oblique Cylindrical</item>
+                                                        <item>Swiss Oblique Mercator</item>
+                                                        <item>Stereographic</item>
+                                                        <item>Transverse Mercator</item>
+                                                        <item>Transverse Mercator (Modified Alaska)</item>
+                                                        <item>Transverse Mercator (South Oriented)</item>
+                                                        <item>Tunisia Mining Grid</item>
+                                                        <item>VanDerGrinten</item>
+                                                    </content>
+                                                    <selection>37</selection>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                                                <border>5</border>
+                                                <object class="wxBitmapButton" name="ID_ADD_ROW_BTN">
+                                                    <tooltip>Agregar registro</tooltip>
+                                                    <style>wxBU_AUTODRAW</style>
+                                                    <bitmap>bitmaps/button-AddRow-16.png</bitmap>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                                                <border>5</border>
+                                                <object class="wxBitmapButton" name="ID_DEL_ROW_BTN">
+                                                    <tooltip>Eliminar registro seleccionado</tooltip>
+                                                    <style>wxBU_AUTODRAW</style>
+                                                    <bitmap>bitmaps/button-DeleteRow-16.png</bitmap>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

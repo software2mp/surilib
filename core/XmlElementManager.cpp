@@ -1,0 +1,146 @@
+/*! \file XmlElementManager.cpp */
+/**
+ *  Biblioteca de procesamiento GeoEspacial SuriLib.
+ *  Copyright 2011-2007 CONAE - SUR Emprendimientos Tecnologicos S.R.L.
+ *
+ *  Este producto contiene software desarrollado por
+ *  SUR Emprendimientos Tecnologicos S.R.L. (http://www.suremptec.com/)
+ *
+ */
+
+#include "suri/XmlElementManager.h"
+
+// Includes standard
+// Includes Suri
+#include "suri/AbstractFactory.h"
+#ifndef __IS_DLL__
+#  include "suri/XmlUrlManager.h"
+#endif
+// Includes Wx
+#include "wx/arrstr.h"
+#include "wx/dir.h"
+#include "wx/filename.h"
+#include "wx/xml/xml.h"
+// Includes App
+// Defines
+/** Sin uso */
+#define COLISION_DIRECTORY "dir_"
+
+/** namespace suri */
+namespace suri {
+/** Macro de la factoria que crea metodos de implementacion */
+HAS_FACTORY_IMPLEMENTATION_COMMON(XmlElementManager, 0)
+
+/**
+ * Crea directorio con formato "dir_num" y agrega al final el nombre
+ * del archivo.
+ * @param[in] Path con conflicto, si es un directorio debe terminar con /.
+ * @param[in] pExistingPaths lista de paths existentes
+ */
+std::string XmlElementManager::ResolveColision(const std::string &Path,
+                                               wxArrayString *pExistingPaths) {
+   // Agrego archivos en carpeta destino
+   wxArrayString allPaths;
+   if (pExistingPaths) {
+      allPaths = *pExistingPaths;
+   }
+
+   wxFileName filename(Path);
+
+   // Genero directorio que no exista en lista
+   bool resolved = false;
+   int value = 0;
+   wxFileName dirnametest;
+   while (!resolved) {
+      dirnametest.Assign(filename.GetPathWithSep());
+      value += 1;
+      std::string aux1 = dirnametest.GetFullPath().c_str();
+
+      std::string directory = dirnametest.GetPath().c_str();
+      directory = directory + "_" + wxString::Format("%d", value)
+            + wxFileName::GetPathSeparator();
+      dirnametest.SetPath(directory);
+
+      std::string aux2 = dirnametest.GetFullPath().c_str();
+
+      // dirnametest.AppendDir(COLISION_DIRECTORY+);
+      if ((allPaths.Index(dirnametest.GetPathWithSep()) == wxNOT_FOUND)
+            && (!dirnametest.DirExists())) {
+         resolved = true;
+      }
+   }
+   // Retorno el direcorio encontrado seguido de nombre del archivo
+   dirnametest.SetFullName(filename.GetFullName());
+   return dirnametest.GetFullPath().c_str();
+}
+
+/**
+ * Verifica si un directorio/archivo es/esta subcarpeta de otro y trae
+ * diferencia.
+ * @param[in] Url directorio que quiero analizar
+ * @param[in] Directory directorio del que debe ser subcarpeta
+ * @param[out] SubDirs ruta relativa de Url desde Directory
+ */
+bool XmlElementManager::IsSubfolder(const std::string &Url,
+                                    const std::string &Directory,
+                                    wxArrayString &SubDirs) {
+   bool returnvalue = false;
+   // Verifico si el url del nodo esta debajo de from
+   wxFileName fnfrom(Directory, "");
+   wxFileName fnurl(Url, "");
+   wxArrayString dirsurl = fnurl.GetDirs();
+   wxArrayString dirsdirectory = fnfrom.GetDirs();
+
+   unsigned int dirarrayposition = 0;
+   if (dirsurl.Count() >= dirsdirectory.Count()) {
+      wxFileName fntempurl(fnurl.GetVolume(), "", "", "");
+      wxFileName fntempdir(fnfrom.GetVolume(), "", "", "");
+      std::string aux3;
+      std::string aux4;
+      while ((fntempurl == fntempdir) && (dirarrayposition < dirsdirectory.Count())) {
+         aux3 = fntempurl.GetFullPath().c_str();
+         aux4 = fntempdir.GetFullPath().c_str();
+
+         fntempurl.AppendDir(dirsurl[dirarrayposition]);
+         fntempdir.AppendDir(dirsdirectory[dirarrayposition]);
+         dirarrayposition = dirarrayposition + 1;
+      }
+      if (fntempurl == fntempdir) {
+         // Si el url es subcarpeta de directory guardo dif en ruta
+         returnvalue = true;
+         while (dirarrayposition < dirsurl.Count()) {
+            SubDirs.Add(dirsurl[dirarrayposition]);
+            dirarrayposition = dirarrayposition + 1;
+         }
+      }
+   }
+   return returnvalue;
+}
+
+/**
+ * Busca nodo con nombre indicado en partenNode y lo retorna
+ * @param[in] pParentNode lugar donde buscara el nodo
+ * @param[in] NodeName nombre del nodo que buscara.
+ * @param[in] pNode nodo con nombre pedido,no se modifica si no encuentra nada.
+ * @return informa si encontro el nodo
+ */
+bool XmlElementManager::GetNode(wxXmlNode *pParentNode, const std::string &NodeName,
+                                wxXmlNode* &pNode) {
+   if (!pParentNode) {
+      return false;
+   }
+   wxXmlNode* pnode = pParentNode->GetChildren();
+   bool found = false;
+   while ((pnode != NULL) && (!found)) {
+      if (pnode->GetName().IsSameAs(NodeName.c_str())) {
+         found = true;
+      } else {
+         pnode = pnode->GetNext();
+      }
+   }
+   if (found) {
+      pNode = pnode;
+   }
+   return found;
+}
+}  // namespace suri

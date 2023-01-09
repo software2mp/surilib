@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_CATEGORIZED_STYLE_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>CategorizedVectorStytle</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_CLASS_GEN_PANEL">
+                    <style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_ADD_CLASS_BTN">
+                            <tooltip>Agregar nueva clase</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-AddRow-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_REMOVE_CLASS_BTN">
+                            <tooltip>Eliminar clase seleccionada</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-DeleteRow-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxButton" name="ID_GEN_CLASS_BTN">
+                            <label>Generar clases</label>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_CLASS_TABLE_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxStaticBoxSizer" name="wxID_ANY">
+                        <orient>wxVERTICAL</orient>
+                        <label>Clases</label>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

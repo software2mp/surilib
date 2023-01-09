@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_DYNAMIC_WIDGET_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>DynamicViewerWidget</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_2D_VIEWER_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_3D_VIEWER_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

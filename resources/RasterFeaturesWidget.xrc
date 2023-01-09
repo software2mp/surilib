@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_RASTERFEATURES_WIDGET">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>RasterFeaturesWidget</title>
+        <centered>1</centered>
+        <object class="wxFlexGridSizer">
+            <cols>2</cols>
+            <rows>1</rows>
+            <vgap>0</vgap>
+            <hgap>0</hgap>
+            <growablecols>0,1</growablecols>
+            <object class="sizeritem">
+                <flag>wxGROW|wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxFlexGridSizer">
+                    <cols>2</cols>
+                    <rows>2</rows>
+                    <vgap>0</vgap>
+                    <hgap>0</hgap>
+                    <growablecols>1</growablecols>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="wxID_STATIC">
+                            <label>Bits:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                        <border>5</border>
+                        <object class="wxChoice" name="ID_RASTERFEATURES_BITS_CHOICE">
+                            <size>96,-1</size>
+                            <content>
+                                <item>unsigned char</item>
+                                <item>unsigned short</item>
+                                <item>short</item>
+                                <item>unsigned int</item>
+                                <item>int</item>
+                                <item>float</item>
+                                <item>double</item>
+                            </content>
+                            <selection>0</selection>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="wxID_STATIC">
+                            <label>Interlineado:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                        <border>5</border>
+                        <object class="wxChoice" name="ID_RASTERFEATURES_INTERLEAVE_CHOICE">
+                            <size>96,-1</size>
+                            <content>
+                                <item>BSQ</item>
+                                <item>BIP</item>
+                                <item>BIL</item>
+                            </content>
+                            <selection>0</selection>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxFlexGridSizer">
+                    <cols>2</cols>
+                    <rows>2</rows>
+                    <vgap>0</vgap>
+                    <hgap>0</hgap>
+                    <growablecols>1</growablecols>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="wxID_STATIC">
+                            <label>Orden de byte:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                        <border>5</border>
+                        <object class="wxChoice" name="ID_RASTERFEATURES_ORDER_CHOICE">
+                            <size>96,-1</size>
+                            <content>
+                                <item>intel</item>
+                                <item>IEEE</item>
+                            </content>
+                            <selection>0</selection>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxPanel" name="ID_PANEL1">
+                            <style>wxTAB_TRAVERSAL</style>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxButton" name="ID_RASTERFEATURES_OFFSET_BUTTON">
+                            <label>Offset</label>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

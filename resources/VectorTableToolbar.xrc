@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_VECTOR_TABLE_TOOLBAR_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>VectorTableToolbar</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_BITMAPBUTTON4">
+                    <tooltip>Agregar registro</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-AddRow-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_BITMAPBUTTON6">
+                    <tooltip>Eliminar registro</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-DeleteRow-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_ADDCOLUMN_BUTTON">
+                    <tooltip>Agregar columna</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-AddColumn-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_DELETECOLUMN_BUTTON">
+                    <tooltip>Eliminar columna</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-DeleteColumn-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_BITMAPBUTTON13">
+                    <tooltip>Ir a extent de geometria asociada al registro</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-GeometryExtent-16.png</bitmap>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_PLOTTERWIDGET_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>PlotterWidget</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+        </object>
+    </object>
+</resource>

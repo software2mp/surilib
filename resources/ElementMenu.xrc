@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+	<object class="wxMenu" name="ID_ELEMENT_MENU">
+		    <label>Menu</label>
+		    <object class="wxMenu" name="ID_SENDTO_MENU">
+            <label>Copiar en...</label>
+            <object class="wxMenuItem" name="ID_SENDTO_IMAGE">
+               <label>&amp;Imagen</label>               
+            </object>
+            <object class="wxMenuItem" name="ID_SENDTO_MAP">
+               <label>&amp;Mapa</label>               
+            </object>
+            <object class="wxMenuItem" name="ID_SENDTO_3D">
+               <label>&amp;Terreno</label>               
+            </object>
+            <object class="wxMenuItem" name="ID_SENDTO_DOCUMENTS">
+               <label>&amp;Documentos</label>               
+            </object>
+            <object class="wxMenuItem" name="ID_SENDTO_ACTIVITIES">
+               <label>&amp;Actividades</label>               
+            </object>
+         </object>
+			<object class="wxMenuItem" name="ID_ELEMENT_DISPLAY">
+				<label>&amp;Desplegar</label>
+				<bitmap>bitmaps/button-ShowElement-16.png</bitmap>
+			</object>
+			<object class="wxMenuItem" name="ID_SHOW_LAYER_ALL_MENUTIEM">
+	            <label>Desplegar en todos</label>
+	            <bitmap></bitmap>
+	         </object>
+			<object class="wxMenuItem" name="ID_ELEMENT_HIDE">
+				<label>&amp;Ocultar</label>
+				<bitmap>bitmaps/button-HideElement-16.png</bitmap>
+			</object>
+			<object class="wxMenuItem" name="ID_HIDE_LAYER_ALL_MENUTIEM">
+	            <label>Ocultar en todos</label>
+	            <bitmap></bitmap>
+	         </object>
+			<object class="wxMenuItem" name="ID_ELEMENT_CLOSE">
+				<label>&amp;Eliminar</label>
+				<bitmap>bitmaps/button-CloseElement-16.png</bitmap>
+			</object>
+			<object class="separator"/>
+		   <object class="wxMenuItem" name="ID_CONVERT_TRAIN_AREA_MENUTIEM">
+			   <label>Convertir poligonos a area de entrenamiento</label>
+				<bitmap>bitmaps/button-ConvertToTrainClass-16.png</bitmap>
+			</object>
+			<object class="wxMenuItem" name="ID_CONVERT_TEST_AREA_MENUTIEM">
+				<label>Convertir poligonos a area de test</label>
+				<bitmap>bitmaps/button-ConvertToTestClass-16.png</bitmap>
+			</object>
+		   <object class="wxMenuItem" name="ID_SHOW_ELEMENT_TABLE">
+				<label>&amp;Tabla de atributos</label>
+				<bitmap>bitmaps/icon-VectorTable-16.png</bitmap>
+			</object>
+			<object class="wxMenuItem" name="ID_ELEMENT_PROPERTIES">
+				<label>&amp;Propiedades</label>
+				<bitmap>bitmaps/button-ElementProperties-16.png</bitmap>
+			</object>
+			<object class="wxMenuItem" name="ID_ELEMENT_VISUALIZATION">
+				<label>&amp;Aspecto</label>
+				<bitmap>bitmaps/button-ElementVisualization-16.png</bitmap>
+			</object>
+  			<object class="wxMenuItem" name="ID_CLEAN_VECTOR_SELECTION">
+				<label>&amp;Limpiar seleccion</label>
+			</object>
+	</object>
+</resource>

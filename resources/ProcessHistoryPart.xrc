@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_PROCESS_HISTORY_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <size>400,300</size>
+        <title>ProcessHistoryPart</title>
+        <centered>1</centered>
+        <object class="wxStaticBoxSizer" name="wxID_ANY">
+            <orient>wxVERTICAL</orient>
+            <label>Historial</label>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxListCtrl" name="ID_PROCESS_HISTORY_LIST" subclass="wxListView">
+                    <style>wxLC_REPORT|wxLC_NO_HEADER</style>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_LEFT|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxButton" name="ID_EXPORT_HISTORY_BTN">
+                    <label>Exportar...</label>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

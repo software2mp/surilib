@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_STATISTIC_PARAMETER_SELECTION_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>StatisticParameterSelection</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Parametros estadisticos</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <object class="wxFlexGridSizer">
+                            <cols>1</cols>
+                            <rows>0</rows>
+                            <vgap>4</vgap>
+                            <hgap>4</hgap>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxCheckBox" name="ID_BASIC_PARAMS_CHECK">
+                                    <size>200,-1</size>
+                                    <label>Calcular parametros basicos</label>
+                                    <checked>0</checked>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxCheckBox" name="ID_CROSSBAND_PARAMS_CHECK">
+                                    <label>Calcular parametros entre bandas </label>
+                                    <checked>0</checked>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxCheckBox" name="ID_HISTOGRAM_CHECK">
+                                    <label>Calcular histograma</label>
+                                    <checked>0</checked>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Opciones</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT</flag>
+                        <border>5</border>
+                        <object class="wxCheckBox" name="ID_EXPRESS_AS_AREA_CHECK">
+                            <size>200,-1</size>
+                            <label>Expresar en areas</label>
+                            <checked>0</checked>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

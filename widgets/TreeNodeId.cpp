@@ -1,0 +1,79 @@
+/*! \file TreeNodeId.cpp */
+/**
+ *  Biblioteca de procesamiento GeoEspacial SuriLib.
+ *  Copyright 2011-2007 CONAE - SUR Emprendimientos Tecnologicos S.R.L.
+ *
+ *  Este producto contiene software desarrollado por
+ *  SUR Emprendimientos Tecnologicos S.R.L. (http://www.suremptec.com/)
+ *
+ */
+
+#include "TreeNodeId.h"
+
+// Includes standard
+
+// Includes Suri
+
+// Includes Wx
+
+// Includes App
+
+// Defines
+#define LEVELSEPARATOR '/'
+
+namespace suri {
+/** Ctor */
+TreeNodeId::TreeNodeId(const ItemId &Id) :
+      ItemId(Id) {
+}
+
+/** Ctor */
+TreeNodeId::TreeNodeId(std::string Id) :
+      ItemId(Id) {
+}
+
+/** Dtor */
+TreeNodeId::~TreeNodeId() {
+}
+
+/**
+ * Compara dos ids usando la jerarquia del arbol.
+ * @param[in] ItemId Identificador contra el que se compara el valor.
+ * @return >0 si el nodo que representa OtherItemId esta
+ * debajo de la jerarquia del nodo que representa esta clase.
+ * @return 0 si son iguales.
+ * @return <0 los nodos no estan relacionados.
+ */
+int TreeNodeId::Compare(const ItemId &OtherItemId) const {
+   if (id_.compare(INVALIDTREEID.id_) == 0) {
+      return -1;
+   }
+
+   // Si son iguales retorna 0
+   if (id_.compare(OtherItemId.GetId()) == 0) {
+      return 0;
+   }
+
+   // Analiza si id_ esta contenido en OtherItemId.id_. En caso afirmativo
+   // retorna la longitud de id_
+   if (id_.size() + 1 < OtherItemId.GetId().size()) {
+      std::string substring = OtherItemId.GetId().substr(0, id_.size());
+      if (id_.compare(substring) == 0 &&
+      OtherItemId.GetId()[id_.size()]==LEVELSEPARATOR) {return id_.size();
+   }
+}
+
+      // Si id no esta contenido en OtherItemId.id_ retorna -1
+   return -1;
+}
+
+/**
+ * Se usa para generar ids de subnodos. Id debe ser string unico
+ * que no se repita en otro nodo debajo del mismo padre.
+ * @param[in] Id identificador unico dentro de un nodo
+ */
+void TreeNodeId::AppendStringToId(std::string SubnodeId) {
+   id_ = id_ + LEVELSEPARATOR + SubnodeId;
+}
+}
+

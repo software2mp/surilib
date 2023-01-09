@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_CLASSIFICATION_OPTIONS">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Opciones clasificador</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_CLASSIFICATION_OPTIONS_PANEL">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <option>1</option>
+                            <object class="wxStaticBoxSizer" name="ID_CLASS_SELECTION_SIZER">
+                                <orient>wxVERTICAL</orient>
+                                <label>Seleccion de clases </label>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>0</border>
+                                    <option>1</option>
+                                    <object class="wxPanel" name="ID_CLASS_SELECTION_PART_CONTAINER">
+                                        <style>wxTAB_TRAVERSAL</style>
+                                        <object class="wxBoxSizer">
+                                            <orient>wxHORIZONTAL</orient>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <object class="wxStaticBoxSizer" name="wxID_STATIC">
+                                <orient>wxHORIZONTAL</orient>
+                                <label>Seleccion de parametros </label>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <option>1</option>
+                                    <object class="wxChoicebook" name="ID_CLASSIFICATION_PARAMETERS">
+                                        <style>wxFULL_REPAINT_ON_RESIZE|wxBK_DEFAULT</style>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

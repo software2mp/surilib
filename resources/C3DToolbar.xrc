@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_3DTOOLBAR">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Context 3D Toolbar</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxColourPickerCtrl" name="ID_COLOURPICKERCTRL">
+                    <size>-1,10</size>
+                    <tooltip>Color del Fondo</tooltip>
+                    <style>wxNO_BORDER</style>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

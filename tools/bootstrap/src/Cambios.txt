@@ -1,0 +1,15 @@
+
+2010/12 - versión 1.1.0
+ * Herramienta de selección de Tabla de colores para rasters.
+ * Nuevas tablas de colores : RVI y SMI (Soil Moisture Index).
+ * Nuevo indice RVI (Radar Vegetation Index) para imágenes ALOS - PALSAR.
+ * Despliegue del valor digital de la imagen debajo del cursor.
+ * Despliegue de las coordenadas de imagen debajo del cursor.
+ * Optimización el el cálculo y aplicación de realces automáticos.
+ * Corrección en la detección del tipo de dato de las imagenes no signadas
+ * Soporte para proyectos .suri con rutas relativas.
+ * Corrección de CPU al 100% al desplegar las propiedades de un vector con muchos registros.
+
+2010/05 - versión 1.0.0
+ * Versión inicial
+

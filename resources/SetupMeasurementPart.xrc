@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_SETUP_MEASUREMENT">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>SetupMedicion</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+        </object>
+    </object>
+</resource>

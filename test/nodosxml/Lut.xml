@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<elemento>
+	<renderizacion>
+		<LUT habilitado="si" activo="si">
+			<tabla filas="2" columnas="3" inputband="0" outputband="0">
+				<keys>3 15 600 </keys>
+				<values>1 2 3 </values>
+			</tabla>
+			<tabla filas="2" columnas="3" inputband="1" outputband="1">
+				<keys>11.12 200 415.16 </keys>
+				<values>4 5 6 </values>
+			</tabla>
+			<tabla filas="2" columnas="3" inputband="2" outputband="2">
+				<keys>3 7.19 50.1 </keys>
+				<values>7 8 9 </values>
+			</tabla>
+		</LUT>
+	</renderizacion>
+</elemento>

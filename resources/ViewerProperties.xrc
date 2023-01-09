@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_VISUALIZATION_PROPERTIES_PART">
+        <style>wxTAB_TRAVERSAL</style>
+        <size>400,300</size>
+        <title>ViewerProperties</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxChoicebook" name="ID_CHOICEBOOK">
+                    <style>wxBK_DEFAULT</style>
+                    <object class="choicebookpage">
+                        <label>2D</label>
+                        <object class="wxPanel" name="ID_2D_VISUALIZATION_PROPERTIES_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="choicebookpage">
+                        <label>3D</label>
+                        <object class="wxPanel" name="ID_3D_VISUALIZATION_PROPERTIES_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_SPECTRAL_SELECTION_PART">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Spectral Selection</title>
+        <centered>1</centered>
+        <object class="wxStaticBoxSizer" name="ID_SPECTRAL_SEL_MAIN_SIZER">
+            <orient>wxHORIZONTAL</orient>
+            <label>Selection espectral</label>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_SPECTRAL_MAIN_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL</flag>
+                            <border>5</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_HORIZONTAL|wxTOP|wxBOTTOM</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_ADD_BUTTON">
+                                        <tooltip>Agregar al listado de seleccion</tooltip>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-BandAdd-16.png</bitmap>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_HORIZONTAL|wxTOP|wxBOTTOM</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_REMOVE_BUTTON">
+                                        <tooltip>Eliminar del listado de seleccion</tooltip>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-BandRemove-16.png</bitmap>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_HORIZONTAL|wxTOP|wxBOTTOM</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_UP_BUTTON">
+                                        <tooltip>Subir en el listado de seleccion</tooltip>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-BandUp-16.png</bitmap>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_HORIZONTAL|wxTOP|wxBOTTOM</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_DOWN_BUTTON">
+                                        <tooltip>Bajar en el listado de seleccion</tooltip>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-BandDown-16.png</bitmap>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxLEFT</flag>
+                            <border>5</border>
+                            <option>1</option>
+                            <object class="wxListCtrl" name="ID_OUTPUT_BAND_LIST" subclass="wxListView">
+                                <style>wxLC_REPORT|wxSUNKEN_BORDER</style>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

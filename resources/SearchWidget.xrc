@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_SEARCH_WIDGET_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>SearchWiget</title>
+        <centered>1</centered>
+        
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_QUERY_BUTTON">
+                    <tooltip>Armado de consultas</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-QueryBuilder-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxTextCtrl" name="ID_SEARCH_WIDGET_TEXTCTRL">
+                    <size>400,-1</size>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_SIMPLE_SEARCH_BUTTON">
+                    <tooltip>Buscar</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-Search-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_DELETE_FILTERS_BUTTON">
+                    <tooltip>Quitar filtros</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-Clear-Filter-16.png</bitmap>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

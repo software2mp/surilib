@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_ABOUT_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>About</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxHtmlWindow" name="ID_ABOUT_HTMLWINDOW">
+                    <size>200,150</size>
+                    <style>wxHW_SCROLLBAR_AUTO|wxSUNKEN_BORDER</style>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_HTML_REPORT_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>StatisticReport</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>0</border>
+                <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>0</border>
+                        <object class="wxPanel" name="ID_REPORT_BUTTONS_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_EXPORTHTML_BUTTON">
+                                        <tooltip>Guardar reporte</tooltip>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-SaveStatistics-16.png</bitmap>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>0</border>
+                <option>1</option>
+                <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>0</border>
+                        <option>1</option>
+                        <object class="wxPanel" name="ID_REPORT_HTML_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

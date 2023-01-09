@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_VECTOR_TABLE_EDITOR_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>VectorTableEditor</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_VECTOR_TABLE_EDITOR_TOOLBAR_PANEL">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_VECTOR_TABLE_EDITOR_TABLE_PANEL">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

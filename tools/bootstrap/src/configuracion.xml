@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<!--APLICACION-->
+  <app_name></app_name>
+  <app_short_name></app_short_name>
+  <app_version></app_version>
+
+  <app_data_dir>${app_base_dir_volatile}data/</app_data_dir>
+  <app_map_grid_dir>${app_data_dir}mapa/grilla/</app_map_grid_dir>
+  <app_help_dir/>
+  <app_base_dir_volatile></app_base_dir_volatile><!-- propiedad que se debe cargar al inicio con el directorio (absoluto) donde se encuentran el resto de los directorios -->
+  <app_needed_files>${app_data_dir}manifiesto</app_needed_files><!-- archivo con, linea por linea, los archivos necesarios para el funcionamiento -->
+  <app_hotlink_base_dir_volatile>${app_temp_dir}${app_hotlinks_dir}</app_hotlink_base_dir_volatile>
+  <app_vector_base_dir_volatile>${app_temp_dir}${app_vector_dir}</app_vector_base_dir_volatile>
+  <app_temp_dir>${app_base_dir_volatile}temp/</app_temp_dir>
+  <app_hotlinks_dir>hotlinks/</app_hotlinks_dir>
+  <app_vector_dir>vector/</app_vector_dir>
+  <app_lang_dir>${app_data_dir}/locale/</app_lang_dir>
+  <app_language>spanish</app_language>
+  <app_user_data>${app_base_dir_volatile}</app_user_data>
+  <lib_supported_image_formats>BMP FAST GIF GTiff JPEG PNG XPM</lib_supported_image_formats>
+
+  <v3d_ejemplo>ejemplo</v3d_ejemplo>
+  <v3d_factor_textura>1</v3d_factor_textura>
+  <v3d_factor_terreno>1</v3d_factor_terreno>
+  <v3d_velocidad_camara>1</v3d_velocidad_camara>
+  <v3d_exageracion>1</v3d_exageracion>
+  <v3d_performance>1</v3d_performance>
+  <v3d_performance_baja>1</v3d_performance_baja>
+  <v3d_performance_media>5</v3d_performance_media>
+  <v3d_performance_alta>50</v3d_performance_alta>
+
+</configuration>

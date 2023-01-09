@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_SUBSET_COORD_INPUT_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>SubsetCoordinateInput</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_RS_SELECTOR_PANEL">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxChoicebook" name="ID_CHOICEBOOK2">
+                    <style>wxBK_DEFAULT</style>
+                    <object class="choicebookpage">
+                        <label>Sexagesimal</label>
+                        <object class="wxPanel" name="ID_PANEL7">
+                            <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxBoxSizer">
+                                        <orient>wxVERTICAL</orient>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW|wxBOTTOM</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                <orient>wxVERTICAL</orient>
+                                                <label>Esquina superior izquierda</label>
+                                                <object class="sizeritem">
+                                                    <flag>wxGROW</flag>
+                                                    <border>5</border>
+                                                    <object class="wxPanel" name="ID_UL_DEGREE_COORD_PANEL">
+                                                        <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                                        <object class="wxBoxSizer">
+                                                            <orient>wxVERTICAL</orient>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                <orient>wxVERTICAL</orient>
+                                                <label>Esquina inferior derecha</label>
+                                                <object class="sizeritem">
+                                                    <flag>wxGROW</flag>
+                                                    <border>5</border>
+                                                    <object class="wxPanel" name="ID_LR_DEGREE_COORD_PANEL">
+                                                        <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                                        <object class="wxBoxSizer">
+                                                            <orient>wxVERTICAL</orient>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="choicebookpage">
+                        <label>Decimal</label>
+                        <object class="wxPanel" name="ID_PANEL8">
+                            <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxBoxSizer">
+                                        <orient>wxVERTICAL</orient>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW|wxBOTTOM</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                <orient>wxVERTICAL</orient>
+                                                <label>Esquina superior izquierda</label>
+                                                <object class="sizeritem">
+                                                    <flag>wxGROW</flag>
+                                                    <border>5</border>
+                                                    <object class="wxPanel" name="ID_UL_DECIMAL_COORD_PANEL">
+                                                        <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                                        <object class="wxBoxSizer">
+                                                            <orient>wxVERTICAL</orient>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                <orient>wxVERTICAL</orient>
+                                                <label>Esquina inferior derecha</label>
+                                                <object class="sizeritem">
+                                                    <flag>wxGROW</flag>
+                                                    <border>5</border>
+                                                    <object class="wxPanel" name="ID_LR_DECIMAL_COORD_PANEL">
+                                                        <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                                        <object class="wxBoxSizer">
+                                                            <orient>wxVERTICAL</orient>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

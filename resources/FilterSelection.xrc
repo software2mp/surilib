@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_FILTER_SELECTION_PART">
+        <style>wxTAB_TRAVERSAL</style>
+        <size>300,200</size>
+        <title>Filter Selection</title>
+        <centered>1</centered>
+        <object class="wxStaticBoxSizer" name="wxID_ANY">
+            <orient>wxVERTICAL</orient>
+            <label>Seleccion de filtro</label>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxChoicebook" name="ID_FILTER_CHOICEBOOK">
+                    <style>wxBK_DEFAULT</style>
+                    <object class="choicebookpage">
+                        <label>Pasabajos</label>
+                        <object class="wxPanel" name="ID_PASABAJOS_PAGE">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxRadioBox" name="ID_KERNEL_SIZE">
+                                        <style>wxRA_SPECIFY_ROWS</style>
+                                        <label>Dimension del nucleo</label>
+                                        <dimension>1</dimension>
+                                        <selection>0</selection>
+                                        <content>
+                                            <item>&amp;(3 x 3)</item>
+                                            <item>&amp;(5 x 5)</item>
+                                            <item>&amp;(7 X 7)</item>
+                                        </content>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="choicebookpage">
+                        <label>Pasaaltos</label>
+                        <object class="wxPanel" name="ID_PASAALTOS_PAGE">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxRadioBox" name="ID_KERNEL_SIZE">
+                                        <style>wxRA_SPECIFY_ROWS</style>
+                                        <label>Dimension del nucleo</label>
+                                        <dimension>1</dimension>
+                                        <selection>0</selection>
+                                        <content>
+                                            <item>&amp;(3 x 3)</item>
+                                            <item>&amp;(5 x 5)</item>
+                                            <item>&amp;(7 X 7)</item>
+                                        </content>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="choicebookpage">
+                        <label>Deteccion de bordes</label>
+                        <object class="wxPanel" name="ID_DETECCIONBORDES_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                        <orient>wxHORIZONTAL</orient>
+                                        <label>Dimension del nucleo</label>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticText" name="wxID_STATIC">
+                                                <label>Este filtro no tiene opciones de seleccion de nucleo.</label>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="choicebookpage">
+                        <label>Analisis por mayoria</label>
+                        <object class="wxPanel" name="ID_MAYORITY_ANALISIS_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxRadioBox" name="ID_KERNEL_SIZE">
+                                        <style>wxRA_SPECIFY_ROWS</style>
+                                        <label>Dimension del nucleo</label>
+                                        <dimension>1</dimension>
+                                        <selection>0</selection>
+                                        <content>
+                                            <item>&amp;(3 x 3)</item>
+                                            <item>&amp;(5 x 5)</item>
+                                            <item>&amp;(7 X 7)</item>
+                                        </content>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="choicebookpage">
+                        <label>Analisis por minoria</label>
+                        <object class="wxPanel" name="ID_MINORITY_ANALISIS_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxRadioBox" name="ID_KERNEL_SIZE">
+                                        <style>wxRA_SPECIFY_ROWS</style>
+                                        <label>Dimension del nucleo</label>
+                                        <dimension>1</dimension>
+                                        <selection>0</selection>
+                                        <content>
+                                            <item>&amp;(3 x 3)</item>
+                                            <item>&amp;(5 x 5)</item>
+                                            <item>&amp;(7 X 7)</item>
+                                        </content>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

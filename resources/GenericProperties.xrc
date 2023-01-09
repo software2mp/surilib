@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_PANEL_GENPROPERTIES">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>GenericProperties</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_PANEL_PROP">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>5</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_BITMAPBUTTON">
+                                        <size>48,48</size>
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/icon-RasterElement-32.png</bitmap>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                                    <border>2</border>
+                                    <option>1</option>
+                                    <object class="wxFlexGridSizer">
+                                        <cols>2</cols>
+                                        <rows>2</rows>
+                                        <vgap>8</vgap>
+                                        <hgap>12</hgap>
+                                        <growablecols>1</growablecols>
+                                        <object class="sizeritem">
+                                            <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <option>1</option>
+                                            <object class="wxStaticText" name="wxID_STATIC">
+                                                <label>Nombre</label>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <option>1</option>
+                                            <object class="wxTextCtrl" name="ID_TXT_NAME">
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <option>1</option>
+                                            <object class="wxStaticText" name="wxID_STATIC">
+                                                <label>Copyright</label>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <option>1</option>
+                                            <object class="wxTextCtrl" name="ID_TXT_COPY">
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxBOTTOM</flag>
+                            <border>5</border>
+                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                <orient>wxVERTICAL</orient>
+                                <label>Archivo</label>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <option>1</option>
+                                    <object class="wxFlexGridSizer">
+                                        <cols>2</cols>
+                                        <rows>0</rows>
+                                        <vgap>8</vgap>
+                                        <hgap>12</hgap>
+                                        <growablecols>1</growablecols>
+                                        <object class="sizeritem">
+                                            <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticText" name="wxID_STATIC">
+                                                <label>Tipo:</label>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <option>1</option>
+                                            <object class="wxStaticText" name="ID_LBL_TYPE">
+                                                <style>wxALIGN_LEFT</style>
+                                                <label></label>
+                                                <wrap>10</wrap>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticText" name="wxID_STATIC">
+                                                <label>Url:</label>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <option>1</option>
+                                            <object class="wxStaticText" name="ID_LBL_URL">
+                                                <style>wxALIGN_LEFT</style>
+                                                <label></label>
+                                                <wrap>10</wrap>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <object class="wxStaticText" name="wxID_STATIC">
+                                                <label>Tamanio:</label>
+                                            </object>
+                                        </object>
+                                        <object class="sizeritem">
+                                            <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                            <border>5</border>
+                                            <option>1</option>
+                                            <object class="wxStaticText" name="ID_LBL_SIZE">
+                                                <style>wxALIGN_LEFT</style>
+                                                <label></label>
+                                                <wrap>10</wrap>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <option>1</option>
+                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                <orient>wxHORIZONTAL</orient>
+                                <label>Descripcion</label>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <option>1</option>
+                                    <object class="wxTextCtrl" name="ID_TXT_DESC">
+                                        <style>wxTE_MULTILINE</style>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,179 @@
+
+ADD_EXTRA_SOURCES(SURICORE ActiveRasterWorldExtentManager.cpp AnotationElement.cpp
+   AnotationElementEditor.cpp AspectPreservingWorld.cpp BandMathRenderer.cpp
+   BaseRasterRenderer.cpp BrightnessRenderer.cpp CacheRenderer.cpp
+   Camera.cpp Canvas.cpp ClassificationRenderer.cpp ColorTableCategory.cpp
+   ColorTable.cpp ColorTableManager.cpp ColorTableRenderer.cpp
+   Command.cpp
+   CommandExecutionHandlerInterface.cpp
+   Configuration.cpp ConvolutionFilterRenderer.cpp
+   CorregistrableElements.cpp
+   DataCastRenderer.cpp
+   DatasourceAddtitionNotification.cpp
+   DatasourceOrderChangeNotification.cpp
+   DatasourceRemovalNotification.cpp
+   DaubechiesRenderer.cpp
+   DaubechiesSplitStrategy.cpp
+   DaubechiesTransformStrategy.cpp
+   DecimationRenderer.cpp
+   DefaultViewcontextManager.cpp
+   DatasourcePropertiesChangedNotification.cpp
+   Element.cpp
+   ElementManager.cpp
+   Enhancement.cpp
+   EntropyRenderer.cpp
+   EntropyResult.cpp
+   EntropyStrategy.cpp
+   EquationParser.cpp
+   EqualizationEnhancement.cpp
+   Extent.cpp
+   FileCanvas.cpp 
+   FileManagementFunctions.cpp FileRenderization.cpp
+   Filter.cpp
+   FilteredDatasource.cpp
+   FilteredVector.cpp
+   FilterInterpreterInterface.cpp
+   FilterProcessCommandExecutionHandler.cpp
+   GaussianEnhancement.cpp
+   GenericTool.cpp
+   GeometryCollection.cpp
+   GcpBufferReader.cpp
+   GcpGenerationStrategy.cpp
+   GcpList.cpp
+   GcpLoaderInterface.cpp
+   GcpMatcher.cpp
+   GdalResizer.cpp
+   GdalTranslator.cpp
+   GdalWarperTool.cpp
+   Histogram.cpp
+   ImageBuffer.cpp
+   ImageParser.cpp 
+   KMeansAlgorithm.cpp
+   KMeansCanvas.cpp
+   LayerList.cpp
+   Linear255Enhancement.cpp
+   Linear2PercentEnhancement.cpp
+   LinearEnhancement.cpp
+   LineElementEditor.cpp
+   LookUpTable.cpp LutArray.cpp LutRenderer.cpp MapElement.cpp
+   MapRasterElement.cpp MapRenderer.cpp Mask.cpp MaxLikelihoodAlgorithm.cpp
+   md5.cpp MeassureAreaElementEditor.cpp Meassure.cpp 
+   MeassureDistanceElementEditor.cpp MemoryCanvas.cpp MemoryVectorElement.cpp
+   Model.cpp MovingWindowController.cpp Navigator.cpp OgrGeometryEditor.cpp
+   Operations.cpp Option.cpp ParserResult.cpp PixelInfoTool.cpp
+   PointElementEditor.cpp PolygonElementEditor.cpp
+   PolynomLeastSquaresTransform.cpp Progress.cpp ProgressManager.cpp
+   ProjectFile.cpp RasterElement.cpp RasterRenderer.cpp Renderer.cpp
+   RenderizationController.cpp RenderizationManager.cpp RenderPipeline.cpp
+   ScreenCanvas.cpp SingleElementActivationLogic.cpp SpatialOperations.cpp
+   SpatialReference.cpp StatisticsFunctions.cpp StatsCanvas.cpp suri.cpp
+   Terrain.cpp TerrainElement.cpp TerrainGLCanvas.cpp
+   TextFileGcpLoader.cpp
+   ThresholdRenderer.cpp
+   Tool.cpp 
+   ToolGroupManager.cpp VectorEditor.cpp VectorElement.cpp
+   VectorElementEditor.cpp VectorRenderer.cpp VectorStyle.cpp
+   VectorStyleManager.cpp VectorStyleTable.cpp VectorTablesPart.cpp
+   WarpTransform.cpp World.cpp XmlElement.cpp XmlElementManager.cpp
+   XmlFunctions.cpp XmlUrlManager.cpp ZipFile.cpp
+   ZoomRenderer.cpp WxsRenderer.cpp WxsElement.cpp Uri.cpp EventCommand.cpp
+   SuriObject.cpp WxFileCache.cpp
+   VectorDatasource.cpp RasterDatasource.cpp DatasourceInterface.cpp
+   DefaultViewcontext.cpp DefaultDatasourceList.cpp VectorLayer.cpp 
+   RasterLayer.cpp TerrainLayer.cpp DefaultDatasourceManager.cpp
+   HotLinkVectorLayer.cpp AnotationLayer.cpp LayerFactory.cpp Subject.cpp
+   SuriMuParser.cpp EnclosureValidator.cpp ClassifiedRasterDatasourceValidator.cpp
+   EnclosureManipulator.cpp ClassifiedRasterDatasourceManipulator.cpp ClassInformation.cpp
+   ClassificationAlgorithmInterface.cpp Clusters.cpp EnclosureInformation
+   ClassificationAlgorithmInterface.cpp Clusters.cpp MathFunctions.cpp
+   ClusterClassificationAlgorithm.cpp ClassFussionAlgorithm.cpp
+   ParallelepipedAlgorithm.cpp MinimumDistanceAlgorithm.cpp 
+   MahalanobisAlgorithm.cpp DataViewManager.cpp LayerElementXmlTranslator.cpp
+   XmlTranslatorBuilder.cpp XmlTranslatorBuilder.cpp DatasourceElementXmlTranslator.cpp
+   NodePath.cpp LibraryItemAttribute.cpp Library.cpp LibraryManager.cpp LibraryItem.cpp
+   LibraryItemAttributeFactory.cpp LibraryClient.cpp LibraryItemCatalog.cpp
+   LibraryItemOrigin.cpp TextFileLibraryItemOrigin.cpp DefaultTreeNode.cpp
+   TreeNodeAuxiliaryFunctions.cpp DefaultWorkGroup.cpp SuriObjectGroupManager.cpp
+   ObjectAditionGroupNotification.cpp SuriObjectRemoveGroupNotification.cpp
+   SuriObjectOrderChangeGroupNotification.cpp 
+   DecimalInputWidget.cpp ReprojectionRenderer.cpp IndexFile.cpp GdalSrsItemOrigin.cpp
+   LibraryManagerFactory.cpp Viewer3DWorldExtentManager.cpp GisWorldExtentManager.cpp
+   UpdateProviderNotification.cpp UpdateGridNotification.cpp
+   VectorEditionTable.cpp DefaultTable.cpp Table.cpp Geometry.cpp
+   Point.cpp Line.cpp Polygon.cpp RegisterEditionStartedNotification.cpp
+   SimpleGeometryEditor.cpp GeometryTranslator.cpp Ring.cpp
+   VectorDataLayer.cpp DriverInterface.cpp MemoryDriver.cpp VectorEditorDriver.cpp BufferedDriver.cpp
+   GcpDriver.cpp NewRowNotification.cpp StackingRenderer.cpp
+   DensitySliceLibraryOrigin.cpp RangeItemAttribute.cpp TreeIterator.cpp
+   ModelOrderChangeNotification.cpp RmseChangeNotification.cpp 
+   GroupsNodeFilter.cpp FiltredVectorRenderer.cpp
+   VectorTableStructureDriver.cpp  VectorRenderizationController.cpp 
+   FileVectorCanvas.cpp 
+   RasterDnInfo.cpp RasterDnDriver.cpp GeoreferenceGcpDriver.cpp
+   CoregisterGcpDriver.cpp VectorProcess.cpp FileVectorExporterProcess.cpp
+   FileVectorRenderizationController.cpp DeleteRowNotification.cpp
+   TaskConfigBuilder.cpp
+   CanAppendRowNotification.cpp LibraryLinkItemAttribute.cpp
+   LibraryConfigDefinitionOrigin.cpp LibraryConfigDefinitionOriginSource.cpp
+   LibraryItemOriginFactory.cpp LibraryConfig.cpp LibraryConfigDefinition.cpp
+   DatasourceBlockedNotification.cpp DatasourceUnblockedNotification.cpp
+   LayerStateChangeNotification.cpp NewColumnNotification.cpp
+   DeleteColumNotification.cpp ProcessAdaptLayer.cpp GeometryElementEditor.cpp
+   HtmlDatasource.cpp  HtmlElement.cpp MultimediaElement.cpp
+   ParseSuriTemplates.cpp ImageTagHandler.cpp MultimediaDatasource.cpp
+   HtmlLayer.cpp MultimediaLayer.cpp FavoritesIndexFile.cpp NullQueryInterpreter.cpp
+   QueryInterpreter.cpp NavigationToolCommandCreator.cpp NavigationToolCommandExecutionHandler.cpp
+   SREEnhancementFactory.cpp SREEqualizationEnhancement.cpp
+   SRELinearEnhancement.cpp SRELinear2PercentEnhancement.cpp
+   SRELinear255Enhancement.cpp SRStatisticsCanvas.cpp
+   SRHistogramCanvas.cpp SREnhancementRenderer.cpp
+   SREEnhancementUtils.cpp SREGaussianEnhancement.cpp WmsLibraryOrigin.cpp
+   SRESquareRootEnhancement.cpp  WxsGetCapabilities.cpp SRSHSVSharpening.cpp
+   SRSSharpening.cpp SRSSharpeningFactory.cpp SRSSharpeningUtils.cpp 
+   ThresholdClassificationAlgorithm.cpp VectorOperation.cpp BufferOperation.cpp
+   UnionOperation.cpp VectorOperationBuilder.cpp IntersectionOperation.cpp TrimOperation.cpp
+   CategorizedVectorRenderer.cpp CsvVectorCreator.cpp BandDriver.cpp
+   StatisticsCalculator.cpp NoDataValue.cpp LibraryUtils.cpp ComplexItemAttribute.cpp
+   SpectralSignItemAttribute.cpp LayerToolBuilder.cpp LayerAdministrationCommandCreator.cpp
+   AddCsvLayerCommandCreator.cpp DisplayLayerCommandCreator.cpp HideLayerCommandCreator.cpp
+   CreateGroupCommandCreator.cpp AddTerrainCommandCreator.cpp ExportLayerCommandCreator.cpp
+   ClassConverterCommandCreator.cpp ClassConverterCommandExecutionHandler.cpp 
+   AddLayerCommandExecutionHandler.cpp AddCsvLayerCommandExecutionHandler.cpp
+   LayerVisualizationCommandExecutionHandler.cpp ExportBufferCommandExecutionHandler.cpp
+   VectorOperationCommandCreator.cpp MergeLayersOperation.cpp MergeLayersCommandExecutionHandler.cpp
+   MergeLayersCommandCreator.cpp BandMathCommandCreator.cpp BandMathCommandExecutionHandler.cpp
+   BandMathToolBuilder.cpp LibraryToolCommandCreator.cpp LibraryToolCommandCreator.cpp
+   LibraryToolCommandExecutionHandler.cpp LibraryToolBuilder.cpp
+   RemoveLayerCommandExecutionHandler.cpp AddTerrainCommandExecutionHandler.cpp
+   AddRemoteLayerCommandExecutionHandler.cpp RasterGenericImporterCommandCreator.cpp
+   ExportBufferCommandCreator.cpp StackBandCommandCreator.cpp CreateGroupCommandExecutionHandler.cpp
+   ExportLayerCommandExecutionHandler.cpp RasterGenericImporterCommandExecutionHandler.cpp
+   StackBandCommandExecutionHandler.cpp ExportVectorLayerSelectionCommandExecutionHandler.cpp
+   ExportVectorLayerCommandExecutionHandler.cpp VectorOperationCommandExecutionHandler.cpp
+   TasseledCapFactory.cpp TasseledCapTransformation.cpp LandsatMssTct.cpp
+   StatisticsToolBuilder.cpp StatisticsToolCommandCreator.cpp StatisticsToolCommandExecutionHandler.cpp
+   TasseledCapRenderer.cpp LandsatTmTct.cpp LandsatEtmTct.cpp IkonosTct.cpp QuickBirdTct.cpp 
+   SpectralAngleMapperAlgorithm.cpp ManualEnhancementCommandCreator.cpp 
+   ManualEnhancementCommandExecutionHandler.cpp ClassStatisticsFileParser.cpp
+   RasterMultiplexorRenderer.cpp PrincipalComponentAnalysisRenderer.cpp
+   ConvolutionFilterItemAttribute.cpp VectorReprojectionCommandCreator.cpp
+   VectorReprojectionCommandExecutionHandler.cpp InfoToolBuilder.cpp
+   ConvolutionFilterItemAttribute.cpp XmlMetadataHandler.cpp ProcessFactory.cpp
+   BatchProcessCommandCreator.cpp BatchProcessCommandExecutionHandler.cpp
+   VisualizationExporterCommandExecutionHandler.cpp VisualizationExporterCommandCreator.cpp
+   GMGetCapabilitiesParser.cpp TmsCreator.cpp TmsXmlWriter.cpp GMTmsXmlWriter.cpp
+   TmsXmlWriterBuilder.cpp Margin.cpp InfoToolCommandCreator.cpp NavigationToolBuilder.cpp
+   WaveletModulusRenderer.cpp VertexSnapStrategy.cpp SegmentSnapStrategy.cpp
+   WmtsGetCapabilitiesParser.cpp VertexSegmentSnapStrategy.cpp SnapInterface.cpp
+   WmsGetCapabilitiesParser.cpp
+   FileVectorRenderer.cpp MultipleRasterElement3DActivationLogic.cpp
+   QuickMeassureCommandExecutionHandler.cpp ViewportPropertiesCommandExecutionHandler.cpp
+   QueryCommandExecutionHandler.cpp SREHistogramMatchingEnhancement.cpp
+   MosaicCommandCreator.cpp
+   MosaicCommandExecutionHandler.cpp
+   HistogramMatchingCommandCreator.cpp
+   HistogramMatchingCommandExecutionHandler.cpp
+   WmtsXmlWriter.cpp
+   RasterizationCommandCreator.cpp RasterizationCommandExecutionHandler.cpp
+   GdalRasterizer.cpp
+)

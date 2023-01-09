@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_COORDINATES_NAVIGATOR_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <size>400,300</size>
+        <title>CoordinateNavigator</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxChoicebook" name="ID_COORDINATES_BOOK">
+                    <object class="choicebookpage">
+                        <label>Sistema de coordenadas</label>
+                        <object class="wxPanel" name="ID_COORDINATES_PANEL">
+                            <style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <object class="wxPanel" name="ID_SR_SELECTOR_PANEL">
+                                        <style>wxTAB_TRAVERSAL</style>
+                                        <object class="wxBoxSizer">
+                                            <orient>wxVERTICAL</orient>
+                                        </object>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_LEFT</flag>
+                                    <border>5</border>
+                                    <object class="wxRadioButton" name="ID_DECIMAL_RADIOBUTTON">
+                                        <label>Grados decimales</label>
+                                        <value>0</value>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_LEFT</flag>
+                                    <border>5</border>
+                                    <object class="wxRadioButton" name="ID_SEXA_RADIOBUTTON">
+                                        <label>Grados sexagesimales</label>
+                                        <value>0</value>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="choicebookpage">
+                        <label>Modelo Raster</label>
+                        <object class="wxPanel" name="ID_RASTER_PANEL">
+                            <style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

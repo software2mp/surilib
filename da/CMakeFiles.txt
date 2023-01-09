@@ -1,0 +1,17 @@
+
+ADD_EXTRA_SOURCES(SURIDATAACCESS BipRasterWriter.cpp DataTypes.cpp Decimate.cpp 
+	EnviImage.cpp SourceSupervisor.cpp GdalDriver.cpp GdalImage.cpp Image.cpp
+	GroundControlPoint.cpp 
+	ImageFactory.cpp RasterSource.cpp RasterBand.cpp RasterDriver.cpp
+	RasterFactory.cpp RasterWriter.cpp AuxiliaryFunctions.cpp
+	Coordinates.cpp Dimension.cpp Subset.cpp RasterSpatialModel.cpp
+	Wkt.cpp Vector.cpp VectorFactory.cpp SerializerFactory.cpp
+	MemoryVector.cpp DecimateRasterSource.cpp GdalRasterWriter.cpp
+	TransformationFactory.cpp TransformationFactoryBuilder.cpp
+	Serializable.cpp SerializableCollection.cpp Serializer.cpp
+	SerializableFactory.cpp ElementVectorSerializer.cpp WorldSerializer.cpp
+	ExactCoordinatesTransformation.cpp ExactTransformationFactory.cpp
+	PolynomialCoordinatesTransformation.cpp PolynomialTransformationFactory.cpp
+	Viewer3dTransformation.cpp Viewer2dTransformation.cpp
+	RawImage.cpp BsqRasterDriver.cpp BipRasterDriver.cpp BilRasterDriver.cpp
+)

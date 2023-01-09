@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_MULTI_BAND_SELECTION_PART">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>MultiLayerBandSelection</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_MULTI_SELECTION_MAIN_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxRIGHT</flag>
+                            <border>5</border>
+                            <option>1</option>
+                            <object class="wxTreeCtrl" name="ID_MULTI_SELECTION_TREE">
+                                <size>100,-1</size>
+                                <style>wxTR_HAS_BUTTONS |wxTR_TWIST_BUTTONS|wxTR_ROW_LINES|wxTR_SINGLE</style>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

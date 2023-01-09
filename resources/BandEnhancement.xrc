@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_BAND_ENHANCEMENT_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>BandEnhancement</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_BAND_ENHANCEMENT_TABLE_PANEL">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_PANEL13">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxStaticBoxSizer" name="wxID_ANY">
+                        <orient>wxVERTICAL</orient>
+                        <label>Tabla de intervalos</label>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_LEFT|wxBOTTOM</flag>
+                            <border>5</border>
+                            <object class="wxCheckBox" name="ID_USE_DENSITY_SLICE_CHECK">
+                                <label>Utilizar tabla de intervalos</label>
+                                <checked>0</checked>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <object class="wxPanel" name="ID_BAND_ENHANCEMENT_LUT_PANEL">
+                                <style>wxTAB_TRAVERSAL</style>
+                                <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxHORIZONTAL</orient>
+                    <label>Ajuste Brillo/Contraste</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxPanel" name="ID_BAND_ENHANCEMENT_ADJUSTMENTS_PANEL">
+                            <style>wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

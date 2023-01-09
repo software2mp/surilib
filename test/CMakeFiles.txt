@@ -1,0 +1,8 @@
+
+ADD_EXTRA_SOURCES(SURITEST LutRendererTest.cpp ColorTableRendererTest.cpp
+	LatitudeLongitudeInputWidgetTest.cpp VectorTest.cpp
+	StatisticNodeTest.cpp LookUpTableTest.cpp LutArrayTest.cpp
+	EnhancementSelectionTest.cpp LinearEnhancementTest.cpp
+	MaxLikelihoodTest.cpp KMeansTest.cpp HistogramTest.cpp
+	EnhancementTests.cpp)
+

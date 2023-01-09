@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_HOTLINK_TABLE_PART">
+        <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+        <title>Layer Table </title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxHORIZONTAL</orient>
+                    <label>Definicion de hipervinculo</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                        <border>1</border>
+                        <object class="wxStaticText" name="wxID_STATIC">
+                            <tooltip>Campo del hipervinculo</tooltip>
+                            <label>Campo</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                        <border>1</border>
+                        <object class="wxChoice" name="ID_FIELD_CHOICE">
+                            <tooltip>Campo del hipervinculo</tooltip>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_TABLE_PANEL">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

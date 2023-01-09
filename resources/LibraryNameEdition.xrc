@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_LIBRARY_NAME_EDITION_PANEL">
+        <title>LibraryNameEdition</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>2</border>
+                <object class="wxStaticText" name="ID_NAME_EDITION_TAG">
+                    <label>Nombre</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxLEFT|wxRIGHT</flag>
+                <border>2</border>
+                <option>1</option>
+                <object class="wxComboBox" name="ID_NAME_EDITION_COMBO">
+                    <style>wxCB_DROPDOWN</style>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                <border>2</border>
+                <object class="wxBitmapButton" name="ID_LIBRARY_ITEM_SELECTION_BUTTON">
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-NewContext-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>2</border>
+                <object class="wxBitmapButton" name="ID_SAVE_ITEM_BUTTON">
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-Save-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>2</border>
+                <object class="wxBitmapButton" name="ID_DELETE_ITEM_BUTTON">
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-Delete-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                <border>2</border>
+                <object class="wxCheckBox" name="ID_SHOW_FAVORITES_CHECK">
+                    <label>Mostrar favoritos</label>
+                    <checked>0</checked>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

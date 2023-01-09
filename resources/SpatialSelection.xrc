@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_SPATIAL_SELECTION_PANEL">
+        <title>SpatialSelection</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxRIGHT</flag>
+                <border>2</border>
+                <option>1</option>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Recorte espacial</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxPanel" name="ID_SUBSET_SELECTION_PANEL">
+                            <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxLEFT</flag>
+                <border>2</border>
+                <option>1</option>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Tomar Recorte espacial de</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxPanel" name="ID_PANEL6">
+                            <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxGROW</flag>
+                                    <border>5</border>
+                                    <option>1</option>
+                                    <object class="wxChoicebook" name="ID_SELECTION_CHOICEBOOK">
+                                        <style>wxBK_DEFAULT</style>
+                                        <object class="choicebookpage">
+                                            <label>Capa</label>
+                                            <object class="wxPanel" name="ID_LAYER_EXTENT_PANEL">
+                                                <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                                <object class="wxBoxSizer">
+                                                    <orient>wxVERTICAL</orient>
+                                                </object>
+                                            </object>
+                                        </object>
+                                        <object class="choicebookpage">
+                                            <label>Visualizador</label>
+                                            <object class="wxPanel" name="ID_VIEWER_EXTENT_PANEL">
+                                                <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                                <object class="wxBoxSizer">
+                                                    <orient>wxVERTICAL</orient>
+                                                    <object class="sizeritem">
+                                                        <flag>wxGROW</flag>
+                                                        <border>5</border>
+                                                        <option>1</option>
+                                                        <object class="wxListBox" name="ID_VIEWPORTSELECTION_LISTBOX">
+                                                            <style>wxLB_SINGLE|wxNO_BORDER</style>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_TOP</flag>
+                                    <border>5</border>
+                                    <object class="wxBitmapButton" name="ID_BTN_UPDATE_SUBSET">
+                                        <style>wxBU_AUTODRAW</style>
+                                        <bitmap>bitmaps/button-Go-16.png</bitmap>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,6065 @@
+# ARCHIVO DE TRADUCCION DE LA BIBLIOTECA SURI
+# Copyright (C) 2009 SUR Emprendimientos Tecnologicos
+# SUR <contacto@suremptec.com.ar>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SURI LIB 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-02 13:31-0300\n"
+"PO-Revision-Date: 2013-08-30 12:55-0300\n"
+"Last-Translator: SUR <contacto@suremptec.com.ar>\n"
+"Language-Team: SUR <contacto@suremptec.com.ar>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: MemoryDriver.cpp:648 DefaultTable.cpp:202
+msgid "\t"
+msgstr ""
+
+#: MemoryDriver.cpp:643 DefaultTable.cpp:197
+msgid "\t[\t"
+msgstr ""
+
+#: TextFileLibraryItemOrigin.cpp:252 FavoritesIndexFile.cpp:64
+msgid "\n"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:141
+msgid "\r"
+msgstr ""
+
+#: BufferedDriver.cpp:764 BufferedDriver.cpp:795 BufferedDriver.cpp:826
+#: EnclosureManipulator.cpp:270 EnclosureManipulator.cpp:276 Filter.cpp:53
+#: Filter.cpp:60 Filter.cpp:81 Filter.cpp:199 PixelInfoTool.cpp:319
+#: CoregisterGcpDriver.cpp:569 VectorRenderer.cpp:1402
+#: GeoreferenceGcpDriver.cpp:619 SREEnhancementUtils.cpp:73 Table.cpp:619
+#: suri.cpp:51
+msgid " "
+msgstr ""
+
+#: VectorStyleTable.cpp:158 MapRenderer.cpp:501
+msgid " ("
+msgstr ""
+
+#: BufferedDriver.cpp:758 BufferedDriver.cpp:789 BufferedDriver.cpp:820
+msgid " )"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:328 CoregisterGcpDriver.cpp:332
+#: GeoreferenceGcpDriver.cpp:375 GeoreferenceGcpDriver.cpp:380
+msgid " - c_"
+msgstr ""
+
+#: PixelInfoTool.cpp:282
+msgid " ; "
+msgstr ""
+
+#: WxsElement.cpp:198
+msgid " </ImageFormat>          <Layers>"
+msgstr ""
+
+#: Filter.cpp:85
+msgid " IN("
+msgstr ""
+
+#: EnclosureManipulator.h:61 EnclosureInformation.h:46
+msgid " IN(0)"
+msgstr ""
+
+#: EnclosureManipulator.cpp:85 EnclosureInformation.cpp:64 Filter.cpp:83
+msgid " WHERE "
+msgstr ""
+
+#: PhotoElement.cpp:155
+msgid " width=\""
+msgstr ""
+
+#: EquationParser.cpp:119
+msgid "!"
+msgstr ""
+
+#: EquationParser.cpp:108
+msgid "!="
+msgstr ""
+
+#: PhotoElement.cpp:141
+msgid "\""
+msgstr ""
+
+#: PhotoElement.cpp:156
+msgid "\" "
+msgstr ""
+
+#: PhotoElement.cpp:155
+msgid "\" height=\""
+msgstr ""
+
+#: PhotoElement.cpp:168
+msgid "\"/>"
+msgstr ""
+
+#: VectorStyle.cpp:497
+msgid "\"]"
+msgstr ""
+
+#: EquationParser.cpp:115
+msgid "#!"
+msgstr ""
+
+#: EquationParser.cpp:114
+msgid "#="
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:34 GeoreferenceGcpDriver.cpp:28
+msgid "#ERROR: No se puede calcular el valor"
+msgstr ""
+
+#: TerrainElement.cpp:747
+msgid "#FFFFFF"
+msgstr ""
+
+#: Configuration.cpp:414
+msgid "${"
+msgstr ""
+
+#: EquationParser.cpp:120
+msgid "%"
+msgstr ""
+
+#: MapRenderer.cpp:859
+#, c-format
+msgid "%.0f"
+msgstr ""
+
+#: MapRenderer.cpp:845 MapRenderer.cpp:866
+#, c-format
+msgid "%.0f Km"
+msgstr ""
+
+#: MapRenderer.cpp:863
+#, c-format
+msgid "%.0f m"
+msgstr ""
+
+#: md5.cpp:76
+#, c-format
+msgid "%02x"
+msgstr ""
+
+#: SuriObject.cpp:58 ClusterClassificationAlgorithm.cpp:83
+#: TerrainElement.cpp:142 TerrainElement.cpp:191
+#: ConvolutionFilterRenderer.cpp:244 ConvolutionFilterRenderer.cpp:249
+#: XmlElementManager.cpp:60 RasterElement.cpp:372 RasterElement.cpp:419
+#: Clusters.cpp:50 MapRenderer.cpp:129 MapRenderer.cpp:132 MapRenderer.cpp:135
+#: MapRenderer.cpp:138 KMeansAlgorithm.cpp:157 LutArray.cpp:125
+#: LutArray.cpp:129
+#, c-format
+msgid "%d"
+msgstr ""
+
+#: ClusterClassificationAlgorithm.cpp:78 Element.cpp:1055 Element.cpp:1056
+#: Element.cpp:1059 Element.cpp:1060 Histogram.cpp:214 Histogram.cpp:215
+#, c-format
+msgid "%f"
+msgstr ""
+
+#: ClassifiedRasterDatasourceManipulator.cpp:206
+#, c-format
+msgid "%i"
+msgstr ""
+
+#: VectorElement.cpp:392 VectorElement.cpp:416 VectorElement.cpp:433
+#: RasterElement.cpp:516 RasterElement.cpp:520 RasterElement.cpp:533
+#: RasterElement.cpp:537
+#, c-format
+msgid "%s"
+msgstr ""
+
+#: FileManagementFunctions.cpp:228
+#, c-format
+msgid "%s%d%s"
+msgstr ""
+
+#: TerrainElement.cpp:192 TerrainElement.cpp:212 TerrainElement.cpp:302
+#: TerrainElement.cpp:481 VectorElement.cpp:409 Element.cpp:1074
+#: Element.cpp:1078 Element.cpp:1082 Element.cpp:1086 RasterElement.cpp:132
+#: RasterElement.cpp:279 RasterElement.cpp:306
+#, c-format
+msgid "%s%s%s"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:31
+#, c-format
+msgid "%s_sys.lbr"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:32
+#, c-format
+msgid "%s_user.lbr"
+msgstr ""
+
+#: RasterElement.cpp:262
+#, c-format
+msgid "%s|%s|%s"
+msgstr ""
+
+#: Uri.cpp:24
+msgid "&"
+msgstr ""
+
+#: PixelInfoTool.cpp:282 CoregisterGcpDriver.cpp:689 LibraryItemOrigin.cpp:366
+#: GeoreferenceGcpDriver.cpp:695
+msgid "("
+msgstr ""
+
+#: BufferedDriver.cpp:740 BufferedDriver.cpp:779 BufferedDriver.cpp:810
+msgid "( "
+msgstr ""
+
+#: PixelInfoTool.cpp:290
+#, c-format
+msgid "(%.2f %s; %.2f %s)"
+msgstr ""
+
+#: PixelInfoTool.cpp:225
+#, c-format
+msgid "(%d ; %d)"
+msgstr ""
+
+#: MapRenderer.cpp:1260
+#, c-format
+msgid "(%s : %s] "
+msgstr ""
+
+#: BandMathRenderer.h:25
+msgid "(b1-b2)/(b1+b2)"
+msgstr ""
+
+#: VectorStyleTable.cpp:158 Filter.cpp:95 Filter.cpp:195 Filter.cpp:198
+#: PixelInfoTool.cpp:283 PixelInfoTool.cpp:320 CoregisterGcpDriver.cpp:571
+#: CoregisterGcpDriver.cpp:690 LibraryItemOrigin.cpp:370
+#: GeoreferenceGcpDriver.cpp:621 GeoreferenceGcpDriver.cpp:696
+#: MapRenderer.cpp:501
+msgid ")"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:339 GeoreferenceGcpDriver.cpp:387
+msgid ")^2 )"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:337 GeoreferenceGcpDriver.cpp:385
+msgid ")^2 + ("
+msgstr ""
+
+#: ZoomRasterFactorTool.cpp:245 FileManagementFunctions.cpp:198
+msgid "*"
+msgstr ""
+
+#: VectorElement.cpp:672
+msgid "*.SHP"
+msgstr ""
+
+#: VectorElement.cpp:672
+msgid "*.shp"
+msgstr ""
+
+#: Filter.cpp:91 Filter.cpp:200 GenericTool.cpp:183 RangeItemAttribute.cpp:28
+#: RangeItemAttribute.cpp:88 RangeItemAttribute.cpp:90
+#: RangeItemAttribute.cpp:92 WxsElement.cpp:116 RasterElement.cpp:564
+#: TextFileGcpLoader.cpp:37
+msgid ","
+msgstr ""
+
+#: BufferedDriver.cpp:745 BufferedDriver.cpp:750 BufferedDriver.cpp:755
+#: BufferedDriver.cpp:784 BufferedDriver.cpp:815 LibraryItemOrigin.cpp:368
+#: VectorElement.cpp:549 VectorElement.cpp:556
+msgid ", "
+msgstr ""
+
+#: VectorStyle.cpp:496
+msgid ",\""
+msgstr ""
+
+#: AnotationElementEditor.h:37
+msgid ""
+",COLOR[0,0,0,255],BACKCOLOR[255,255,255,255],SIZE[8],ITALIC[0],BOLD[0],"
+"UNDERLINED[0],ANGLE[0],OFFSET[0,0],ANCHOR[4]]]"
+msgstr ""
+
+#: DecimalInputWidget.cpp:83 DecimalInputWidget.cpp:110
+#: DecimalInputWidget.cpp:113
+msgid "-"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:358
+#, c-format
+msgid "---------------------- FIN %s ----------------------"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:332
+#, c-format
+msgid "---------------------- START %s ----------------------"
+msgstr ""
+
+#: VectorRenderer.cpp:194 VectorRenderer.cpp:195 VectorRenderer.cpp:214
+#: VectorRenderer.cpp:215 VectorElement.cpp:394 VectorElement.cpp:730
+#: FiltredVectorRenderer.cpp:77 FiltredVectorRenderer.cpp:128
+#: FiltredVectorRenderer.cpp:129
+msgid "-1"
+msgstr ""
+
+#: LibraryItemAttributeFactory.cpp:27
+msgid "-inf"
+msgstr ""
+
+#: VectorElementEditor.cpp:145 DecimalInputWidget.cpp:84
+#: MemoryVectorElement.cpp:75
+msgid "."
+msgstr ""
+
+#: MapRenderer.cpp:996
+msgid "..."
+msgstr ""
+
+#: Configuration.cpp:37 PhotoElement.cpp:172 LibraryManagerFactory.cpp:114
+#: LibraryConfig.cpp:161 Library.cpp:40 LibraryItemOriginFactory.cpp:35
+#: GdalSrsItemOrigin.cpp:272 DensitySliceLibraryOrigin.cpp:33
+msgid "./"
+msgstr ""
+
+#: VectorElementEditor.cpp:122
+msgid "./tmp"
+msgstr ""
+
+#: MemoryVectorElement.cpp:96
+msgid ".shp"
+msgstr ""
+
+#: Element.cpp:758
+msgid ".tif"
+msgstr ""
+
+#: TextFileLibraryItemOrigin.cpp:237 Element.cpp:758 FavoritesIndexFile.cpp:55
+msgid ".tmp"
+msgstr ""
+
+#: Uri.cpp:81 Uri.cpp:87 Uri.cpp:194 Uri.cpp:220 Uri.cpp:223 Uri.cpp:224
+#: Uri.cpp:248 LibraryItemOriginFactory.cpp:41 Element.cpp:1143
+#: GdalSrsItemOrigin.cpp:273
+msgid "/"
+msgstr ""
+
+#: Uri.cpp:69 Uri.cpp:218 Uri.cpp:246
+msgid "//"
+msgstr ""
+
+#: Library.cpp:41
+msgid "/system.lbr"
+msgstr ""
+
+#: Configuration.cpp:241 BufferedDriver.cpp:41 TerrainElement.cpp:730
+#: DecimalInputWidget.cpp:36 MemoryDriver.cpp:548 MemoryDriver.cpp:572
+#: StackingRenderer.cpp:143 StackingRenderer.cpp:173 XmlFunctions.cpp:40
+#: WxsElement.cpp:162 RasterElement.cpp:574 RasterElement.cpp:612
+#: MapRenderer.cpp:198 MapRenderer.cpp:203 MapRenderer.cpp:208
+#: MapRenderer.cpp:213 LutArray.cpp:68
+msgid "0"
+msgstr ""
+
+#: TerrainElement.cpp:685
+msgid "0 0 0"
+msgstr ""
+
+#: WxsRenderer.cpp:31 RasterElement.cpp:572
+msgid "0 1 2"
+msgstr ""
+
+#: MemoryDriver.cpp:550 MemoryDriver.cpp:574
+msgid "0.0"
+msgstr ""
+
+#: Table.cpp:48
+msgid "000000"
+msgstr ""
+
+#: DecimalInputWidget.cpp:35 VectorStyle.cpp:510 WxsElement.cpp:163
+#: RasterElement.cpp:45 RasterElement.cpp:613
+msgid "1"
+msgstr ""
+
+#: RasterElement.cpp:46
+msgid "10"
+msgstr ""
+
+#: DecimalInputWidget.cpp:35
+msgid "2"
+msgstr ""
+
+#: DecimalInputWidget.cpp:35
+msgid "3"
+msgstr ""
+
+#: DecimalInputWidget.cpp:35
+msgid "4"
+msgstr ""
+
+#: DecimalInputWidget.cpp:35
+msgid "5"
+msgstr ""
+
+#: DecimalInputWidget.cpp:35
+msgid "6"
+msgstr ""
+
+#: DecimalInputWidget.cpp:36
+msgid "7"
+msgstr ""
+
+#: DecimalInputWidget.cpp:36
+msgid "8"
+msgstr ""
+
+#: BandMathRenderer.h:27
+msgid "8*SigmaHV/(SigmaHH+SigmaVV+2*SigmaHV)"
+msgstr ""
+
+#: DecimalInputWidget.cpp:36
+msgid "9"
+msgstr ""
+
+#: Uri.cpp:216 Uri.cpp:244 SpatialReference.cpp:300 VectorElement.cpp:172
+#: Element.cpp:572 Table.cpp:53
+msgid ":"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:768 RasterRenderer.cpp:867
+msgid "://"
+msgstr ""
+
+#: BufferedDriver.cpp:761 BufferedDriver.cpp:792 BufferedDriver.cpp:823
+#: PixelInfoTool.cpp:316 LibraryItemOrigin.cpp:373 LibraryConfig.cpp:121
+#: LibraryConfig.cpp:165 TextFileGcpLoader.cpp:419 TextFileGcpLoader.cpp:424
+#: TextFileGcpLoader.cpp:429 TextFileGcpLoader.cpp:434
+msgid ";"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:418
+msgid ";SURILIB GCP File"
+msgstr ""
+
+#: ProjectFile.cpp:34
+msgid "<!DOCTYPE suriedu SYSTEM \"suri.dtd\">"
+msgstr ""
+
+#: WxsRenderer.cpp:271
+msgid "</ImageFormat>          <Layers>"
+msgstr ""
+
+#: WxsRenderer.cpp:274
+msgid "</Layers>              <Styles>"
+msgstr ""
+
+#: WxsElement.cpp:201
+msgid "</Layers>             <Styles>"
+msgstr ""
+
+#: WxsRenderer.cpp:288 WxsElement.cpp:215
+msgid "</LowerRightX>          <LowerRightY>"
+msgstr ""
+
+#: WxsRenderer.cpp:291 WxsElement.cpp:218
+msgid "</LowerRightY>          <SizeX>"
+msgstr ""
+
+#: WxsRenderer.cpp:304 WxsElement.cpp:231
+msgid ""
+"</Projection>          <BandsCount>3</BandsCount>          "
+"<ClampRequests>false</ClampRequests>          </GDAL_WMS>"
+msgstr ""
+
+#: WxsRenderer.cpp:268 WxsElement.cpp:195
+msgid "</SRS>          <ImageFormat>"
+msgstr ""
+
+#: WxsRenderer.cpp:265 WxsElement.cpp:192
+msgid "</ServerUrl>          <SRS>"
+msgstr ""
+
+#: WxsRenderer.cpp:294 WxsElement.cpp:221
+msgid "</SizeX>          <SizeY>"
+msgstr ""
+
+#: WxsRenderer.cpp:297 WxsElement.cpp:224
+msgid ""
+"</SizeY>          </DataWindow>          <OverviewCount>12</"
+"OverviewCount>          <BlockSizeX>512</BlockSizeX>          "
+"<BlockSizeY>512</BlockSizeY>          <Projection>"
+msgstr ""
+
+#: WxsElement.cpp:204
+msgid ""
+"</Styles>          </Service>          <DataWindow>          <UpperLeftX>"
+msgstr ""
+
+#: WxsRenderer.cpp:277
+msgid ""
+"</Styles>         </Service>          <DataWindow>          <UpperLeftX>"
+msgstr ""
+
+#: WxsRenderer.cpp:282 WxsElement.cpp:209
+msgid "</UpperLeftX>          <UpperLeftY>"
+msgstr ""
+
+#: WxsRenderer.cpp:285 WxsElement.cpp:212
+msgid "</UpperLeftY>          <LowerRightX>"
+msgstr ""
+
+#: MapRenderer.cpp:1258
+#, c-format
+msgid "<= %s "
+msgstr ""
+
+#: WxsRenderer.cpp:260 WxsElement.cpp:187
+msgid ""
+"<GDAL_WMS>          <Service name=\"WMS\">          <Version>1.1.1</"
+"Version>          <ServerUrl>"
+msgstr ""
+
+#: PhotoElement.cpp:139
+msgid "<img src=\""
+msgstr ""
+
+#: PhotoElement.cpp:167
+msgid "<img src=\"Header_imagen.gif\" height=\"15\" width=\""
+msgstr ""
+
+#: PhotoElement.cpp:169
+msgid "<suri img src=\"Header_imagen.gif\"/>"
+msgstr ""
+
+#: PhotoElement.cpp:136
+msgid "<suri src=\"copyright\">"
+msgstr ""
+
+#: PhotoElement.cpp:135
+msgid "<suri src=\"descripcion\"/>"
+msgstr ""
+
+#: PhotoElement.cpp:161
+msgid "<suri src=\"fotografia\" alt=\"Fotografia\"/>"
+msgstr ""
+
+#: PhotoElement.cpp:134
+msgid "<suri src=\"titulo\"/>"
+msgstr ""
+
+#: LibraryConfig.cpp:124 LibraryConfig.cpp:167 WxsRenderer.cpp:236
+#: TextFileGcpLoader.cpp:26
+msgid "="
+msgstr ""
+
+#: EquationParser.cpp:107
+msgid "=="
+msgstr ""
+
+#: MapRenderer.cpp:1263
+#, c-format
+msgid "> %s "
+msgstr ""
+
+#: Uri.cpp:25 Uri.cpp:91 Uri.cpp:192
+msgid "?"
+msgstr ""
+
+#: BufferedDriver.cpp:337
+msgid "APPCOL"
+msgstr ""
+
+#: BufferedDriver.cpp:227
+msgid "APPROW"
+msgstr ""
+
+#: SREEqualizationEnhancement.cpp:81
+msgid "AccumFreq"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:28 GeoreferenceGcpDriver.cpp:25
+msgid "Activado"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:47
+msgid "Algorithm"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:48
+msgid "AlgorithmOrder"
+msgstr ""
+
+#: AnotationElement.cpp:90 AnotationElement.cpp:179 VectorDatasource.cpp:89
+#: VectorDatasource.cpp:137 DefaultViewcontext.cpp:81
+msgid "AnotationElement"
+msgstr ""
+
+#: AnotationElementEditor.cpp:29
+msgid "Anotation_1"
+msgstr ""
+
+#: SREGaussianEnhancement.cpp:121 SRELinear2PercentEnhancement.cpp:119
+#: SRELinearEnhancement.cpp:68
+msgid "BAFP"
+msgstr ""
+
+#: SREGaussianEnhancement.cpp:103 SREEqualizationEnhancement.cpp:75
+#: SRELinear255Enhancement.cpp:45 SRELinear2PercentEnhancement.cpp:113
+#: SRELinearEnhancement.cpp:62
+msgid "BandCount"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:35
+msgid "BandInfo"
+msgstr ""
+
+#: RasterElement.cpp:502
+msgid "Banda "
+msgstr ""
+
+#: Element.cpp:126 Element.cpp:161
+msgid "CHECK_WITH_INVERT_PROJ"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:352
+#, c-format
+msgid "CONTENT: %s, PARENT: %s"
+msgstr ""
+
+#: VectorTableStructureDriver.cpp:18
+msgid "Campo"
+msgstr ""
+
+#: VectorElement.cpp:552
+msgid "Capa "
+msgstr ""
+
+#: ClassInformation.cpp:44
+msgid "Clase Desconocida #"
+msgstr ""
+
+#: XmlUrlManager.cpp:140
+msgid "Colision al copiar dependencia"
+msgstr "Colisión al copiar dependencia"
+
+#: ProcessAdaptLayer.cpp:34
+msgid "CombinationInfo"
+msgstr ""
+
+#: Navigator.cpp:338
+msgid "CoordinatesTransform"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:310
+#, c-format
+msgid "D: Cantidad de Bandas -> %d"
+msgstr ""
+
+#: RasterRenderer.cpp:438 RasterRenderer.cpp:446
+msgid "D: Canvas configurado en forma incorrecta"
+msgstr ""
+
+#: Terrain.cpp:517
+#, c-format
+msgid "D: Capa %d del tipo: %s ignorada."
+msgstr ""
+
+#: Terrain.cpp:636
+msgid "D: Capa de Tipo Linea ignorada."
+msgstr ""
+
+#: Terrain.cpp:653
+msgid "D: Capa de Tipo Poligono ignorada."
+msgstr ""
+
+#: GenericTool.cpp:46
+msgid "D: Clase derivada de GenericTool no ha llamado a Finalize() en el dtor."
+msgstr ""
+
+#: RenderPipeline.cpp:264
+msgid "D: Creando Renderer Nuevo"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:137
+msgid "D: ERROR: Se llamo a RemoveGroup con path de item"
+msgstr ""
+
+#: DefaultWorkGroup.cpp:241 DefaultWorkGroup.cpp:259
+msgid "D: El arbol esta en un estado invalido"
+msgstr ""
+
+#: Mask.cpp:173
+msgid "D: El canvas destino no existe"
+msgstr ""
+
+#: ProjectFile.cpp:105 ProjectFile.cpp:134 ProjectFile.cpp:161
+#: ProjectFile.cpp:193 ProjectFile.cpp:239 ProjectFile.cpp:259
+#: ProjectFile.cpp:383 ProjectFile.cpp:423 ProjectFile.cpp:440
+#: ProjectFile.cpp:481 ProjectFile.cpp:507 ProjectFile.cpp:533
+#: ProjectFile.cpp:570
+msgid "D: El documento xml es invalido"
+msgstr ""
+
+#: ColorTable.cpp:56 ColorTable.cpp:60
+msgid "D: El nodo no es de una color table"
+msgstr ""
+
+#: VectorEditor.cpp:735 VectorEditor.cpp:747
+msgid "D: Error al abrir capa"
+msgstr ""
+
+#: LineElementEditor.cpp:82
+msgid "D: Error al abrir capa linea"
+msgstr ""
+
+#: PolygonElementEditor.cpp:82
+msgid "D: Error al abrir capa poligono"
+msgstr ""
+
+#: PointElementEditor.cpp:86
+msgid "D: Error al abrir capa punto"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:37
+msgid "D: Error al conectar el GroupManager como viewer"
+msgstr ""
+
+#: Terrain.cpp:582
+msgid "D: Error al obtener la geometria del feature"
+msgstr ""
+
+#: KMeansAlgorithm.cpp:48
+msgid "D: Error, la cantidad de bandas no es igual al tamanio de la media"
+msgstr ""
+
+#: NodePath.cpp:97
+msgid "D: Es path es invalido"
+msgstr ""
+
+#: TerrainElement.cpp:245
+msgid "D: Factor de Exageracion ya seteado."
+msgstr ""
+
+#: TerrainElement.cpp:135
+msgid "D: Factor de Terreno ya seteado."
+msgstr ""
+
+#: TerrainElement.cpp:185
+msgid "D: Factor de Textura ya seteado."
+msgstr ""
+
+#: MemoryCanvas.cpp:218
+#, c-format
+msgid "D: Inconsistencia entre el canvas(%d;%d) y el DcBitmap(%d;%d)"
+msgstr ""
+
+#: Mask.cpp:176
+msgid "D: Inconsistencia entre los datos"
+msgstr ""
+
+#: Canvas.cpp:141
+msgid "D: Indices de bandas incorrectos"
+msgstr ""
+
+#: ColorTableCategory.cpp:65 ColorTableCategory.cpp:112
+msgid "D: La color table debe tener nombre no vacio"
+msgstr ""
+
+#: ColorTable.cpp:77
+msgid "D: La color table esta mal configurada"
+msgstr ""
+
+#: ColorTableCategory.cpp:159
+msgid "D: La color table ya esta en la categoria"
+msgstr ""
+
+#: Canvas.cpp:171
+msgid "D: Los canvas no son compatibles."
+msgstr ""
+
+#: MovingWindowController.cpp:166
+msgid "D: Mundo mal inicializado"
+msgstr ""
+
+#: ProjectFile.cpp:326 ProjectFile.cpp:355
+msgid "D: No existe documento de proyecto en edicion."
+msgstr ""
+
+#: VectorEditor.cpp:322 VectorEditor.cpp:354 VectorEditor.cpp:430
+#: VectorEditor.cpp:463
+msgid "D: No hay una capa abierta"
+msgstr ""
+
+#: ProjectFile.cpp:388
+msgid "D: No se inicializo el nodo actual"
+msgstr ""
+
+#: VectorTablesPart.cpp:156
+msgid "D: No se pudo abrir el vector"
+msgstr ""
+
+#: DeleteRowNotification.cpp:50 NewRowNotification.cpp:36
+msgid "D: No se pudo finalizar la edicion del feature editado."
+msgstr ""
+
+#: OgrGeometryEditor.cpp:239
+msgid "D: No se puede agregar otro punto a una geometria punto"
+msgstr ""
+
+#: ElementManager.cpp:48
+msgid "D: No se resgistro ninguna funcion para agregar elementos."
+msgstr ""
+
+#: ElementManager.cpp:61 ElementManager.cpp:75
+msgid "D: No se resgistro ninguna funcion para eliminar elementos."
+msgstr ""
+
+#: TerrainElement.cpp:241
+msgid "D: No se setea Factor de Exageracion. Factor menor a 0 (cero)."
+msgstr ""
+
+#: TerrainElement.cpp:131
+msgid "D: No se setea Factor de Terreno. Factor menor a 0 (cero)."
+msgstr ""
+
+#: TerrainElement.cpp:181
+msgid "D: No se setea Factor de Textura. Factor menor a 0 (cero)."
+msgstr ""
+
+#: TerrainElement.cpp:331
+msgid "D: No se setea Paso de Camara. Paso menor a 0 (cero)."
+msgstr ""
+
+#: Canvas.cpp:136
+msgid "D: Output data esta vacio"
+msgstr ""
+
+#: TerrainElement.cpp:335
+msgid "D: Paso de camara ya seteado"
+msgstr ""
+
+#: ScreenCanvas.cpp:360
+msgid "D: Pintando"
+msgstr ""
+
+#: OgrGeometryEditor.cpp:227 OgrGeometryEditor.cpp:334
+msgid "D: Posicion fuera de rango"
+msgstr ""
+
+#: VectorEditor.cpp:751
+msgid "D: Posicion incorrecta"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:783 RasterRenderer.cpp:843
+msgid "D: RasterRenderer ya tiene una imagen abierta"
+msgstr ""
+
+#: Terrain.cpp:555
+#, c-format
+msgid "D: Referencias espaciales incompatibles %s,%s"
+msgstr ""
+
+#: RenderPipeline.cpp:260
+msgid "D: Reutilizando Renderer"
+msgstr ""
+
+#: ZipFile.cpp:713 ZipFile.cpp:720
+#, c-format
+msgid "D: SIZE: %d"
+msgstr ""
+
+#: BandMathRenderer.cpp:178 ConvolutionFilterRenderer.cpp:344
+#: ColorTableRenderer.cpp:81 LutRenderer.cpp:303
+msgid "D: Se intento obtener parametros de LUT de elemento sin este nodo"
+msgstr ""
+
+#: DefaultWorkGroup.cpp:49
+msgid "D: Se llamo a GetIterator con path invalido"
+msgstr ""
+
+#: NodePath.cpp:107 NodePath.cpp:124
+msgid "D: Se trato de comparar dos paths. Donde al menos uno era invalido"
+msgstr ""
+
+#: SimpleGeometryEditor.cpp:97
+msgid "D: Sistema de referencia de subset incompatible con la geometria"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:309 RasterRenderer.cpp:469
+#, c-format
+msgid "D: Tamanio de la imagen -> %d ; %d"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:308 RasterRenderer.cpp:468
+#, c-format
+msgid "D: Tamanio del canvas -> %d ; %d"
+msgstr ""
+
+#: DataCastRenderer.cpp:46
+#, c-format
+msgid "D: Tipo de dato destino: %s"
+msgstr ""
+
+#: DataCastRenderer.cpp:47
+#, c-format
+msgid "D: Tipo de dato origen: %s"
+msgstr ""
+
+#: RenderizationManager.cpp:275
+#, c-format
+msgid "D: el elemento %s no pudo ser renderizado. Url: %s"
+msgstr ""
+
+#: XmlElement.cpp:325
+msgid "D: el nodo a eliminar no esta definido"
+msgstr ""
+
+#: XmlElement.cpp:337
+msgid "D: el nodo a eliminar no esta en parent node"
+msgstr ""
+
+#: XmlElement.cpp:274
+msgid "D: el nodo no esta definido"
+msgstr ""
+
+#: VectorElementEditor.cpp:195 VectorElement.cpp:525
+msgid "D: no existe estilo para el vector."
+msgstr ""
+
+#: ProjectFile.cpp:332 ProjectFile.cpp:361
+msgid "D: no se pudo obtener nodo raiz del proyecto."
+msgstr ""
+
+#: TerrainElement.cpp:603
+#, c-format
+msgid "D: no se puede calcular factor de %s"
+msgstr ""
+
+#: XmlElement.cpp:219
+msgid "D: pNewNode no esta definido"
+msgstr ""
+
+#: XmlElement.cpp:290
+msgid "D: pOldNode no esta en el elemento"
+msgstr ""
+
+#: XmlElement.cpp:237
+msgid "D: pReferenceNode no esta en el elemento"
+msgstr ""
+
+#: KMeansCanvas.cpp:134
+#, c-format
+msgid "D: suma pixels clase: %f, cantidad pixeles: %d"
+msgstr ""
+
+#: ZipFile.cpp:508
+#, c-format
+msgid ""
+"D:%s.\n"
+"Error LastError: %s"
+msgstr ""
+
+#: RenderPipeline.cpp:293
+#, c-format
+msgid "D:%s::Update()"
+msgstr ""
+
+#: XmlFunctions.cpp:190
+#, c-format
+msgid "D:(%d) %s::searchedcount(%d) ; %s::foundcount(%d)"
+msgstr ""
+
+#: XmlFunctions.cpp:175
+#, c-format
+msgid "D:(%d)Encontrado"
+msgstr ""
+
+#: XmlFunctions.cpp:180
+#, c-format
+msgid "D:(%d)Nodo visitado \"%s\"(%p)"
+msgstr ""
+
+#: XmlFunctions.cpp:168
+#, c-format
+msgid "D:(%d)Verificando \"%s\"(%p) contra \"%s\"(%p)"
+msgstr ""
+
+#: BaseRasterRenderer.cpp:65 BaseRasterRenderer.cpp:120
+msgid "D:AGREGAR REPROYECCION"
+msgstr ""
+
+#: ToolGroupManager.cpp:533
+#, c-format
+msgid "D:Activando boton %s"
+msgstr ""
+
+#: World.cpp:343
+msgid "D:Actualizando Modelo espacial"
+msgstr ""
+
+#: RenderizationManager.cpp:434
+msgid "D:Actualizando pipeline."
+msgstr ""
+
+#: XmlElement.cpp:128
+#, c-format
+msgid "D:Advertencia, el ultimo (%s) nodo no sera agregado"
+msgstr ""
+
+#: ZoomRenderer.cpp:252
+msgid "D:Aplicando ZOOM con interpolacion NN"
+msgstr ""
+
+#: DataCastRenderer.cpp:225
+msgid "D:Aplicando transformacion de tipo de dato"
+msgstr ""
+
+#: ZipFile.cpp:307
+msgid "D:Archivo y Path vacio."
+msgstr ""
+
+#: ZipFile.cpp:329
+msgid "D:Archivos y Path vacio."
+msgstr ""
+
+#: VectorRenderer.cpp:400
+msgid "D:Bounding box imposible de calcular en coordenadas de mundo."
+msgstr ""
+
+#: ConvolutionFilterRenderer.cpp:384
+msgid "D:Cantidad de Bandas es inferior a la cantidad de filtros"
+msgstr ""
+
+#: ConvolutionFilterRenderer.cpp:465
+msgid "D:Cantidad de Bandas es inferior a la cantidad de filtros."
+msgstr ""
+
+#: ScreenCanvas.cpp:140
+msgid "D:Cantidad de bandas nula."
+msgstr ""
+
+#: ZipFile.cpp:365
+msgid "D:Cantidad de path menor a la cantidad de archivos."
+msgstr ""
+
+#: Canvas.cpp:99
+#, c-format
+msgid "D:Canvas con dimensiones invalidas. (%d;%d)."
+msgstr ""
+
+#: Canvas.cpp:63
+msgid "D:Canvas con dimensiones no seteadas."
+msgstr ""
+
+#: Canvas.cpp:203
+msgid "D:Canvas destino nulo"
+msgstr ""
+
+#: VectorRenderer.cpp:481
+msgid "D:Canvas invalido."
+msgstr ""
+
+#: SREnhancementRenderer.cpp:173 LutRenderer.cpp:143
+msgid "D:Canvas no puede ser nulo al aplicar LUT."
+msgstr ""
+
+#: BandMathRenderer.cpp:268 ClassificationRenderer.cpp:218
+msgid "D:Canvas no puede ser nulo al aplicar ecuacion."
+msgstr ""
+
+#: ConvolutionFilterRenderer.cpp:477
+msgid "D:Canvas no puede ser nulo al aplicar filtro."
+msgstr ""
+
+#: DataCastRenderer.cpp:216
+msgid "D:Canvas no puede ser nulo al realizar data cast."
+msgstr ""
+
+#: ZoomRenderer.cpp:196
+msgid "D:Canvas no puede ser nulo al realizar zoom."
+msgstr ""
+
+#: RasterRenderer.cpp:235
+msgid "D:Canvas nulo"
+msgstr ""
+
+#: VectorRenderer.cpp:502
+msgid "D:Capa vectorial invalida."
+msgstr ""
+
+#: DataCastRenderer.cpp:193
+msgid "D:Casteando datos"
+msgstr ""
+
+#: ScreenCanvas.cpp:107
+msgid "D:Clear"
+msgstr ""
+
+#: ScreenCanvas.cpp:451
+#, c-format
+msgid "D:Comienzo %d;%d"
+msgstr ""
+
+#: ScreenCanvas.cpp:121
+msgid "D:Control de pantalla inexistente"
+msgstr ""
+
+#: ActiveRasterWorldExtentManager.cpp:96 GisWorldExtentManager.cpp:107
+msgid ""
+"D:Coordenadas de raster no se pudieron calcular en coordenadas de mundo."
+msgstr ""
+
+#: VectorDataLayer.cpp:214
+msgid "D:Coordenadas incorrectas"
+msgstr ""
+
+#: RenderizationManager.cpp:349
+msgid "D:Creando mascara."
+msgstr ""
+
+#: ProgressManager.cpp:48
+#, c-format
+msgid "D:Creando nuevo progreso \"%s\" (#%d)"
+msgstr ""
+
+#: RenderPipeline.cpp:179
+msgid "D:CreatePipeline, No se creo ningun renderizador."
+msgstr ""
+
+#: VectorRenderer.cpp:1109 VectorRenderer.cpp:1143 VectorRenderer.cpp:1183
+#: VectorRenderer.cpp:1233
+msgid "D:DC invalido."
+msgstr ""
+
+#: MapRenderer.cpp:265
+msgid "D:DC nulo, abortando renderizacion de mapa"
+msgstr ""
+
+#: RasterRenderer.cpp:350
+msgid "D:Decimando la imagen"
+msgstr ""
+
+#: Element.cpp:423
+#, c-format
+msgid "D:Destruyendo elemento %s"
+msgstr ""
+
+#: RasterRenderer.cpp:324
+#, c-format
+msgid "D:Dimension de la imagen destino = (%d;%d)"
+msgstr ""
+
+#: Mask.cpp:146
+#, c-format
+msgid "D:Dimensiones distintas; source(%d;%d), mask(%d,%d)"
+msgstr ""
+
+#: ToolGroupManager.cpp:299
+msgid "D:El boton que se quiere eliminar es NULL"
+msgstr ""
+
+#: FileManagementFunctions.cpp:57
+#, c-format
+msgid "D:El destino y origen son el mismo: %s"
+msgstr ""
+
+#: FileManagementFunctions.cpp:233
+msgid "D:El directorio generado ya existe"
+msgstr ""
+
+#: VectorEditor.cpp:434 VectorEditor.cpp:467
+msgid "D:El formato del vector no permite que se agregen columnas"
+msgstr ""
+
+#: VectorEditor.cpp:211
+msgid "D:El formato del vector no permite que se agregen nuevas capas"
+msgstr ""
+
+#: VectorEditor.cpp:267 VectorEditor.cpp:712
+msgid "D:El formato del vector no permite que se eliminen capas"
+msgstr ""
+
+#: Model.cpp:254
+#, c-format
+msgid "D:El modelo (%p) no es valido"
+msgstr ""
+
+#: Mask.cpp:106
+#, c-format
+msgid "D:El tipo de datos de la mascara debe ser: %s."
+msgstr ""
+
+#: MemoryVectorElement.cpp:137
+msgid "D:El vector en memoria ya existe"
+msgstr ""
+
+#: VectorEditor.cpp:113 VectorEditor.cpp:151 VectorEditor.cpp:207
+#: VectorEditor.cpp:263
+msgid "D:El vector no esta abierto"
+msgstr ""
+
+#: VectorEditor.cpp:70
+msgid "D:El vector no se pudo crear"
+msgstr ""
+
+#: VectorEditor.cpp:338
+msgid "D:El vector solo se puede ver en modo lectura"
+msgstr ""
+
+#: RenderizationManager.cpp:422
+msgid "D:Elemento modificado."
+msgstr ""
+
+#: VectorRenderer.cpp:287
+msgid "D:Elemento nulo."
+msgstr ""
+
+#: FileManagementFunctions.cpp:176
+#, c-format
+msgid "D:Eliminando %s"
+msgstr ""
+
+#: ScreenCanvas.cpp:312
+msgid "D:Eliminando bitmap"
+msgstr ""
+
+#: RenderizationManager.cpp:476
+msgid "D:Eliminando pipeline"
+msgstr ""
+
+#: RenderizationManager.cpp:299
+msgid "D:Enmascarando"
+msgstr ""
+
+#: HtmlElement.cpp:126
+msgid "D:Error al abrir archivo."
+msgstr ""
+
+#: VectorEditor.cpp:331
+msgid "D:Error al abrir los vectores"
+msgstr ""
+
+#: RasterElement.cpp:154 RasterElement.cpp:177
+msgid "D:Error al actualizar las propiedades raster"
+msgstr ""
+
+#: RasterElement.cpp:619
+msgid "D:Error al agregar la interpolacion al raster"
+msgstr ""
+
+#: ZipFile.cpp:395
+#, c-format
+msgid "D:Error al cerrar Zip: %s"
+msgstr ""
+
+#: ProjectFile.cpp:225
+#, c-format
+msgid "D:Error al cerrar archivo : %s."
+msgstr ""
+
+#: HtmlElement.cpp:139
+msgid "D:Error al cerrar archivo."
+msgstr ""
+
+#: ZipFile.cpp:442
+msgid "D:Error al cerrar zip de salida"
+msgstr ""
+
+#: ZipFile.cpp:447
+msgid "D:Error al comitear zip"
+msgstr ""
+
+#: Element.cpp:1111
+msgid "D:Error al convertir double de nodo"
+msgstr ""
+
+#: SpatialOperations.cpp:52
+msgid "D:Error al crear CoordinatesTransform."
+msgstr ""
+
+#: FileManagementFunctions.cpp:65 FileManagementFunctions.cpp:85
+#, c-format
+msgid "D:Error al crear directorio %s."
+msgstr ""
+
+#: ZipFile.cpp:246
+msgid "D:Error al crear directorio de salida."
+msgstr ""
+
+#: VectorEditor.cpp:540
+msgid "D:Error al crear el Feature"
+msgstr ""
+
+#: AnotationElement.cpp:93
+msgid "D:Error al crear el element"
+msgstr ""
+
+#: AnotationElement.cpp:101 MemoryVectorElement.cpp:177
+msgid "D:Error al crear el vector"
+msgstr ""
+
+#: ZipFile.cpp:192 ZipFile.cpp:411
+msgid "D:Error al crear stream de entrada"
+msgstr ""
+
+#: ZipFile.cpp:416
+msgid "D:Error al crear stream temporal"
+msgstr ""
+
+#: ProjectFile.cpp:221
+#, c-format
+msgid "D:Error al escribir archivo: %s."
+msgstr ""
+
+#: VectorElementEditor.cpp:539
+msgid ""
+"D:Error al generar CoordinatesTransform desde  \t\t\t\t\tsistema referencia "
+"del mundo al del vector."
+msgstr ""
+
+#: FileManagementFunctions.cpp:73
+#, c-format
+msgid "D:Error al intentar abrir directorio: %s"
+msgstr ""
+
+#: AnotationElement.cpp:416
+msgid "D:Error al intentar acceder a la capa vectorial"
+msgstr ""
+
+#: FileManagementFunctions.cpp:45 FileManagementFunctions.cpp:50
+#: FileManagementFunctions.cpp:98
+#, c-format
+msgid "D:Error al intentar copiar: %s"
+msgstr ""
+
+#: FileManagementFunctions.cpp:172
+#, c-format
+msgid ""
+"D:Error al intentar eliminar archivo: %s. Verifique que exista y que no este "
+"siendo usado."
+msgstr ""
+
+#: FileManagementFunctions.cpp:147
+#, c-format
+msgid ""
+"D:Error al intentar eliminar directorio: %s. Verifique que exista y que no "
+"este siendo usado."
+msgstr ""
+
+#: ProjectFile.cpp:217
+#, c-format
+msgid "D:Error al intentar grabar archivo: %s."
+msgstr ""
+
+#: Element.cpp:1105
+msgid "D:Error al leer double de nodo"
+msgstr ""
+
+#: AnotationElement.cpp:111
+msgid "D:Error al obtener capa. No se pudo crear anotacion"
+msgstr ""
+
+#: RenderizationManager.cpp:240
+msgid "D:Error al obtener el mundo."
+msgstr ""
+
+#: RenderizationManager.h:71
+msgid "D:Error al obtener lista."
+msgstr ""
+
+#: VectorEditor.cpp:868 VectorEditor.cpp:885 VectorEditor.cpp:902
+msgid "D:Error al setear campo, no hay un feature abierto"
+msgstr ""
+
+#: VectorRenderer.cpp:554
+msgid "D:Error al transformar coordenadas del mundo a vectoriales."
+msgstr ""
+
+#: ZoomRenderer.cpp:304
+#, c-format
+msgid "D:Error con los pasos de ZOOM (%.3f;%.3f) vs (%d;%d)"
+msgstr ""
+
+#: TerrainGLCanvas.cpp:597
+#, c-format
+msgid "D:Error de OpenGL numero \"%s\"."
+msgstr ""
+
+#: ZipFile.cpp:390 ZipFile.cpp:437
+#, c-format
+msgid "D:Error en AddFileToZip: %s"
+msgstr ""
+
+#: VectorStyle.cpp:499
+msgid "D:Error en Estilo de vector. No se puede crear el string de WKT."
+msgstr ""
+
+#: VectorStyleTable.cpp:147
+#, c-format
+msgid ""
+"D:Error en Tabla de Estilos de vector %s: Se intento agregar un estilo "
+"invalido."
+msgstr ""
+
+#: ZipFile.cpp:267 ZipFile.cpp:384
+#, c-format
+msgid "D:Error en apertura del Zip: %s"
+msgstr ""
+
+#: VectorStyleManager.cpp:382
+#, c-format
+msgid ""
+"D:Error en el Administrador de Estilos Vectoriales: No se encontraron "
+"estilos para la categoria: %s tipo de vector: %s."
+msgstr ""
+
+#: VectorStyleManager.cpp:235
+msgid ""
+"D:Error en el Administrador de Estilos Vectoriales: Se intento agregar una "
+"tabla de estilo invalida."
+msgstr ""
+
+#: ZipFile.cpp:290
+msgid "D:Error en la extraccion de los archivos"
+msgstr ""
+
+#: RenderizationController.cpp:63
+msgid "D:Error en la renderizacion de los elementos."
+msgstr ""
+
+#: FileRenderization.cpp:91
+#, c-format
+msgid "D:Error en la renderizacion del elemento: %s"
+msgstr ""
+
+#: ConvolutionFilterRenderer.cpp:595 ColorTableRenderer.cpp:151
+#: LutRenderer.cpp:258
+msgid "D:Error en los parametros"
+msgstr ""
+
+#: RasterRenderer.cpp:753
+#, c-format
+msgid "D:Error en los punteros anotado = %x, usado = %x"
+msgstr ""
+
+#: VectorRenderer.cpp:1255
+msgid "D:Error en los vectores de puntos y etiquetas."
+msgstr ""
+
+#: VectorRenderer.cpp:495
+msgid "D:Error en vector."
+msgstr ""
+
+#: ScreenCanvas.cpp:384
+msgid "D:Error en wxPaintDC proveniente de Event.GetDC()."
+msgstr ""
+
+#: TerrainElement.cpp:223
+msgid "D:Error en xml. Error en valores de exageracion"
+msgstr ""
+
+#: VectorEditor.cpp:917 VectorEditor.cpp:932 VectorEditor.cpp:947
+msgid "D:Error obtener campo, no hay un feature abierto"
+msgstr ""
+
+#: VectorEditor.cpp:248
+msgid "D:Error. No existe una capa con este nombre"
+msgstr ""
+
+#: VectorEditor.cpp:231
+msgid "D:Error. No se pudo eliminar capa"
+msgstr ""
+
+#: VectorEditor.cpp:227
+msgid "D:Error. No se puede eliminar capa abierta"
+msgstr ""
+
+#: VectorRenderer.cpp:1114
+msgid "D:Estilo de brush no encontrado."
+msgstr ""
+
+#: VectorRenderer.cpp:1238
+msgid "D:Estilo de etiqueta no encontrado."
+msgstr ""
+
+#: VectorRenderer.cpp:1148
+msgid "D:Estilo de pen no encontrado."
+msgstr ""
+
+#: VectorRenderer.cpp:1188
+msgid "D:Estilo de simbolo no encontrado."
+msgstr ""
+
+#: VectorRenderer.cpp:510 VectorRenderer.cpp:867 VectorRenderer.cpp:967
+#: VectorRenderer.cpp:1055
+msgid "D:Estilo no definido."
+msgstr ""
+
+#: RasterRenderer.cpp:755
+msgid "D:Evitando SIGSEV, generando LEAK"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:545 RasterRenderer.cpp:589
+#, c-format
+msgid "D:Extent de elemento cargado con exito %.2f;%.2f %.2f;%.2f"
+msgstr ""
+
+#: ActiveRasterWorldExtentManager.cpp:110 GisWorldExtentManager.cpp:124
+msgid "D:Extent de raster imposible de calcular en coordenadas de mundo."
+msgstr ""
+
+#: ZoomRenderer.cpp:308
+#, c-format
+msgid "D:Factor de zoom (corregido) = %.2f;%.2f"
+msgstr ""
+
+#: ZoomRenderer.cpp:289
+#, c-format
+msgid "D:Factor de zoom = %.2f;%.2f"
+msgstr ""
+
+#: World.cpp:351
+#, c-format
+msgid "D:Fail RasterModel((0,0),(%d,%d),(%.2f,%.2f),(%.2f,%.2f)"
+msgstr ""
+
+#: VectorElement.cpp:790
+msgid "D:FileName mal creado"
+msgstr ""
+
+#: VectorRenderer.cpp:563
+#, c-format
+msgid "D:Filtro espacial min(%.2f ; %.2f), max(%.2f ; %.2f)"
+msgstr ""
+
+#: RenderizationManager.cpp:301
+msgid "D:Fin Enmascarando"
+msgstr ""
+
+#: ScreenCanvas.cpp:420
+msgid "D:Fin pintando"
+msgstr ""
+
+#: RenderizationManager.cpp:308 VectorRenderizationController.cpp:93
+msgid "D:Fin renderizacion."
+msgstr ""
+
+#: ScreenCanvas.cpp:236
+msgid "D:Flush"
+msgstr ""
+
+#: VectorRenderer.cpp:667
+#, c-format
+msgid "D:Geometria desconocida (%s)."
+msgstr ""
+
+#: VectorRenderer.cpp:526
+msgid "D:Imposible reproyectar capa vectorial en coordenadas de mundo."
+msgstr ""
+
+#: MemoryVectorElement.cpp:153
+msgid "D:Inconsistencia. Ambos vectores existen."
+msgstr ""
+
+#: ZoomRenderer.cpp:155
+msgid "D:Interpolacion no soportada"
+msgstr ""
+
+#: AnotationElementEditor.cpp:121
+#, c-format
+msgid "D:L1,%s"
+msgstr ""
+
+#: AnotationElementEditor.cpp:127
+msgid "D:L1.1"
+msgstr ""
+
+#: Mask.cpp:139
+msgid "D:La operacion de mascara requiere dos canvas del mismo tipo."
+msgstr ""
+
+#: ScreenCanvas.cpp:277
+#, c-format
+msgid "D:La pantalla utiliza 3 bandas (RGB), no %d"
+msgstr ""
+
+#: ScreenCanvas.cpp:301
+#, c-format
+msgid "D:La pantalla utiliza tipo de dato uchar, no %s"
+msgstr ""
+
+#: ZipFile.cpp:470
+msgid "D:Lista de archivos vacia."
+msgstr ""
+
+#: ZipFile.cpp:475
+msgid "D:Lista de archivos y path con distinta cantidad de elementos."
+msgstr ""
+
+#: ScreenCanvas.cpp:143
+msgid "D:Los indices solicitados exceden a los disponibles."
+msgstr ""
+
+#: MemoryCanvas.cpp:84 MemoryCanvas.cpp:142
+msgid "D:MemoryCanvas, no se encuentra inicializado."
+msgstr ""
+
+#: MemoryCanvas.cpp:148 ScreenCanvas.cpp:490
+msgid "D:MemoryCanvas, se excede el numero de bandas."
+msgstr ""
+
+#: MemoryCanvas.cpp:185
+msgid "D:MemoryCanvas::Flush()"
+msgstr ""
+
+#: MemoryCanvas.cpp:258
+msgid "D:MemoryCanvas::FlushDc()"
+msgstr ""
+
+#: MemoryCanvas.cpp:90
+#, c-format
+msgid "D:MemoryCanvas[%d], se excede el numero de bandas disponibles [%d]."
+msgstr ""
+
+#: World.cpp:452
+msgid "D:Modelo de Raster del Mundo no inicializado"
+msgstr ""
+
+#: World.cpp:423
+msgid "D:Modelo raster del mundo no-inicializado."
+msgstr ""
+
+#: World.cpp:98
+#, c-format
+msgid "D:Modificando Mundo: (%.2f,%.2f;%.2f,%.2f) -> (%.2f,%.2f;%.2f,%.2f)"
+msgstr ""
+
+#: World.cpp:232
+#, c-format
+msgid "D:Modificando Viewport (%d,%d) -> (%d,%d)"
+msgstr ""
+
+#: World.cpp:201
+#, c-format
+msgid "D:Modificando Window: (%.2f,%.2f;%.2f,%.2f) -> (%.2f,%.2f;%.2f,%.2f)"
+msgstr ""
+
+#: RenderizationManager.cpp:250
+msgid "D:Mundo no inicializado o error en el mundo"
+msgstr ""
+
+#: VectorRenderer.cpp:871 VectorRenderer.cpp:971 VectorRenderer.cpp:1059
+msgid "D:Nada para renderizar."
+msgstr ""
+
+#: XmlElement.cpp:168
+msgid "D:NewNode == NULL"
+msgstr ""
+
+#: VectorEditor.cpp:563
+msgid "D:No clockwise"
+msgstr ""
+
+#: ZipFile.cpp:359
+msgid "D:No hay archivos para agregar."
+msgstr ""
+
+#: ZipFile.cpp:186
+msgid "D:No hay archivos para extraer."
+msgstr ""
+
+#: VectorRenderer.cpp:303
+msgid "D:No hay capas para renderizar."
+msgstr ""
+
+#: ReprojectionRenderer.cpp:513 RasterRenderer.cpp:550
+msgid "D:No hay imagen asociada"
+msgstr ""
+
+#: MapRenderer.cpp:355
+msgid "D:No hay leyendas para dibujar."
+msgstr ""
+
+#: MemoryVectorElement.cpp:161
+msgid "D:No hay vector asociado"
+msgstr ""
+
+#: ToolGroupManager.cpp:220
+msgid "D:No implementado"
+msgstr ""
+
+#: MemoryCanvas.cpp:129
+msgid "D:No pudo modificarse el canvas destino."
+msgstr ""
+
+#: ZipFile.cpp:405
+msgid "D:No se agregaron archivos al Zip. Causa: ya existian."
+msgstr ""
+
+#: LutRenderer.cpp:146
+msgid "D:No se aplica LUT porque esta inhabilitada"
+msgstr ""
+
+#: Navigator.cpp:327 Navigator.cpp:356
+msgid "D:No se creo el coordinates transform"
+msgstr ""
+
+#: RenderizationManager.cpp:395
+#, c-format
+msgid "D:No se creo renderizador para %s."
+msgstr ""
+
+#: RasterRenderer.cpp:279
+msgid "D:No se creo un CoordinateTransform, del raster al mundo"
+msgstr ""
+
+#: RenderizationManager.cpp:475
+msgid "D:No se elimino ningun elemento."
+msgstr ""
+
+#: RenderPipeline.cpp:83 RenderPipeline.cpp:246
+#, c-format
+msgid "D:No se encontro el nodo %s"
+msgstr ""
+
+#: XmlFunctions.cpp:371 XmlFunctions.cpp:388 XmlElement.cpp:116
+#: XmlElement.cpp:135
+#, c-format
+msgid "D:No se encontro el nodo %s."
+msgstr ""
+
+#: VectorRenderer.cpp:133 VectorRenderer.cpp:142 BrightnessRenderer.cpp:161
+msgid "D:No se encontro el nodo."
+msgstr ""
+
+#: Renderer.cpp:54
+#, c-format
+msgid "D:No se encontro el renderizador para \"%s\"."
+msgstr ""
+
+#: AnotationElement.cpp:232
+msgid "D:No se encuentra el nodo etiqueta"
+msgstr ""
+
+#: VectorElement.cpp:617
+msgid "D:No se encuentra el nodo hotlink"
+msgstr ""
+
+#: AnotationElement.cpp:227 VectorElement.cpp:605
+#, c-format
+msgid "D:No se encuentra la capa: %d"
+msgstr ""
+
+#: ParseSuriTemplates.cpp:54
+#, c-format
+msgid "D:No se encuentra tag: %s"
+msgstr ""
+
+#: FileManagementFunctions.cpp:138
+msgid "D:No se enumero el directorio"
+msgstr ""
+
+#: RenderizationManager.cpp:213
+msgid "D:No se ha asignado un Canvas de salida."
+msgstr ""
+
+#: ToolGroupManager.cpp:224
+msgid "D:No se inicializo la barra de herramientas del viewer"
+msgstr ""
+
+#: VectorRenderer.cpp:296
+msgid "D:No se pudo abrir el archivo vectorial."
+msgstr ""
+
+#: TerrainElement.cpp:494
+msgid "D:No se pudo agregar la textura"
+msgstr ""
+
+#: ProjectFile.cpp:276
+msgid "D:No se pudo agregar linea de DocType."
+msgstr ""
+
+#: PointElementEditor.cpp:97 AnotationElementEditor.cpp:87
+#: AnotationElementEditor.cpp:101
+msgid "D:No se pudo configurar el vector"
+msgstr ""
+
+#: BaseRasterRenderer.cpp:58 BaseRasterRenderer.cpp:113
+msgid "D:No se pudo crear CoordinateTransform"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:528 BaseRasterRenderer.cpp:47
+#: BaseRasterRenderer.cpp:98 RasterRenderer.cpp:259 RasterRenderer.cpp:572
+#: ZoomRasterFactorTool.cpp:168 RasterElement.cpp:313
+msgid "D:No se pudo crear RasterSpatialModel"
+msgstr ""
+
+#: ZoomRenderer.cpp:220
+msgid "D:No se pudo crear RasterSpatialModel; usando RasterModel"
+msgstr ""
+
+#: FileManagementFunctions.cpp:238
+#, c-format
+msgid "D:No se pudo crear el directorio: %s"
+msgstr ""
+
+#: AnotationElement.cpp:138
+msgid "D:No se pudo crear el punto de anotacion"
+msgstr ""
+
+#: RenderizationManager.cpp:126 RenderizationManager.cpp:132
+msgid "D:No se pudo crear el renderizador para el elemento"
+msgstr ""
+
+#: ScreenCanvas.cpp:225 ScreenCanvas.cpp:381
+msgid "D:No se pudo crear el wxMemoryDC."
+msgstr ""
+
+#: FileCanvas.cpp:63
+msgid "D:No se pudo crear la imagen de salida"
+msgstr ""
+
+#: ClassificationRenderer.cpp:158
+#, c-format
+msgid "D:No se pudo encontrar el nodo XML de \"%s\""
+msgstr ""
+
+#: BandMathRenderer.cpp:203
+#, c-format
+msgid "D:No se pudo encontrar el nodo XML en el BandMathRenderer\"%s\""
+msgstr ""
+
+#: ConvolutionFilterRenderer.cpp:371 RasterRenderer.cpp:194
+#: WxsRenderer.cpp:142 DataCastRenderer.cpp:137 ZoomRenderer.cpp:150
+#: ColorTableRenderer.cpp:109 LutRenderer.cpp:102
+#, c-format
+msgid "D:No se pudo encontrar el nodo XML en el elemento \"%s\""
+msgstr ""
+
+#: ZoomRasterFactorTool.cpp:157
+msgid "D:No se pudo encontrar el raster activo"
+msgstr ""
+
+#: VectorEditor.cpp:790 AnotationElementEditor.cpp:144
+msgid "D:No se pudo escribir el punto"
+msgstr ""
+
+#: AnotationElement.cpp:142
+msgid "D:No se pudo escribir la anotacion"
+msgstr ""
+
+#: XmlElement.cpp:405
+msgid "D:No se pudo imprimir la salida del XML"
+msgstr ""
+
+#: RasterRenderer.cpp:426
+msgid "D:No se pudo inicializar el canvas en forma correcta"
+msgstr ""
+
+#: RenderizationManager.cpp:283 VectorRenderizationController.cpp:88
+#, c-format
+msgid "D:No se pudo obtener RenderPipeline para elemento: %s."
+msgstr ""
+
+#: VectorEditor.cpp:965 VectorEditor.cpp:982
+msgid "D:No se puede agregar punto, no hay un feature abierto"
+msgstr ""
+
+#: VectorEditor.cpp:1023
+msgid "D:No se puede contar puntos, no hay un feature abierto"
+msgstr ""
+
+#: VectorEditor.cpp:668
+msgid "D:No se puede eliminar feature abierto"
+msgstr ""
+
+#: VectorEditor.cpp:1011
+msgid "D:No se puede eliminar punto, no hay un feature abierto"
+msgstr ""
+
+#: VectorEditor.cpp:674
+msgid "D:No se puede eliminar, el feature no existe"
+msgstr ""
+
+#: VectorElement.cpp:501
+msgid "D:No se puede inicializar el elemento"
+msgstr ""
+
+#: VectorEditor.cpp:358
+msgid "D:No se puede leer el vector"
+msgstr ""
+
+#: VectorEditor.cpp:997
+msgid "D:No se puede obtener punto, no hay un feature abierto"
+msgstr ""
+
+#: SREnhancementRenderer.cpp:182 LutRenderer.cpp:156
+msgid "D:No se puede renderizar, inconsistencia entre el "
+msgstr ""
+
+#: ZoomRenderer.cpp:203
+msgid ""
+"D:No se puede renderizar, inconsistencia entre el tipo de datos del canvas y "
+"los de salida del renderer"
+msgstr ""
+
+#: VectorRenderer.cpp:137 BrightnessRenderer.cpp:156
+#, c-format
+msgid "D:Nodo %s invalido."
+msgstr ""
+
+#: ReprojectionRenderer.cpp:608 StackingRenderer.cpp:127
+#: RasterRenderer.cpp:147 DataCastRenderer.cpp:91 ZoomRenderer.cpp:89
+msgid "D:Nodo NULO."
+msgstr ""
+
+#: LutRenderer.cpp:187
+msgid "D:Nodo con numero de bandas incorrectas"
+msgstr ""
+
+#: Renderer.cpp:121
+msgid "D:Nodo raiz Nulo"
+msgstr ""
+
+#: BrightnessRenderer.cpp:176
+msgid "D:Nodo vacio"
+msgstr ""
+
+#: ZipFile.cpp:480
+msgid "D:Nombre de archivo invalido."
+msgstr ""
+
+#: ScreenCanvas.cpp:452
+#, c-format
+msgid "D:Offset   %d;%d"
+msgstr ""
+
+#: ZoomRenderer.cpp:281 ZoomRenderer.cpp:290
+#, c-format
+msgid "D:Offset de zoom = %.2f;%.2f"
+msgstr ""
+
+#: RasterRenderer.cpp:408
+#, c-format
+msgid "D:Offset en el canvas %d;%d"
+msgstr ""
+
+#: VectorEditor.cpp:679
+msgid "D:Operacion no soportada"
+msgstr ""
+
+#: RasterRenderer.cpp:401
+#, c-format
+msgid "D:Pluses %d;%d"
+msgstr ""
+
+#: RasterRenderer.cpp:202 WxsRenderer.cpp:151
+msgid "D:RasterRenderer, error al abrir la imagen."
+msgstr ""
+
+#: RasterRenderer.cpp:248
+msgid "D:RasterRenderer::Render()::begin"
+msgstr ""
+
+#: RasterRenderer.cpp:534
+msgid "D:RasterRenderer::Render()::end"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:518 BaseRasterRenderer.cpp:64
+#: BaseRasterRenderer.cpp:119 RasterRenderer.cpp:562
+msgid "D:Referencia espacial del mundo != de la del raster"
+msgstr ""
+
+#: RasterRenderer.cpp:272 ZoomRasterFactorTool.cpp:186
+msgid "D:Referencia espacial del mundo coincide con la del raster"
+msgstr ""
+
+#: RasterRenderer.cpp:697
+msgid "D:Rellenando canvas con valores nulos"
+msgstr ""
+
+#: Renderer.cpp:92
+#, c-format
+msgid "D:Renderizador \"%s\" eliminado con exito."
+msgstr ""
+
+#: Renderer.cpp:73
+#, c-format
+msgid "D:Renderizador \"%s\" registrado con exito."
+msgstr ""
+
+#: RenderPipeline.cpp:174 RenderPipeline.cpp:280
+#, c-format
+msgid "D:Renderizador para el elemento %s creado con exito."
+msgstr ""
+
+#: RenderizationManager.cpp:267 VectorRenderizationController.cpp:82
+#, c-format
+msgid "D:Renderizando elemento \"%s\"."
+msgstr ""
+
+#: RenderizationManager.cpp:209 VectorRenderizationController.cpp:73
+msgid "D:Renderizando."
+msgstr ""
+
+#: ReprojectionRenderer.cpp:199
+msgid "D:ReprojectionRenderer::Render()::end"
+msgstr ""
+
+#: World.cpp:68
+msgid "D:Reseteando mundo"
+msgstr ""
+
+#: BandMathRenderer.cpp:263 ConvolutionFilterRenderer.cpp:472
+#: DataCastRenderer.cpp:203 ClassificationRenderer.cpp:213
+msgid "D:Se creo un canvas intermedio"
+msgstr ""
+
+#: ScreenCanvas.cpp:146
+msgid "D:Se utilizan 1 o 3 bandas."
+msgstr ""
+
+#: World.cpp:256
+#, c-format
+msgid "D:Seteando WorldWindow::SpatialReference a %s"
+msgstr ""
+
+#: RasterRenderer.cpp:404
+#, c-format
+msgid "D:Subset a leer (%d;%d , %d;%d) %dx%d"
+msgstr ""
+
+#: RasterRenderer.cpp:406
+#, c-format
+msgid "D:Subset real (%.2f; %.2f , %.2f; %.2f) %.2fx%.2f"
+msgstr ""
+
+#: RasterRenderer.cpp:659
+#, c-format
+msgid "D:Tamano de Canvas %d;%d"
+msgstr ""
+
+#: BandMathRenderer.cpp:274 ConvolutionFilterRenderer.cpp:483
+#: DataCastRenderer.cpp:230 ZoomRenderer.cpp:210
+#: ClassificationRenderer.cpp:224
+msgid "D:Tamano de canvas erroneo"
+msgstr ""
+
+#: ZoomRenderer.cpp:278
+#, c-format
+msgid "D:Tamano de viewport %d;%d"
+msgstr ""
+
+#: ZoomRenderer.cpp:277
+#, c-format
+msgid "D:Tamano del canvas de entrada %d;%d"
+msgstr ""
+
+#: TerrainElement.cpp:604
+msgid "D:Terreno"
+msgstr ""
+
+#: TerrainElement.cpp:604
+msgid "D:Textura"
+msgstr ""
+
+#: DataCastRenderer.cpp:155 ZoomRenderer.cpp:163 LutRenderer.cpp:322
+#, c-format
+msgid "D:Tipo de dato (%s) no manejado"
+msgstr ""
+
+#: ConvolutionFilterRenderer.cpp:396
+#, c-format
+msgid "D:Tipo de filtro o tipo de dato (%s) no manejado"
+msgstr ""
+
+#: DataCastRenderer.cpp:221
+msgid "D:Tipos de datos invalidos."
+msgstr ""
+
+#: ProgressManager.cpp:103
+msgid "D:Updating"
+msgstr ""
+
+#: VectorRenderer.cpp:735
+#, c-format
+msgid "D:Valor de mascara %d"
+msgstr ""
+
+#: VectorRenderer.cpp:416 VectorElement.cpp:477
+msgid "D:Vector con extension desconocida."
+msgstr ""
+
+#: VectorRenderer.cpp:362 VectorRenderer.cpp:378 VectorElement.cpp:471
+msgid "D:Vector invalido."
+msgstr ""
+
+#: Terrain.cpp:667
+#, c-format
+msgid "D:VectorDisplayList %d es invalida"
+msgstr ""
+
+#: VectorRenderer.cpp:245
+msgid "D:VectorRenderer, Nodo INCORRECTO."
+msgstr ""
+
+#: VectorRenderer.cpp:240
+msgid "D:VectorRenderer, Nodo NULO."
+msgstr ""
+
+#: VectorRenderer.cpp:722
+msgid "D:VectorRenderer, estilo no definido para preview."
+msgstr ""
+
+#: VectorRenderer.cpp:796
+msgid "D:VectorRenderer, geometria desconocida para preview."
+msgstr ""
+
+#: VectorRenderer.cpp:728
+msgid "D:VectorRenderer, imposible crear BitMap para preview."
+msgstr ""
+
+#: VectorRenderer.cpp:734
+msgid "D:VectorRenderer, imposible crear DC para preview."
+msgstr ""
+
+#: VectorRenderer.cpp:821
+msgid "D:VectorRenderer, no hay capas para renderizar."
+msgstr ""
+
+#: VectorRenderer.cpp:826
+msgid "D:VectorRenderer, no se pudo abrir el archivo vectorial."
+msgstr ""
+
+#: Navigator.cpp:298
+msgid "D:Ventana invalida"
+msgstr ""
+
+#: Model.cpp:236
+msgid "D:ViewerUpdate no bloqueado. No se puede desbloquear."
+msgstr ""
+
+#: RenderizationManager.cpp:329
+msgid "D:Viewport Changed."
+msgstr ""
+
+#: RenderizationManager.cpp:345
+msgid "D:WorldChanged."
+msgstr ""
+
+#: RenderizationManager.cpp:337
+msgid "D:WorldWindow Changed."
+msgstr ""
+
+#: VectorRenderer.cpp:486 VectorRenderer.cpp:863 VectorRenderer.cpp:963
+#: VectorRenderer.cpp:1051
+msgid "D:WorldWindow invalido."
+msgstr ""
+
+#: Navigator.cpp:108 Navigator.cpp:150
+msgid "D:Zoom invalido"
+msgstr ""
+
+#: ZoomRenderer.cpp:292 ZoomRenderer.cpp:294
+#, c-format
+msgid "D:assert(%d <= %d)"
+msgstr ""
+
+#: ZoomRenderer.cpp:296
+#, c-format
+msgid "D:assert(%f == %f)"
+msgstr ""
+
+#: BandMathRenderer.cpp:215 BandMathRenderer.cpp:379
+#: ClassificationRenderer.cpp:175
+msgid "D:error en los datos del nodo"
+msgstr ""
+
+#: RasterRenderer.cpp:675 RasterRenderer.cpp:759
+#, c-format
+msgid "D:imagedata[%d] = %x"
+msgstr ""
+
+#: XmlFunctions.cpp:248
+#, c-format
+msgid "D:pLhs(%p)->Contenido(%s) = %s"
+msgstr ""
+
+#: XmlFunctions.cpp:207
+#, c-format
+msgid "D:pLhs(%p)->Propiedad(%s) = %s"
+msgstr ""
+
+#: XmlFunctions.cpp:252
+#, c-format
+msgid "D:pRhs(%p)->Contenido(%s) = %s"
+msgstr ""
+
+#: XmlFunctions.cpp:211
+#, c-format
+msgid "D:pRhs(%p)->Propiedad(%s) = %s"
+msgstr ""
+
+#: RasterRenderer.cpp:712
+#, c-format
+msgid "D:pcanvasdata[%d] = %x"
+msgstr ""
+
+#: ScreenCanvas.cpp:255
+msgid "D:post-Refresh"
+msgstr ""
+
+#: OgrGeometryEditor.cpp:247
+#, c-format
+msgid "D:ringlineal clockwise == %s"
+msgstr ""
+
+#: Terrain.cpp:476
+msgid "D:terrainDisplayList_ es invalida"
+msgstr ""
+
+#: SpatialReference.cpp:39
+msgid "DATUM"
+msgstr ""
+
+#: VectorElement.cpp:68
+msgid "DBF"
+msgstr ""
+
+#: BufferedDriver.cpp:419
+msgid "DELCOL"
+msgstr ""
+
+#: BufferedDriver.cpp:302
+msgid "DELROW"
+msgstr ""
+
+#: RasterDnDriver.cpp:17
+msgid "DN"
+msgstr ""
+
+#: PixelInfoTool.cpp:319
+msgid "DN:("
+msgstr ""
+
+#: ClassifiedRasterDatasourceManipulator.cpp:52 EnclosureManipulator.cpp:36
+msgid "DRIVER"
+msgstr ""
+
+#: TaskConfigBuilder.cpp:23
+msgid "DataView"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:23
+msgid "DataViewManager"
+msgstr ""
+
+#: RenderPipeline.cpp:128
+#, c-format
+msgid "Datos de entrada %d, %s"
+msgstr ""
+
+#: RenderPipeline.cpp:129
+#, c-format
+msgid "Datos de salida %d, %s"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:60
+msgid "Datum"
+msgstr ""
+
+#: VectorElementEditor.cpp:338
+msgid "E: Error al abrir el elemento despues de guardarlo"
+msgstr ""
+
+#: VectorElementEditor.cpp:318
+msgid "E: Fallo abrir el vector"
+msgstr ""
+
+#: VectorElementEditor.cpp:329
+msgid "E: Fallo guardar el vector"
+msgstr ""
+
+#: VectorElementEditor.cpp:287
+msgid "E: La ruta para guardar el vector esta vacia"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:340
+msgid "END MANAGER ORDER"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:357
+msgid "END TREE ORDER"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:96
+msgid "EPSG"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:89
+#, c-format
+msgid "EPSG count: %d"
+msgstr ""
+
+#: VectorTablesPart.cpp:248 VectorElementEditor.cpp:328
+#: VectorElementEditor.cpp:433 VectorElementEditor.cpp:475
+#: GeometryElementEditor.cpp:280 GeometryElementEditor.cpp:312
+#: MemoryVectorElement.cpp:86
+msgid "ESRI Shapefile"
+msgstr ""
+
+#: AnotationElementEditor.h:34
+msgid "EXPRESSION[\"{"
+msgstr ""
+
+#: VectorElementEditor.cpp:130 GeometryElementEditor.cpp:183
+#, c-format
+msgid "Elem_%d"
+msgstr ""
+
+#: RenderPipeline.cpp:119
+#, c-format
+msgid "Element: %s"
+msgstr ""
+
+#: Renderer.cpp:116
+msgid "Elemento invalido"
+msgstr "Elemento inválido"
+
+#: GdalSrsItemOrigin.cpp:63
+msgid "Elipsoide"
+msgstr ""
+
+#: GcpDriver.cpp:24
+msgid "Error X"
+msgstr ""
+
+#: GcpDriver.cpp:25
+msgid "Error Y"
+msgstr ""
+
+#: VectorElement.cpp:435 RasterElement.cpp:283
+msgid "Error al encontrar el subset del raster"
+msgstr ""
+
+#: GcpDriver.cpp:26
+msgid "Error cuadratico"
+msgstr "Error cuadrático"
+
+#: ZipFile.cpp:515
+msgid "Error de escritura en archivo: "
+msgstr ""
+
+#: ZipFile.cpp:287
+msgid "Error en la extraccion de los archivos"
+msgstr "Error en la extracción de los archivos"
+
+#: RasterElement.cpp:43
+msgid "Exact"
+msgstr ""
+
+#: LibraryItemAttribute.cpp:27
+msgid "Extended"
+msgstr ""
+
+#: OgrGeometryEditor.cpp:248
+msgid "FALSE"
+msgstr ""
+
+#: Filter.cpp:26
+msgid "FID"
+msgstr ""
+
+#: Filter.cpp:48 Filter.cpp:51 Filter.cpp:52
+msgid "FROM"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:38
+msgid "FileFormat"
+msgstr ""
+
+#: TaskConfigBuilder.cpp:26
+msgid "FileName"
+msgstr ""
+
+#: FileVectorExporterProcess.cpp:43
+msgid "FileVectorExporterProcess"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:39
+msgid "Filename"
+msgstr ""
+
+#: FileVectorExporterProcess.cpp:108
+msgid "FilteredDatasource"
+msgstr ""
+
+#: PhotoElement.cpp:105 PhotoElement.cpp:225
+msgid "Foto"
+msgstr ""
+
+#: suri.cpp:72
+msgid "GDAL_DATA"
+msgstr ""
+
+#: suri.cpp:75
+msgid "GDAL_SKIP"
+msgstr ""
+
+#: SpatialReference.cpp:33 MapRenderer.cpp:677
+msgid "GEOGCS"
+msgstr ""
+
+#: MeassureDistanceElementEditor.cpp:39
+msgid ""
+"GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID"
+"[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree"
+"\",0.017453292519943295]]"
+msgstr ""
+
+#: MeassureDistanceElementEditor.cpp:51 MeassureAreaElementEditor.cpp:52
+#: GeometryElementEditor.cpp:39
+msgid ""
+"GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS "
+"84\",6378137,298.2572235630016,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG"
+"\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],"
+"AUTHORITY[\"EPSG\",\"4326\"]]"
+msgstr ""
+
+#: suri.cpp:73
+msgid "GEOTIFF_CSV"
+msgstr ""
+
+#: Element.cpp:748
+msgid "GISMode_World_Wkt"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:348
+#, c-format
+msgid "GRUPO: %s, PARENT: "
+msgstr ""
+
+#: Canvas.cpp:243 Element.cpp:756 suri.cpp:53
+msgid "GTiff"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:46
+msgid "GcpListFileName"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:66
+msgid "GdalSrsItemOrigin"
+msgstr ""
+
+#: FileRenderization.cpp:77
+msgid "Geo"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:768 RasterRenderer.cpp:867
+msgid "HDF5:"
+msgstr ""
+
+#: LibraryItemOriginFactory.cpp:42
+msgid "HOME"
+msgstr ""
+
+#: HtmlElement.cpp:89
+msgid "HTM"
+msgstr ""
+
+#: HtmlElement.cpp:88 HtmlElement.cpp:113
+msgid "HTML"
+msgstr ""
+
+#: PointElementEditor.cpp:92 VectorDatasource.cpp:89 VectorDatasource.cpp:137
+#: DefaultViewcontext.cpp:81
+msgid "HotLinkVectorElement"
+msgstr ""
+
+#: HtmlDatasource.cpp:71 HtmlDatasource.cpp:95 DefaultViewcontext.cpp:631
+#: DefaultViewcontext.cpp:639
+msgid "HtmlElement"
+msgstr ""
+
+#: VectorEditorDriver.cpp:33
+msgid "ID"
+msgstr ""
+
+#: VectorTablesPart.cpp:125 VectorTablesPart.cpp:269 VectorTablesPart.cpp:320
+msgid "ID_CHOICEBOOK"
+msgstr ""
+
+#: DecimalInputWidget.cpp:57
+msgid "ID_DECIMAL_COORD_PANEL"
+msgstr ""
+
+#: DecimalInputWidget.cpp:43 DecimalInputWidget.cpp:76
+#: DecimalInputWidget.cpp:88 DecimalInputWidget.cpp:103
+#: DecimalInputWidget.cpp:152
+msgid "ID_DECIMAL_E_COORD_TEXT"
+msgstr ""
+
+#: DecimalInputWidget.cpp:40 DecimalInputWidget.cpp:71
+#: DecimalInputWidget.cpp:86 DecimalInputWidget.cpp:100
+#: DecimalInputWidget.cpp:150
+msgid "ID_DECIMAL_N_COORD_TEXT"
+msgstr ""
+
+#: DecimalInputWidget.cpp:39 DecimalInputWidget.cpp:61
+msgid "ID_LATITUDEHYPERLINK"
+msgstr ""
+
+#: DecimalInputWidget.cpp:42 DecimalInputWidget.cpp:66
+msgid "ID_LONGITUDEHYPERLINK"
+msgstr ""
+
+#: DecimalInputWidget.cpp:162
+msgid "ID_SYSTEM_UNIT_X"
+msgstr ""
+
+#: DecimalInputWidget.cpp:164
+msgid "ID_SYSTEM_UNIT_Y"
+msgstr ""
+
+#: VectorTablesPart.cpp:123
+msgid "ID_VECTOR_TABLE_PART"
+msgstr ""
+
+#: ImageTagHandler.cpp:36
+msgid "IMG"
+msgstr ""
+
+#: Filter.cpp:56
+msgid "IN"
+msgstr ""
+
+#: Filter.cpp:194 Filter.cpp:197
+msgid "IN("
+msgstr ""
+
+#: BufferedDriver.cpp:383
+msgid "INSCOL"
+msgstr ""
+
+#: BufferedDriver.cpp:259
+msgid "INSROW"
+msgstr ""
+
+#: ZipFile.cpp:31
+msgid "ISO-8859-1"
+msgstr ""
+
+#: RenderPipeline.cpp:159
+#, c-format
+msgid "Imposible renderizar tipos de dato %d@%s"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:29
+msgid "IncludeMask"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:32
+msgid "IncludeSpectralPart"
+msgstr ""
+
+#: RenderPipeline.cpp:131
+#, c-format
+msgid "Inconsistencia entre %s -> %s"
+msgstr ""
+
+#: PixelInfoTool.cpp:70
+msgid "Informacion de Pixel"
+msgstr "Información de Píxel"
+
+#: RenderPipeline.cpp:120
+#, c-format
+msgid "Input: %d,%d,%d,%s"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:27
+msgid "InputDSs"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:26
+msgid "InputElements"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:24
+msgid "InputWorld"
+msgstr ""
+
+#: VectorStyle.cpp:509
+msgid "Invert brush colors"
+msgstr ""
+
+#: Filter.cpp:46
+msgid "LIKE"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:30
+msgid "LayerList"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:31
+msgid "LibraryId"
+msgstr ""
+
+#: MeassureDistanceElementEditor.cpp:53 LineElementEditor.cpp:39
+msgid "Line_1"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:30
+msgid "Linea Base"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:32
+msgid "Linea Warp"
+msgstr ""
+
+#: GeometryElementEditor.h:37
+msgid "Linea_1"
+msgstr ""
+
+#: SREnhancementRenderer.cpp:311
+msgid "Linear255Enhancement"
+msgstr "Lineal 0-255"
+
+#: ZipFile.cpp:185
+msgid "Lista de archivos vacia. No existen archivos para extraer."
+msgstr "Lista de archivos vacía. No existen archivos para extraer."
+
+#: ProcessAdaptLayer.cpp:33
+msgid "MaskList"
+msgstr ""
+
+#: FileRenderization.cpp:73
+msgid "Matrix"
+msgstr ""
+
+#: SREGaussianEnhancement.cpp:112
+msgid "Max"
+msgstr ""
+
+#: SREGaussianEnhancement.cpp:115
+msgid "Mean"
+msgstr ""
+
+#: SREGaussianEnhancement.cpp:109
+msgid "Min"
+msgstr ""
+
+#: GcpDriver.cpp:22
+msgid "Modelo X"
+msgstr ""
+
+#: GcpDriver.cpp:23
+msgid "Modelo Y"
+msgstr ""
+
+#: ColorTableManager.cpp:367 ColorTableManager.cpp:416
+msgid "NDVI"
+msgstr "NDVI (Tucker 1979)"
+
+#: ColorTableManager.cpp:368 ColorTableManager.cpp:434
+msgid "NDWI"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:350 SuriObjectGroupManager.cpp:355
+msgid "NULL"
+msgstr ""
+
+#: ZipFile.cpp:403
+msgid "No se agregaron archivos al Zip. Archivos ya existentes en el Zip."
+msgstr ""
+
+#: ZipFile.cpp:382
+msgid "No se agregaron archivos al Zip. Error en apertura del Zip: "
+msgstr ""
+
+#: ZipFile.cpp:358
+msgid "No se agregaron archivos al Zip. No hay archivos para agregar."
+msgstr ""
+
+#: ZipFile.cpp:265
+msgid "No se extrajeron archivos al Zip. Error en apertura del Zip: "
+msgstr ""
+
+#: ZipFile.cpp:364
+msgid ""
+"No se pudieron agregar archivos. Cantidad de path distinta a la cantidad de "
+"archivos."
+msgstr ""
+
+#: Element.cpp:1091
+msgid "No se pudo obtener el subset del nodo"
+msgstr ""
+
+#: RenderPipeline.cpp:126 RenderPipeline.cpp:157 RenderPipeline.cpp:167
+#, c-format
+msgid "No se puede crear un sistema de renderizacion para el elemento %s"
+msgstr "No se puede crear un sistema de renderización para el elemento %s"
+
+#: SuriObject.cpp:36
+msgid "NullClassId"
+msgstr ""
+
+#: SREGaussianEnhancement.cpp:106 SREEqualizationEnhancement.cpp:78
+#: SRELinear255Enhancement.cpp:48 SRELinear2PercentEnhancement.cpp:116
+#: SRELinearEnhancement.cpp:65
+msgid "NumBins"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:229
+msgid "OFF"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:36 TextFileGcpLoader.cpp:229
+msgid "ON"
+msgstr ""
+
+#: RenderPipeline.cpp:121
+#, c-format
+msgid "Output: %d,%d,%d,%s"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:28
+msgid "OutputElem"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:55
+msgid "OutputSRS"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:51
+msgid "OutputSizeLines"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:50
+msgid "OutputSizePixels"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:25
+msgid "OutputWorld"
+msgstr ""
+
+#: MahalanobisAlgorithm.cpp:96
+#, c-format
+msgid "PIXEL COUNT first trainning area: %d"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:567 GeoreferenceGcpDriver.cpp:617
+msgid "POINT("
+msgstr ""
+
+#: SimpleGeometryEditor.cpp:211 SimpleGeometryEditor.cpp:214
+#: SimpleGeometryEditor.cpp:217
+msgid "POINTSTYLE"
+msgstr ""
+
+#: VectorElement.cpp:68
+msgid "PRJ"
+msgstr ""
+
+#: SpatialReference.cpp:35 MapRenderer.cpp:672
+msgid "PROJCS"
+msgstr ""
+
+#: MeassureAreaElementEditor.cpp:49
+msgid ""
+"PROJCS[\"World_Sinusoidal\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\","
+"SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT"
+"[\"Degree\",0.017453292519943295]],PROJECTION[\"Sinusoidal\"],PARAMETER"
+"[\"false_easting\",0],PARAMETER[\"false_northing\",0],PARAMETER"
+"[\"longitude_of_center\",0],UNIT[\"Meter\",1]]"
+msgstr ""
+
+#: MapRenderer.cpp:680
+msgid "PROJCS|GEOGCS"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:40
+msgid "PROJECTED"
+msgstr ""
+
+#: SpatialReference.cpp:45
+msgid "PROJECTION"
+msgstr ""
+
+#: suri.cpp:74
+msgid "PROJ_LIB"
+msgstr ""
+
+#: VectorElement.cpp:253 VectorElement.cpp:265
+msgid "PUNTO"
+msgstr ""
+
+#: DefaultViewcontext.cpp:632 DefaultViewcontext.cpp:640
+#: PhotoDatasource.cpp:71 PhotoDatasource.cpp:95
+msgid "PhotoElement"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:29
+msgid "Pixel Base"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:31
+msgid "Pixel Warp"
+msgstr ""
+
+#: PointElementEditor.cpp:40
+msgid "Point_1"
+msgstr ""
+
+#: MeassureAreaElementEditor.cpp:54 GeometryElementEditor.cpp:42
+#: PolygonElementEditor.cpp:40
+msgid "Polygon_1"
+msgstr ""
+
+#: LibraryItemAttribute.cpp:26
+msgid "Principal"
+msgstr ""
+
+#: Element.cpp:309
+msgid "Procesando..."
+msgstr ""
+
+#: VectorProcess.cpp:27
+msgid "Proceso"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:22
+msgid "Process"
+msgstr ""
+
+#: VectorEditor.cpp:1105
+msgid "REPACK "
+msgstr ""
+
+#: PixelInfoTool.cpp:442
+msgid "RGV: "
+msgstr ""
+
+#: ColorTableManager.cpp:369 ColorTableManager.cpp:449
+msgid "RVI"
+msgstr "RVI(Kim & Van Zyl 2004)"
+
+#: ClassifiedRasterDatasourceManipulator.cpp:103 TaskConfigBuilder.cpp:28
+#: RasterDatasource.cpp:102
+msgid "RasterDatasource"
+msgstr ""
+
+#: TerrainElement.cpp:569 TerrainElement.cpp:676 TerrainElement.cpp:680
+#: DefaultViewcontext.cpp:80 DefaultViewcontext.cpp:438
+#: DefaultViewcontext.cpp:443 DefaultViewcontext.cpp:638 Element.cpp:760
+#: RasterDatasource.cpp:80 RasterDatasource.cpp:94 RasterDatasource.cpp:136
+#: RasterDatasource.cpp:186
+msgid "RasterElement"
+msgstr ""
+
+#: Enhancement.cpp:21
+msgid "Realce"
+msgstr ""
+
+#: Element.cpp:162
+msgid "Recompute out extent with CHECK_WITH_INVERT_PROJ=TRUE"
+msgstr ""
+
+#: XmlFunctions.cpp:191
+msgid "Root"
+msgstr ""
+
+#: VectorElement.cpp:68
+msgid "SBN"
+msgstr ""
+
+#: VectorElement.cpp:68
+msgid "SBX"
+msgstr ""
+
+#: FilteredDatasource.cpp:93
+msgid "SELECCION "
+msgstr ""
+
+#: EnclosureManipulator.cpp:83
+msgid "SELECT * FROM "
+msgstr ""
+
+#: EnclosureInformation.cpp:62 Filter.cpp:24
+msgid "SELECT FID, * FROM"
+msgstr ""
+
+#: Table.cpp:55
+msgid "SELECT FID, * FROM "
+msgstr ""
+
+#: VectorElement.cpp:68
+msgid "SHX"
+msgstr ""
+
+#: ClassInformation.cpp:26
+msgid "SIN CLASE"
+msgstr ""
+
+#: ClassifiedRasterDatasourceManipulator.cpp:42
+msgid "SIZEX"
+msgstr ""
+
+#: ClassifiedRasterDatasourceManipulator.cpp:47
+msgid "SIZEY"
+msgstr ""
+
+#: ColorTableManager.cpp:370
+msgid "SMI"
+msgstr ""
+
+#: EnclosureManipulator.cpp:35
+msgid "SPATIALREFERENCE"
+msgstr ""
+
+#: SpatialReference.cpp:43
+msgid "SPHEROID"
+msgstr ""
+
+#: ImageTagHandler.cpp:48 ImageTagHandler.cpp:49
+msgid "SRC"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:333
+msgid "START MANAGER ORDER"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:342
+msgid "START TREE ORDER"
+msgstr ""
+
+#: suri.cpp:76
+msgid "SURI_GDAL_INCLUDE"
+msgstr ""
+
+#: AnotationElement.h:29
+msgid "SURLabel"
+msgstr ""
+
+#: RasterRenderer.cpp:668
+msgid "Se calculo un valor negativo para reservar memoria! (MODO GIS)"
+msgstr ""
+
+#: DatasourceInterface.cpp:57 DatasourceInterface.cpp:66
+#: DatasourceInterface.cpp:75 DatasourceInterface.cpp:84
+msgid "Se esta llamando al inicializar de DatasourceInterface!!"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:41
+msgid "SelectedBands"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:57
+msgid "Sistemas Georrefenciados"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:54
+msgid "Sistemas Proyectados"
+msgstr ""
+
+#: PixelInfoTool.cpp:216 VectorElement.cpp:263 Element.cpp:884
+#: RasterElement.cpp:200
+msgid "SoPI"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:53
+msgid "SpatialBounds"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:44
+msgid "SpectralOn"
+msgstr ""
+
+#: SREGaussianEnhancement.cpp:118
+msgid "Stdev"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:36
+msgid "SubsetInWindow"
+msgstr ""
+
+#: ProcessAdaptLayer.cpp:37
+msgid "SubsetOutWindow"
+msgstr ""
+
+#: VectorRenderer.cpp:1517
+msgid "Suri-brush"
+msgstr ""
+
+#: VectorRenderer.cpp:1261
+msgid "Suri-label"
+msgstr ""
+
+#: VectorRenderer.cpp:1428
+msgid "Suri-pen"
+msgstr ""
+
+#: VectorRenderer.cpp:1588 VectorRenderer.cpp:1633
+msgid "Suri-symbol"
+msgstr ""
+
+#: SpatialReference.cpp:49
+msgid "TOWGS84"
+msgstr ""
+
+#: OgrGeometryEditor.cpp:248 Element.cpp:161
+msgid "TRUE"
+msgstr ""
+
+#: DensitySliceLibraryOrigin.cpp:19
+msgid "Tabla de intervalos"
+msgstr ""
+
+#: TaskConfigBuilder.cpp:24
+msgid "Task"
+msgstr ""
+
+#: TerrainElement.cpp:427 DefaultViewcontext.cpp:80 DefaultViewcontext.cpp:630
+#: XmlUrlManager.cpp:147 RasterDatasource.cpp:113 RasterDatasource.cpp:136
+#: RasterDatasource.cpp:185
+msgid "TerrainElement"
+msgstr ""
+
+#: VectorTableStructureDriver.cpp:19
+msgid "Tipo"
+msgstr ""
+
+#: TaskConfigBuilder.cpp:27
+msgid "ToolName"
+msgstr ""
+
+#: SpatialReference.cpp:41
+msgid "UNIT"
+msgstr ""
+
+#: ProjectFile.cpp:32
+msgid "UTF-8"
+msgstr ""
+
+#: VectorStyle.cpp:283
+msgid "VECTORSTYLE"
+msgstr ""
+
+#: VectorStyle.cpp:496
+msgid "VECTORSTYLE["
+msgstr ""
+
+#: VectorStyleManager.cpp:33
+msgid "VECTORSTYLE[0,\"Desconocido\"]"
+msgstr ""
+
+#: AnotationElementEditor.h:32
+msgid ""
+"VECTORSTYLE[1,\"Anotacion_BN\",SYMBOL[\"Suri-symbol\",0,COLOR[0,0,0,0],SIZE"
+"[1]],LABEL[\"Suri-label\",1,"
+msgstr ""
+
+#: PointElementEditor.cpp:38
+msgid ""
+"VECTORSTYLE[1,\"Circulo gris\",SYMBOL[\"Suri-symbol\",1,COLOR"
+"[128,128,128,255],SIZE[2]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:36
+msgid ""
+"VECTORSTYLE[1,\"Circulo rojo\",SYMBOL[\"Suri-symbol\",1,COLOR[255,0,0,255],"
+"SIZE[1]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:45
+msgid ""
+"VECTORSTYLE[1,\"Cruz Violeta\",SYMBOL[\"Suri-symbol\",4,COLOR"
+"[151,45,232,255],SIZE[1]]]"
+msgstr ""
+
+#: PointElementEditor.cpp:32
+msgid ""
+"VECTORSTYLE[1,\"Cruz violeta\",SYMBOL[\"Suri-symbol\",4,COLOR[128,0,255,255],"
+"SIZE[2]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:39
+msgid ""
+"VECTORSTYLE[1,\"Cuadrado cyan\",SYMBOL[\"Suri-symbol\",2,COLOR"
+"[128,255,255,255],SIZE[1]]]"
+msgstr ""
+
+#: PointElementEditor.cpp:35
+msgid ""
+"VECTORSTYLE[1,\"Pentagono amarillo\",SYMBOL[\"Suri-symbol\",5,COLOR"
+"[255,255,0,255],SIZE[2]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:42
+msgid ""
+"VECTORSTYLE[1,\"Triangulo verde\",SYMBOL[\"Suri-symbol\",3,COLOR"
+"[0,255,0,255],SIZE[1]]]"
+msgstr ""
+
+#: GeometryElementEditor.h:30 LineElementEditor.cpp:32
+msgid ""
+"VECTORSTYLE[2,\"Linea amarillo\",PEN[\"Suri-pen\",1,COLOR[255,255,0,255],"
+"WIDTH[2]]]"
+msgstr ""
+
+#: MeassureDistanceElementEditor.cpp:48
+msgid ""
+"VECTORSTYLE[2,\"Linea azul\",PEN[\"Suri-pen\",1,COLOR[0,0,255,255],WIDTH[1]],"
+"SYMBOL[\"Suri-symbol\",3,COLOR[128,255,255,255],SIZE[2]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:58
+msgid ""
+"VECTORSTYLE[2,\"Linea blanca\",PEN[\"Suri-pen\",1,COLOR[255,255,255,255],"
+"WIDTH[1]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:55
+msgid ""
+"VECTORSTYLE[2,\"Linea celeste\",PEN[\"Suri-pen\",1,COLOR[40,185,255,255],"
+"WIDTH[1]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:52
+msgid ""
+"VECTORSTYLE[2,\"Linea naranja\",PEN[\"Suri-pen\",1,COLOR[255,128,0,255],WIDTH"
+"[1]]]"
+msgstr ""
+
+#: MeassureDistanceElementEditor.cpp:42
+msgid ""
+"VECTORSTYLE[2,\"Linea rojo\",PEN[\"Suri-pen\",1,COLOR[255,0,0,255],WIDTH[1]],"
+"SYMBOL[\"Suri-symbol\",1,COLOR[255,128,0,255],SIZE[2]]]"
+msgstr ""
+
+#: GeometryElementEditor.h:32 LineElementEditor.cpp:34
+msgid ""
+"VECTORSTYLE[2,\"Linea rojo\",PEN[\"Suri-pen\",1,COLOR[255,0,0,255],WIDTH[2]]]"
+msgstr ""
+
+#: MeassureDistanceElementEditor.cpp:45
+msgid ""
+"VECTORSTYLE[2,\"Linea verde\",PEN[\"Suri-pen\",1,COLOR[0,128,0,255],WIDTH"
+"[1]],SYMBOL[\"Suri-symbol\",2,COLOR[128,255,0,255],SIZE[2]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:49
+msgid ""
+"VECTORSTYLE[2,\"Linea verde\",PEN[\"Suri-pen\",1,COLOR[0,255,0,255],WIDTH"
+"[1]]]"
+msgstr ""
+
+#: GeometryElementEditor.h:35 LineElementEditor.cpp:37
+msgid ""
+"VECTORSTYLE[2,\"Linea violeta\",PEN[\"Suri-pen\",1,COLOR[128,0,255,255],WIDTH"
+"[2]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:74
+msgid ""
+"VECTORSTYLE[3,\"Mascara vectorial\",BRUSH[\"Suri-brush\",1,COLOR"
+"[255,255,255,255]],PEN[\"Suri-pen\",1,COLOR[255,255,255,255],WIDTH[1]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:77
+msgid ""
+"VECTORSTYLE[3,\"Mascara vectorial\",INVERT[\"Invert brush colors\",1],BRUSH"
+"[\"Suri-brush\",1,COLOR[255,255,255,255]],PEN[\"Suri-pen\",1,COLOR"
+"[255,255,255,255],WIDTH[1]]]"
+msgstr ""
+
+#: GeometryElementEditor.cpp:33 VectorStyleManager.cpp:65
+msgid ""
+"VECTORSTYLE[3,\"Poligono amarillo\",PEN[\"Suri-pen\",1,COLOR[255,255,0,255],"
+"WIDTH[1]]]"
+msgstr ""
+
+#: MeassureAreaElementEditor.cpp:44
+msgid ""
+"VECTORSTYLE[3,\"Poligono azul\",BRUSH[\"Suri-brush\",2,COLOR[0,255,255,255]],"
+"PEN[\"Suri-pen\",2,COLOR[0,0,255,255],WIDTH[1]],SYMBOL[\"Suri-symbol\",3,"
+"COLOR[128,255,255,255],SIZE[2]]]"
+msgstr ""
+
+#: GeometryElementEditor.cpp:36 VectorStyleManager.cpp:68
+msgid ""
+"VECTORSTYLE[3,\"Poligono azul\",PEN[\"Suri-pen\",1,COLOR[0,0,255,255],WIDTH"
+"[1]]]"
+msgstr ""
+
+#: PolygonElementEditor.cpp:32
+msgid ""
+"VECTORSTYLE[3,\"Poligono cyan\",PEN[\"Suri-pen\",1,COLOR[128,255,255,255],"
+"WIDTH[2]]]"
+msgstr ""
+
+#: PolygonElementEditor.cpp:35
+msgid ""
+"VECTORSTYLE[3,\"Poligono lavanda\",PEN[\"Suri-pen\",1,COLOR[255,128,255,255],"
+"WIDTH[2]]]"
+msgstr ""
+
+#: MeassureAreaElementEditor.cpp:38
+msgid ""
+"VECTORSTYLE[3,\"Poligono rojo\",BRUSH[\"Suri-brush\",2,COLOR[255,0,0,255]],"
+"PEN[\"Suri-pen\",1,COLOR[255,0,0,255],WIDTH[1]],SYMBOL[\"Suri-symbol\",1,"
+"COLOR[128,255,0,255],SIZE[2]],LABEL[\"Suri-label\",0,EXPRESSION[],COLOR"
+"[0,0,0,255],BACKCOLOR[0,0,0,0],SIZE[8],ITALIC[0],BOLD[0],UNDERLINED[0],ANGLE"
+"[0],OFFSET[0,0],ANCHOR[4]]]"
+msgstr ""
+
+#: GeometryElementEditor.cpp:30 VectorStyleManager.cpp:71
+msgid ""
+"VECTORSTYLE[3,\"Poligono rojo\",PEN[\"Suri-pen\",1,COLOR[255,0,0,255],WIDTH"
+"[1]]]"
+msgstr ""
+
+#: VectorStyleManager.cpp:62
+msgid ""
+"VECTORSTYLE[3,\"Poligono rosa\",PEN[\"Suri-pen\",1,COLOR[255,128,128,255],"
+"WIDTH[1]]]"
+msgstr ""
+
+#: MeassureAreaElementEditor.cpp:41
+msgid ""
+"VECTORSTYLE[3,\"Poligono verde\",BRUSH[\"Suri-brush\",2,COLOR"
+"[128,255,128,255]],PEN[\"Suri-pen\",2,COLOR[0,128,0,255],WIDTH[1]],SYMBOL"
+"[\"Suri-symbol\",2,COLOR[128,255,0,255],SIZE[2]]]"
+msgstr ""
+
+#: PolygonElementEditor.cpp:38
+msgid ""
+"VECTORSTYLE[3,\"Poligono verde\",PEN[\"Suri-pen\",1,COLOR[0,255,0,255],WIDTH"
+"[2]]]"
+msgstr ""
+
+#: VectorStyle.cpp:299 VectorStyle.cpp:517
+msgid "VECTORSTYLE|BRUSH"
+msgstr ""
+
+#: VectorStyle.cpp:304 VectorStyle.cpp:523
+msgid "VECTORSTYLE|BRUSH|COLOR"
+msgstr ""
+
+#: VectorStyle.cpp:293 VectorStyle.cpp:511
+msgid "VECTORSTYLE|INVERT"
+msgstr ""
+
+#: VectorStyle.cpp:351 VectorStyle.cpp:556
+msgid "VECTORSTYLE|LABEL"
+msgstr ""
+
+#: VectorStyle.cpp:399 VectorStyle.cpp:580
+msgid "VECTORSTYLE|LABEL|ANCHOR"
+msgstr ""
+
+#: VectorStyle.cpp:390 VectorStyle.cpp:575
+msgid "VECTORSTYLE|LABEL|ANGLE"
+msgstr ""
+
+#: VectorStyle.cpp:367 VectorStyle.cpp:569
+msgid "VECTORSTYLE|LABEL|BACKCOLOR"
+msgstr ""
+
+#: VectorStyle.cpp:382 VectorStyle.cpp:572
+msgid "VECTORSTYLE|LABEL|BOLD"
+msgstr ""
+
+#: VectorStyle.cpp:360 VectorStyle.cpp:563
+msgid "VECTORSTYLE|LABEL|COLOR"
+msgstr ""
+
+#: VectorStyle.cpp:356 VectorStyle.cpp:557
+msgid "VECTORSTYLE|LABEL|EXPRESSION"
+msgstr ""
+
+#: VectorStyle.cpp:378 VectorStyle.cpp:571
+msgid "VECTORSTYLE|LABEL|ITALIC"
+msgstr ""
+
+#: VectorStyle.cpp:394 VectorStyle.cpp:579
+msgid "VECTORSTYLE|LABEL|OFFSET"
+msgstr ""
+
+#: VectorStyle.cpp:374 VectorStyle.cpp:570
+msgid "VECTORSTYLE|LABEL|SIZE"
+msgstr ""
+
+#: VectorStyle.cpp:386 VectorStyle.cpp:574
+msgid "VECTORSTYLE|LABEL|UNDERLINED"
+msgstr ""
+
+#: VectorStyle.cpp:314 VectorStyle.cpp:530
+msgid "VECTORSTYLE|PEN"
+msgstr ""
+
+#: VectorStyle.cpp:319 VectorStyle.cpp:536
+msgid "VECTORSTYLE|PEN|COLOR"
+msgstr ""
+
+#: VectorStyle.cpp:326 VectorStyle.cpp:537
+msgid "VECTORSTYLE|PEN|WIDTH"
+msgstr ""
+
+#: VectorStyle.cpp:333 VectorStyle.cpp:544
+msgid "VECTORSTYLE|SYMBOL"
+msgstr ""
+
+#: VectorStyle.cpp:338 VectorStyle.cpp:550
+msgid "VECTORSTYLE|SYMBOL|COLOR"
+msgstr ""
+
+#: VectorStyle.cpp:345 VectorStyle.cpp:551
+msgid "VECTORSTYLE|SYMBOL|SIZE"
+msgstr ""
+
+#: EnclosureManipulator.cpp:136 VectorElementEditor.cpp:360
+#: FileVectorExporterProcess.cpp:108 TaskConfigBuilder.cpp:25
+msgid "VectorDatasource"
+msgstr ""
+
+#: VectorDatasource.cpp:89 VectorDatasource.cpp:137
+#: FileVectorExporterProcess.cpp:79 DefaultViewcontext.cpp:81
+#: VectorElement.cpp:139
+msgid "VectorElement"
+msgstr ""
+
+#: VectorProcess.cpp:35
+msgid "VectorProcess"
+msgstr ""
+
+#: Element.cpp:162
+msgid "WARP"
+msgstr ""
+
+#: Filter.cpp:25 Filter.cpp:49 Filter.cpp:58 Filter.cpp:59
+msgid "WHERE"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:38
+msgid "WKT"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:98
+#, c-format
+msgid "WKT: %s"
+msgstr ""
+
+#: DefaultViewcontext.cpp:80 RasterDatasource.cpp:75 RasterDatasource.cpp:136
+#: RasterDatasource.cpp:185
+msgid "WxsElement"
+msgstr ""
+
+#: GeoreferenceGcpDriver.cpp:26
+msgid "X"
+msgstr ""
+
+#: ProjectFile.cpp:466
+msgid "XmlUrlManager"
+msgstr ""
+
+#: GeoreferenceGcpDriver.cpp:27
+msgid "Y"
+msgstr ""
+
+#: LibraryItemOrigin.cpp:363
+msgid "["
+msgstr ""
+
+#: BufferedDriver.cpp:737 BufferedDriver.cpp:776 BufferedDriver.cpp:807
+msgid "[ "
+msgstr ""
+
+#: ZoomRasterFactorTool.cpp:241
+#, c-format
+msgid "[%0.2f : %0.2f]"
+msgstr ""
+
+#: Element.cpp:1143
+msgid "\\"
+msgstr ""
+
+#: BufferedDriver.cpp:766 BufferedDriver.cpp:797 BufferedDriver.cpp:828
+#: LibraryItemOrigin.cpp:376
+msgid "]"
+msgstr ""
+
+#: MemoryDriver.cpp:650 DefaultTable.cpp:204
+msgid "]\n"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:493 XmlElementManager.cpp:60 VectorElement.cpp:836
+#: GeoreferenceGcpDriver.cpp:543
+msgid "_"
+msgstr ""
+
+#: GenericTool.cpp:181
+msgid "_commands"
+msgstr ""
+
+#: EnclosureValidator.cpp:34
+msgid "_desc_Area"
+msgstr ""
+
+#: EnclosureValidator.cpp:31
+msgid "_tipo_Area"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:37
+msgid "algorithm"
+msgstr ""
+
+#: PhotoElement.cpp:159
+msgid "alt=\"Fotografia\"/>"
+msgstr ""
+
+#: EquationParser.cpp:116
+msgid "and"
+msgstr ""
+
+#: WxFileCache.cpp:202
+msgid "ani"
+msgstr ""
+
+#: AnotationElement.h:31
+msgid "anotacion"
+msgstr "anotación"
+
+#: LibraryItemOriginFactory.cpp:37
+msgid "app_base_dir_volatile"
+msgstr ""
+
+#: Configuration.cpp:37 LibraryConfig.cpp:160 Library.cpp:40
+#: GdalSrsItemOrigin.cpp:272 DensitySliceLibraryOrigin.cpp:33
+msgid "app_data_dir"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:114
+msgid "app_library_dir"
+msgstr ""
+
+#: Configuration.cpp:33
+msgid "app_needed_files"
+msgstr ""
+
+#: PixelInfoTool.cpp:216 VectorElement.cpp:262 Element.cpp:883
+#: RasterElement.cpp:199
+msgid "app_short_name"
+msgstr ""
+
+#: VectorElementEditor.cpp:121
+msgid "app_temp_dir"
+msgstr ""
+
+#: ProjectFile.cpp:44
+msgid "app_version"
+msgstr ""
+
+#: WxFileCache.cpp:205
+msgid "application/vnd.google-earth.kml+xml"
+msgstr ""
+
+#: WxFileCache.cpp:207
+msgid "application/vnd.google-earth.kmz"
+msgstr ""
+
+#: WxFileCache.cpp:203
+msgid "application/x-navi-animation"
+msgstr ""
+
+#: WxFileCache.cpp:209
+msgid "application/xml"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:28
+msgid "base_datasource"
+msgstr ""
+
+#: WxFileCache.cpp:184
+msgid "bmp"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:315 CoregisterGcpDriver.cpp:320
+#: CoregisterGcpDriver.cpp:326 CoregisterGcpDriver.cpp:330
+#: GeoreferenceGcpDriver.cpp:373 GeoreferenceGcpDriver.cpp:378
+msgid "c_"
+msgstr ""
+
+#: LibraryConfig.cpp:41
+msgid "capabilities"
+msgstr ""
+
+#: VectorEditor.cpp:560 VectorEditor.cpp:561 VectorEditor.cpp:819
+#: VectorEditor.cpp:824 VectorEditor.cpp:826 VectorEditor.cpp:830
+#: VectorEditor.cpp:831
+msgid "clockwise"
+msgstr ""
+
+#: Configuration.cpp:97
+msgid "configuracion.xml"
+msgstr ""
+
+#: MahalanobisAlgorithm.cpp:93
+#, c-format
+msgid "cov_mat_first_trainning_area[%d, %d]: %f"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:40 RasterRenderer.cpp:39
+msgid "dataset"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:36 LibraryManagerFactory.cpp:41
+msgid "datum"
+msgstr ""
+
+#: VectorElement.cpp:66 VectorElement.cpp:779
+msgid "dbf"
+msgstr ""
+
+#: ColorTableManager.cpp:30 VectorStyleManager.cpp:25
+msgid "default"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:37 LibraryManagerFactory.cpp:43
+msgid "densityslice"
+msgstr ""
+
+#: DensitySliceLibraryOrigin.cpp:24
+msgid "densityslice.lbr"
+msgstr ""
+
+#: WxsElement.cpp:115 RasterElement.cpp:564
+msgid "dependencies"
+msgstr ""
+
+#: EnclosureInformation.cpp:28
+msgid "desc_Area"
+msgstr ""
+
+#: MahalanobisAlgorithm.cpp:104
+#, c-format
+msgid "descomposicion lu de mahalanobis_cov_mat[%d, %d]: %f"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:33
+msgid "destination_rastermodel_wkt"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:31
+msgid "destination_spatialreference_wkt"
+msgstr ""
+
+#: XmlElementManager.cpp:27
+msgid "dir_"
+msgstr ""
+
+#: VectorElementEditor.h:29
+msgid "draw"
+msgstr ""
+
+#: XmlUrlManager.cpp:155
+msgid "elemento"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:36 LibraryManagerFactory.cpp:42
+msgid "ellipsoid"
+msgstr ""
+
+#: RenderizationManager.cpp:354
+msgid "envi"
+msgstr ""
+
+#: WxsRenderer.cpp:28 WxsElement.cpp:35
+msgid "estilo"
+msgstr ""
+
+#: LutArray.cpp:66
+msgid "etiquetas"
+msgstr ""
+
+#: LibraryConfig.cpp:35
+msgid "favorite-index"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:759 RasterRenderer.cpp:858
+msgid "file"
+msgstr ""
+
+#: RasterElement.cpp:557
+msgid "filename"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:39 RasterRenderer.cpp:38
+msgid "format"
+msgstr ""
+
+#: WxsRenderer.cpp:29 WxsElement.cpp:36
+msgid "formato"
+msgstr ""
+
+#: LibraryConfigDefinitionOriginSource.cpp:17
+msgid "gdal"
+msgstr ""
+
+#: WxFileCache.cpp:179 WxFileCache.cpp:186
+msgid "gif"
+msgstr ""
+
+#: ReprojectionRenderer.cpp:41 RasterRenderer.cpp:40
+msgid "hdf5"
+msgstr ""
+
+#: WxFileCache.cpp:194
+msgid "ico"
+msgstr ""
+
+#: LibraryLinkItemAttribute.cpp:24 TextFileGcpLoader.cpp:39
+msgid "id"
+msgstr ""
+
+#: SuriObjectGroupManager.cpp:337
+#, c-format
+msgid "id: %s"
+msgstr ""
+
+#: WxsRenderer.cpp:30 WxsElement.cpp:37
+msgid "idrefespacial"
+msgstr ""
+
+#: WxFileCache.cpp:200
+msgid "iff"
+msgstr ""
+
+#: WxFileCache.cpp:220
+msgid "image/"
+msgstr ""
+
+#: WxFileCache.cpp:185
+msgid "image/bmp"
+msgstr ""
+
+#: WxFileCache.cpp:180 WxFileCache.cpp:187
+msgid "image/gif"
+msgstr ""
+
+#: WxFileCache.cpp:201
+msgid "image/iff"
+msgstr ""
+
+#: WxFileCache.cpp:183
+msgid "image/jpeg"
+msgstr ""
+
+#: WxFileCache.cpp:189
+msgid "image/png"
+msgstr ""
+
+#: WxFileCache.cpp:191
+msgid "image/tiff"
+msgstr ""
+
+#: WxFileCache.cpp:195
+msgid "image/x-icon"
+msgstr ""
+
+#: WxFileCache.cpp:197
+msgid "image/x-pcx"
+msgstr ""
+
+#: WxFileCache.cpp:199
+msgid "image/x-portable-anymap"
+msgstr ""
+
+#: WxFileCache.cpp:193
+msgid "image/x-xpixmap"
+msgstr ""
+
+#: LibraryItemAttributeFactory.cpp:28
+msgid "inf"
+msgstr ""
+
+#: LibraryConfig.cpp:40
+msgid "itemtype"
+msgstr ""
+
+#: WxFileCache.cpp:182
+msgid "jpe"
+msgstr ""
+
+#: WxFileCache.cpp:181
+msgid "jpeg"
+msgstr ""
+
+#: WxFileCache.cpp:181
+msgid "jpg"
+msgstr ""
+
+#: WxFileCache.cpp:204
+msgid "kml"
+msgstr ""
+
+#: WxFileCache.cpp:206
+msgid "kmz"
+msgstr ""
+
+#: VectorStyleManager.cpp:31
+msgid "layer"
+msgstr ""
+
+#: WxsRenderer.cpp:230 WxsRenderer.cpp:273 WxsElement.cpp:156
+#: WxsElement.cpp:200 WxsElement.cpp:256 WxsElement.cpp:264
+msgid "layers"
+msgstr ""
+
+#: LibraryConfig.cpp:42
+msgid "level"
+msgstr ""
+
+#: LibraryLinkItemAttribute.cpp:26
+msgid "libcode"
+msgstr ""
+
+#: LibraryItemAttributeFactory.cpp:36 LibraryLinkItemAttribute.cpp:31
+msgid "liblink"
+msgstr ""
+
+#: LibraryConfig.cpp:30
+msgid "libraries-config"
+msgstr ""
+
+#: LibraryConfig.cpp:31
+msgid "libraries-definitions"
+msgstr ""
+
+#: LibraryConfig.cpp:43
+msgid "libraries.xml"
+msgstr ""
+
+#: LibraryConfig.cpp:162
+msgid "libraries/"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:33
+msgid "libraries/datum.idx"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:34
+msgid "libraries/ellipsoid.idx"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:32
+msgid "libraries/geografic.idx"
+msgstr ""
+
+#: GdalSrsItemOrigin.cpp:31
+msgid "libraries/projected.idx"
+msgstr ""
+
+#: LibraryConfig.cpp:32
+msgid "library-definition"
+msgstr ""
+
+#: LayerList.cpp:24
+msgid "lista"
+msgstr ""
+
+#: WxsElement.cpp:145 WxsElement.cpp:214
+msgid "lrx"
+msgstr ""
+
+#: WxsElement.cpp:146 WxsElement.cpp:217
+msgid "lry"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:36
+msgid "lut"
+msgstr ""
+
+#: MahalanobisAlgorithm.cpp:100
+#, c-format
+msgid "mahalanobis_cov_mat[%d, %d]: %f"
+msgstr ""
+
+#: MapRenderer.cpp:97 MapRenderer.cpp:161 MapRenderer.cpp:252
+msgid "mapa"
+msgstr ""
+
+#: VectorStyleManager.cpp:27
+msgid "mask"
+msgstr ""
+
+#: RenderizationManager.cpp:354
+msgid "mask.dat"
+msgstr ""
+
+#: VectorStyleManager.cpp:29
+msgid "mask_external"
+msgstr ""
+
+#: VectorElementEditor.h:31
+msgid "meassure"
+msgstr ""
+
+#: WxFileCache.cpp:146 WxFileCache.cpp:161
+msgid "memory:"
+msgstr ""
+
+#: resources.h:387
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-AddColumn-16.png"
+msgstr ""
+
+#: resources.h:364
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-AddElement-16.png"
+msgstr ""
+
+#: resources.h:391
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-AddRow-16.png"
+msgstr ""
+
+#: resources.h:368
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-AddTerrain-16.png"
+msgstr ""
+
+#: resources.h:366
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-AddWmsElement-16."
+"png"
+msgstr ""
+
+#: resources.h:370
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-CloseElement-16."
+"png"
+msgstr ""
+
+#: resources.h:355
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-CloseProject-16."
+"png"
+msgstr ""
+
+#: resources.h:321
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-CollapsedNode-16."
+"png"
+msgstr ""
+
+#: resources.h:382
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-CreateGroup-16.png"
+msgstr ""
+
+#: resources.h:318
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-DeleteArea-16.png"
+msgstr ""
+
+#: resources.h:389
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-DeleteColumn-16."
+"png"
+msgstr ""
+
+#: resources.h:316
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-DeleteGeometry-16."
+"png"
+msgstr ""
+
+#: resources.h:393
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-DeleteRow-16.png"
+msgstr ""
+
+#: resources.h:253
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-DiscardVector-16."
+"png"
+msgstr ""
+
+#: resources.h:323
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-ExpandedNode-16."
+"png"
+msgstr ""
+
+#: resources.h:150
+msgid "memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-Go-16.png"
+msgstr ""
+
+#: resources.h:374
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-HideElement-16.png"
+msgstr ""
+
+#: resources.h:380
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-HideElementAll-16."
+"png"
+msgstr ""
+
+#: resources.h:361
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-ImportProject-16."
+"png"
+msgstr ""
+
+#: resources.h:307
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-NewGeometry-16.png"
+msgstr ""
+
+#: resources.h:351
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-NewProject-16.png"
+msgstr ""
+
+#: resources.h:353
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-OpenProject-16.png"
+msgstr ""
+
+#: resources.h:258
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-Prediction-16.png"
+msgstr ""
+
+#: resources.h:376
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-Properties-16.png"
+msgstr ""
+
+#: resources.h:357
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-SaveProject-16.png"
+msgstr ""
+
+#: resources.h:359
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-SaveProjectAs-16."
+"png"
+msgstr ""
+
+#: resources.h:251
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-SaveVector-16.png"
+msgstr ""
+
+#: resources.h:129
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-SaveView-16.png"
+msgstr ""
+
+#: resources.h:372
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-ShowElement-16.png"
+msgstr ""
+
+#: resources.h:378
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-ShowElementAll-16."
+"png"
+msgstr ""
+
+#: resources.h:262
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-"
+"StartCoregisterProcess-16.png"
+msgstr ""
+
+#: resources.h:260
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-Switch-16.png"
+msgstr ""
+
+#: resources.h:135
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-ZoomFullExtent-16."
+"png"
+msgstr ""
+
+#: resources.h:142
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-"
+"ZoomLayerExtent-16.png"
+msgstr ""
+
+#: resources.h:145
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_button-ZoomOneToOne-16."
+"png"
+msgstr ""
+
+#: resources.h:210
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"BandCombinationAndEnhancement-32.png"
+msgstr ""
+
+#: resources.h:168
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"BandCombinationSelection-32.png"
+msgstr ""
+
+#: resources.h:188
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-BandList-16.png"
+msgstr ""
+
+#: resources.h:196
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-BandList-"
+"GreyScale-16.png"
+msgstr ""
+
+#: resources.h:194
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-BandList-RGB-"
+"Blue-16.png"
+msgstr ""
+
+#: resources.h:192
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-BandList-RGB-"
+"Green-16.png"
+msgstr ""
+
+#: resources.h:190
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-BandList-RGB-Red-16."
+"png"
+msgstr ""
+
+#: resources.h:172
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-ClassProperties-32."
+"png"
+msgstr ""
+
+#: resources.h:214
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"ClassificationParameters-32.png"
+msgstr ""
+
+#: resources.h:160
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"ElementGeneralProperties-32.png"
+msgstr ""
+
+#: resources.h:208
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"EnhancementSelection-32.png"
+msgstr ""
+
+#: resources.h:202
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-FilterSelection-32."
+"png"
+msgstr ""
+
+#: resources.h:206
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"GeorreferenceProperties-16.png"
+msgstr ""
+
+#: resources.h:204
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"GeorreferenceProperties-32.png"
+msgstr ""
+
+#: resources.h:81
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-HotlinkTable-32.png"
+msgstr ""
+
+#: resources.h:215
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-HourGlass-16.png"
+msgstr ""
+
+#: resources.h:185
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"ImageFormatSelection-32.png"
+msgstr ""
+
+#: resources.h:200
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-IndexSelection-32."
+"png"
+msgstr ""
+
+#: resources.h:212
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-KMeansParameters-32."
+"png"
+msgstr ""
+
+#: resources.h:198
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"ListElementSelection-32.png"
+msgstr ""
+
+#: resources.h:84
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-MaskSelection-32.png"
+msgstr ""
+
+#: resources.h:75
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-NavigationWidget-32."
+"png"
+msgstr ""
+
+#: resources.h:170
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-RasterProperties-32."
+"png"
+msgstr ""
+
+#: resources.h:187
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-SpatialSelection-32."
+"png"
+msgstr ""
+
+#: resources.h:166
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"SpectralSelection-32.png"
+msgstr ""
+
+#: resources.h:164
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"TerrainProperties-32.png"
+msgstr ""
+
+#: resources.h:162
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-VectorProperties-32."
+"png"
+msgstr ""
+
+#: resources.h:311
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-VectorTable-16.png"
+msgstr ""
+
+#: resources.h:78
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-VectorTable-32.png"
+msgstr ""
+
+#: resources.h:326
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"ViewportProperties-16.png"
+msgstr ""
+
+#: resources.h:301
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-AddGcpPoint-16.png"
+msgstr ""
+
+#: resources.h:303
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-"
+"DeleteVectorPoint-16.png"
+msgstr ""
+
+#: resources.h:231
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-DrawAnotation-16.png"
+msgstr ""
+
+#: resources.h:312
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-DrawClass-16.png"
+msgstr ""
+
+#: resources.h:233
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-DrawLine-16.png"
+msgstr ""
+
+#: resources.h:232
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-DrawPoint-16.png"
+msgstr ""
+
+#: resources.h:235
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-DrawPolygon-16.png"
+msgstr ""
+
+#: resources.h:255
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-EditTask-16_48.png"
+msgstr ""
+
+#: resources.h:265
+msgid "memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-GpsLine-16.png"
+msgstr ""
+
+#: resources.h:264
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-GpsPoint-16.png"
+msgstr ""
+
+#: resources.h:267
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-GpsPolygon-16.png"
+msgstr ""
+
+#: resources.h:272
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-MeasureArea-16.png"
+msgstr ""
+
+#: resources.h:270
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-MeasureDistance-16."
+"png"
+msgstr ""
+
+#: resources.h:249
+msgid "memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-NewGcp-16.png"
+msgstr ""
+
+#: resources.h:247
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-OpenGcpPoint-16.png"
+msgstr ""
+
+#: resources.h:341
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-RasterBandMath-16."
+"png"
+msgstr ""
+
+#: resources.h:343
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-"
+"RasterClassification-16.png"
+msgstr ""
+
+#: resources.h:335 resources.h:384
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-RasterExporter-16."
+"png"
+msgstr ""
+
+#: resources.h:337
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-RasterFilter-16.png"
+msgstr ""
+
+#: resources.h:339
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-RasterIndex-16.png"
+msgstr ""
+
+#: resources.h:348
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-RasterStatistics-16."
+"png"
+msgstr ""
+
+#: resources.h:345
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-"
+"RasterUnsupervisedClassification-16.png"
+msgstr ""
+
+#: resources.h:309
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-VectorEditToggle-16."
+"png"
+msgstr ""
+
+#: resources.h:305
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-"
+"VectorSelectToggle-16.png"
+msgstr ""
+
+#: resources.h:332
+msgid ""
+"memory::XRC_resource/libResources_xrced.cpp$bitmaps_tool-ViewportLink-16.png"
+msgstr ""
+
+#: resources.h:289
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-MapLegend-16.png"
+msgstr ""
+
+#: resources.h:291
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-MapNorthArrow-16.png"
+msgstr ""
+
+#: resources.h:287
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-MapScale-16.png"
+msgstr ""
+
+#: resources.h:132
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-SaveView-16.png"
+msgstr ""
+
+#: resources.h:138
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-ZoomFullExtent-16.png"
+msgstr ""
+
+#: resources.h:148
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-ZoomOneToOne-16.png"
+msgstr ""
+
+#: resources.h:67
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-HotlinkElement-32.png"
+msgstr ""
+
+#: resources.h:175
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-HotlinkProperties-32.png"
+msgstr ""
+
+#: resources.h:95
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-Drag-16.png"
+msgstr ""
+
+#: resources.h:238
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawAnotation-16.png"
+msgstr ""
+
+#: resources.h:242
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawLine-16.png"
+msgstr ""
+
+#: resources.h:240
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawPoint-16.png"
+msgstr ""
+
+#: resources.h:244
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawPolygon-16.png"
+msgstr ""
+
+#: resources.h:107
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-IdentifyHotlink-16.png"
+msgstr ""
+
+#: resources.h:123
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-Navigation-16.png"
+msgstr ""
+
+#: resources.h:99
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_tool-ZoomIn-16.png"
+msgstr ""
+
+#: resources.h:157
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-CheckBoth-16.png"
+msgstr ""
+
+#: resources.h:153
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-CheckOff-16.png"
+msgstr ""
+
+#: resources.h:155
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-CheckOn-16.png"
+msgstr ""
+
+#: resources.h:395
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-ClearSelection-16."
+"png"
+msgstr ""
+
+#: resources.h:295
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-Close-16.png"
+msgstr ""
+
+#: resources.h:403
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-ConvertToClass-16."
+"png"
+msgstr ""
+
+#: resources.h:294
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-Delete-16.png"
+msgstr ""
+
+#: resources.h:399
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-InvertSelection-16."
+"png"
+msgstr ""
+
+#: resources.h:282
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-MapLegend-16.png"
+msgstr ""
+
+#: resources.h:284
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-MapNorthArrow-16."
+"png"
+msgstr ""
+
+#: resources.h:280
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-MapScale-16.png"
+msgstr ""
+
+#: resources.h:293
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-Mark-16.png"
+msgstr ""
+
+#: resources.h:412
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-Next-16.png"
+msgstr ""
+
+#: resources.h:277
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-PauseAnimation-16."
+"png"
+msgstr ""
+
+#: resources.h:406
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-Play-16.png"
+msgstr ""
+
+#: resources.h:275
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-PlayAnimation-16."
+"png"
+msgstr ""
+
+#: resources.h:410
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-Previous-16.png"
+msgstr ""
+
+#: resources.h:298
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-PrintDocument-16."
+"png"
+msgstr ""
+
+#: resources.h:401
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-QueryBuilder-16.png"
+msgstr ""
+
+#: resources.h:397
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-SelectAll-16.png"
+msgstr ""
+
+#: resources.h:408
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-Stop-16.png"
+msgstr ""
+
+#: resources.h:88
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-"
+"ToggleButtonSelected-19.png"
+msgstr ""
+
+#: resources.h:91
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_button-"
+"ToggleButtonToggled-24.png"
+msgstr ""
+
+#: resources.h:65
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-AnotationElement-16."
+"png"
+msgstr ""
+
+#: resources.h:63
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-AnotationElement-32."
+"png"
+msgstr ""
+
+#: resources.h:174
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"AnotationProperties-32.png"
+msgstr ""
+
+#: resources.h:179
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-ClassFusion-16.png"
+msgstr ""
+
+#: resources.h:177
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-ClassFusion-32.png"
+msgstr ""
+
+#: resources.h:226
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-DocumentElement-16."
+"png"
+msgstr ""
+
+#: resources.h:221
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-Drive-16.png"
+msgstr ""
+
+#: resources.h:20
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-Frame-16.png"
+msgstr ""
+
+#: resources.h:224
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-GeneralPixelInfo-16."
+"png"
+msgstr ""
+
+#: resources.h:55
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-LineVectorElement-16."
+"png"
+msgstr ""
+
+#: resources.h:53
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-LineVectorElement-32."
+"png"
+msgstr ""
+
+#: resources.h:72
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-MapElement-16.png"
+msgstr ""
+
+#: resources.h:70
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-MapElement-32.png"
+msgstr ""
+
+#: resources.h:227
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-PhotoElement-16.png"
+msgstr ""
+
+#: resources.h:228
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-PhotoProperties-32."
+"png"
+msgstr ""
+
+#: resources.h:50
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"PointVectorElement-16.png"
+msgstr ""
+
+#: resources.h:48
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"PointVectorElement-32.png"
+msgstr ""
+
+#: resources.h:60
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"PolygonVectorElement-16.png"
+msgstr ""
+
+#: resources.h:58
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-"
+"PolygonVectorElement-32.png"
+msgstr ""
+
+#: resources.h:25 resources.h:30
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-RasterElement-16.png"
+msgstr ""
+
+#: resources.h:28
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-RasterElement-32.png"
+msgstr ""
+
+#: resources.h:35
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-RasterOutputSize-16."
+"png"
+msgstr ""
+
+#: resources.h:33
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-RasterOutputSize-32."
+"png"
+msgstr ""
+
+#: resources.h:329
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-Reproject-32.png"
+msgstr ""
+
+#: resources.h:40
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-TerrainElement-16.png"
+msgstr ""
+
+#: resources.h:38
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-TerrainElement-32.png"
+msgstr ""
+
+#: resources.h:45
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-VectorElement-16.png"
+msgstr ""
+
+#: resources.h:43
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_icon-VectorElement-32.png"
+msgstr ""
+
+#: resources.h:218
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_picture-NorthArrow-128.png"
+msgstr ""
+
+#: resources.h:183
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-ConfusionMatrix-16."
+"png"
+msgstr ""
+
+#: resources.h:181
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-ConfusionMatrix-32."
+"png"
+msgstr ""
+
+#: resources.h:93
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-Drag-16.png"
+msgstr ""
+
+#: resources.h:114
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-EyeCamera-16.png"
+msgstr ""
+
+#: resources.h:105
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-IdentifyHotlink-16."
+"png"
+msgstr ""
+
+#: resources.h:314
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-Measure-16.png"
+msgstr ""
+
+#: resources.h:120
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-Navigation-16.png"
+msgstr ""
+
+#: resources.h:126
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-"
+"PixelLineNavigation-16.png"
+msgstr ""
+
+#: resources.h:117
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-SphericalCamera-16."
+"png"
+msgstr ""
+
+#: resources.h:101
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-ZoomIn-16.png"
+msgstr ""
+
+#: resources.h:97
+msgid ""
+"memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-ZoomMagnif-16.png"
+msgstr ""
+
+#: resources.h:103
+msgid "memory:XRC_resource/libResources_xrced.cpp$bitmaps_tool-ZoomOut-16.png"
+msgstr ""
+
+#: LibraryConfig.cpp:39
+msgid "name"
+msgstr ""
+
+#: SuriObject.cpp:30
+msgid "null"
+msgstr ""
+
+#: EquationParser.cpp:117
+msgid "or"
+msgstr ""
+
+#: LibraryConfig.cpp:34
+msgid "origin"
+msgstr ""
+
+#: LibraryConfig.cpp:33
+msgid "origins"
+msgstr ""
+
+#: LibraryConfig.cpp:37
+msgid "path"
+msgstr ""
+
+#: WxFileCache.cpp:196
+msgid "pcx"
+msgstr ""
+
+#: PhotoElement.cpp:120
+msgid "photo_margin"
+msgstr ""
+
+#: PhotoElement.cpp:116
+msgid "photo_max_width"
+msgstr ""
+
+#: PhotoElement.cpp:118
+msgid "photo_min_width"
+msgstr ""
+
+#: PhotoElement.cpp:172
+msgid "photo_template"
+msgstr ""
+
+#: WxFileCache.cpp:188
+msgid "png"
+msgstr ""
+
+#: WxFileCache.cpp:198
+msgid "pnm"
+msgstr ""
+
+#: VectorElement.cpp:66
+msgid "prj"
+msgstr ""
+
+#: LibraryItemAttributeFactory.cpp:34
+msgid "range"
+msgstr ""
+
+#: md5.cpp:112 md5.cpp:145 WxFileCache.cpp:135
+msgid "rb"
+msgstr ""
+
+#: XmlUrlManager.cpp:151
+msgid "renderizacion"
+msgstr "renderización"
+
+#: VectorElement.cpp:66
+msgid "sbn"
+msgstr ""
+
+#: VectorElement.cpp:66
+msgid "sbx"
+msgstr ""
+
+#: WxsRenderer.cpp:229 WxsRenderer.cpp:259 WxsElement.cpp:186
+#: WxsElement.cpp:256 WxsElement.cpp:260
+msgid "service"
+msgstr ""
+
+#: VectorElement.cpp:701
+msgid "shpmemory"
+msgstr ""
+
+#: VectorTablesPart.cpp:137 VectorElementEditor.cpp:159
+#: GeometryElementEditor.cpp:184
+msgid "shpmemory:"
+msgstr ""
+
+#: MeassureDistanceElementEditor.cpp:279
+msgid "shpmemory:tmp_measure_vector_line.shp"
+msgstr ""
+
+#: MeassureAreaElementEditor.cpp:217
+msgid "shpmemory:tmp_measure_vector_poly.shp"
+msgstr ""
+
+#: VectorElement.cpp:66 VectorElement.cpp:779
+msgid "shx"
+msgstr ""
+
+#: LibraryConfig.cpp:36
+msgid "source"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:32
+msgid "source_rastermodel_wkt"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:30
+msgid "source_spatialreference_wkt"
+msgstr ""
+
+#: BandMathRenderer.h:23
+msgid "sqr(b1^2+b2^2)"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:335 GeoreferenceGcpDriver.cpp:383
+msgid "sqrt( ("
+msgstr ""
+
+#: LibraryManagerFactory.cpp:36 LibraryManagerFactory.cpp:40
+msgid "srs"
+msgstr ""
+
+#: ParseSuriTemplates.cpp:71
+msgid "sur.html"
+msgstr ""
+
+#: VectorTablesPart.cpp:299
+msgid "temp"
+msgstr ""
+
+#: LibraryConfigDefinitionOriginSource.cpp:16
+msgid "textfile"
+msgstr ""
+
+#: XmlUrlManager.cpp:153
+msgid "textura"
+msgstr ""
+
+#: VectorEditorDriver.cpp:32 GeoreferenceGcpDriver.cpp:33
+msgid "the_geom"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:40
+msgid "the_geom1"
+msgstr ""
+
+#: CoregisterGcpDriver.cpp:41
+msgid "the_geom2"
+msgstr ""
+
+#: WxFileCache.cpp:190
+msgid "tif"
+msgstr ""
+
+#: WxFileCache.cpp:190
+msgid "tiff"
+msgstr ""
+
+#: SREnhancementRenderer.cpp:183 LutRenderer.cpp:157
+msgid "tipo de datos del canvas y los de salida del renderer"
+msgstr ""
+
+#: EnclosureInformation.cpp:27
+msgid "tipo_Area"
+msgstr ""
+
+#: GenericTool.cpp:181
+msgid "tool_"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:34
+msgid "transformation_name"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:35
+msgid "transformation_parameters"
+msgstr ""
+
+#: LibraryConfig.cpp:38
+msgid "type"
+msgstr ""
+
+#: RenderizationManager.cpp:355
+msgid "uchar"
+msgstr ""
+
+#: WxsElement.cpp:143 WxsElement.cpp:208
+msgid "ulx"
+msgstr ""
+
+#: WxsElement.cpp:144 WxsElement.cpp:211
+msgid "uly"
+msgstr ""
+
+#: ZipFile.cpp:33 WxsElement.cpp:191 WxsElement.cpp:263
+#: TextFileGcpLoader.cpp:38
+msgid "url"
+msgstr ""
+
+#: TerrainElement.cpp:216 TerrainElement.cpp:733
+msgid "v3d_exageracion"
+msgstr ""
+
+#: TerrainElement.cpp:608
+msgid "v3d_performance"
+msgstr ""
+
+#: TerrainElement.cpp:306 TerrainElement.cpp:750
+msgid "v3d_velocidad_camara"
+msgstr ""
+
+#: RasterRenderer.cpp:44
+msgid "valor_no_valido"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:36
+msgid "vectorstyle"
+msgstr ""
+
+#: ProjectFile.cpp:215 ParseSuriTemplates.cpp:76 XmlElement.cpp:397
+msgid "w"
+msgstr ""
+
+#: TextFileGcpLoader.cpp:29
+msgid "warp_datasource"
+msgstr ""
+
+#: WxsRenderer.cpp:32 WxsElement.cpp:186
+msgid "wms"
+msgstr ""
+
+#: WxsRenderer.cpp:27 WxsElement.cpp:34
+msgid "wxs"
+msgstr ""
+
+#: LibraryManagerFactory.cpp:37
+msgid "wxsservice"
+msgstr ""
+
+#: WxsElement.cpp:103 WxsElement.cpp:259
+msgid "wxssource"
+msgstr ""
+
+#: WxFileCache.cpp:208
+msgid "xml"
+msgstr ""
+
+#: EquationParser.cpp:118
+msgid "xor"
+msgstr ""
+
+#: WxFileCache.cpp:192
+msgid "xpm"
+msgstr ""
+
+#: RangeItemAttribute.cpp:24
+msgid "{"
+msgstr ""
+
+#: SpatialReference.cpp:37 WxsRenderer.cpp:90 WxsRenderer.cpp:102
+#: WxsRenderer.cpp:107 WxsRenderer.cpp:112 WxsRenderer.cpp:117
+#: WxsRenderer.cpp:122 GenericTool.cpp:172 XmlFunctions.cpp:345
+#: VectorElement.cpp:855 WxsElement.cpp:38 Table.cpp:52
+#: FiltredVectorRenderer.cpp:63 FiltredVectorRenderer.cpp:115
+#: FiltredVectorRenderer.cpp:122 XmlElement.cpp:100
+msgid "|"
+msgstr ""
+
+#: Configuration.cpp:418 RangeItemAttribute.cpp:26
+msgid "}"
+msgstr ""
+
+#: AnotationElementEditor.h:34
+msgid "}\"]"
+msgstr ""
+
+msgid " ejecutado con exito"
+msgstr " ejecutado con éxito"
+
+msgid "%2d^g %2d' %2.2f\" %s"
+msgstr "%2dº %2d' %2.2f\" %s"
+
+msgid "&Apply"
+msgstr "&Aplicar"
+
+msgid "&Back"
+msgstr "A&trás"
+
+msgid "&Cancel"
+msgstr "C&ancelar"
+
+msgid "&Forward"
+msgstr "A&delante"
+
+msgid "1 grado"
+msgstr "1º"
+
+msgid "10 grados"
+msgstr "10º"
+
+msgid "2 grados"
+msgstr "2º"
+
+msgid "20 grados"
+msgstr "20º"
+
+msgid "30 grados"
+msgstr "30º"
+
+msgid "5 grados"
+msgstr "5º"
+
+msgid "Agregar al listado de seleccion"
+msgstr "Agregar al listado de selección"
+
+msgid "Agregar titulo y subtitulo"
+msgstr "Agregar título y subtítulo"
+
+msgid "Animacion"
+msgstr "Animación"
+
+msgid "Anotacion"
+msgstr "Anotación"
+
+msgid "Aplicacion basada en SuriLib."
+msgstr "Aplicación basada en SuriLib."
+
+msgid "Aplicar filtros de convolucion"
+msgstr "Aplicar filtros de convolución"
+
+msgid "Area"
+msgstr "Área"
+
+msgid "Area de interes"
+msgstr "Área de ínteres"
+
+msgid "Area:"
+msgstr "Área"
+
+msgid "Area: %s"
+msgstr "Área: %s"
+
+msgid "Asignacion de clases"
+msgstr "Asignación de clases"
+
+msgid "Autoridad : Codigo"
+msgstr "Autoridad : Código"
+
+msgid "Bajar en el listado de seleccion"
+msgstr "Bajar en el listado de selección"
+
+msgid "Boton"
+msgstr "Botón"
+
+msgid "Calcular estadisticas en areas de clasificacion"
+msgstr "Calcular estadísticas en áreas de clasificación"
+
+msgid "Calcular estadisticas globales"
+msgstr "Calcular estadísticas globales"
+
+msgid "Calcular matriz de confusion"
+msgstr "Calcular matriz de confusión"
+
+msgid "Calcular parametros basicos"
+msgstr "Calcular parámetros básicos"
+
+msgid "Calcular parametros entre bandas "
+msgstr "Calcular parámetros entre bandas "
+
+msgid "Camara de vision sobre terreno"
+msgstr "Cámara de visión sobre terreno"
+
+msgid "Camara esferica"
+msgstr "Cámara esférica"
+
+msgid "Camara esferica "
+msgstr "Camara esférica "
+
+msgid "Campo del hipervinculo"
+msgstr "Campo del hipervínculo"
+
+msgid "Campo hipervinculo"
+msgstr "Campo hipervínculo"
+
+msgid "Cantidad maxima de iteraciones"
+msgstr "Cantidad máxima de iteraciones"
+
+msgid "Capas con hipervinculo"
+msgstr "Capas con hipervínculo"
+
+msgid "Caracteristicas"
+msgstr "Características"
+
+msgid "Cerrar geometria"
+msgstr "Cerrar geometría"
+
+msgid "Circulo"
+msgstr "Círculo"
+
+msgid "Circulo sin relleno"
+msgstr "Círculo sin relleno"
+
+msgid "Clasificacion"
+msgstr "Clasificación"
+
+msgid "Clasificacion no supervisada"
+msgstr "Clasificación no supervisada"
+
+msgid "Clasificacion supervisada"
+msgstr "Clasificación supervisada"
+
+msgid "ClassFusion"
+msgstr "Fusión de clases"
+
+msgid "Codigo de aplicacion"
+msgstr "Código de aplicación"
+
+msgid "Color de pixels sin clase"
+msgstr "Color de píxels sin clase"
+
+msgid "Combinacion de Bandas"
+msgstr "Combinación de Bandas"
+
+msgid "Combinacion de bandas"
+msgstr "Combinación de bandas"
+
+msgid "Combinacion de bandas y realce"
+msgstr "Combinación de bandas y realce"
+
+msgid "Consultar hipervinculo"
+msgstr "Consultar hipervínculo"
+
+msgid "Convertir poligonos a areas de clasificacion"
+msgstr "Convertir polígonos a áreas de clasificación"
+
+msgid "Correlacion"
+msgstr "Correlación"
+
+msgid "Creacion de mapas"
+msgstr "Creación de mapas"
+
+msgid "Crear anotacion"
+msgstr "Crear anotación"
+
+msgid "Dato No Valido:"
+msgstr "Dato No Válido:"
+
+msgid "Datos Invalidos. Desea restaurar los datos anteriores?"
+msgstr "Datos Inválidos. ¿Desea restaurar los datos anteriores?"
+
+msgid "Datos de origen:"
+msgstr "Datos de orígen:"
+
+msgid "Definicion de bandas"
+msgstr "Definición de bandas"
+
+msgid "Definicion de hipervinculo"
+msgstr "Definición de hipervinculo"
+
+msgid "Demasiada recursion al eliminar directorios. Desea continuar?"
+msgstr "Demasiada recursión al eliminar directorios. ¿Desea continuar?"
+
+msgid "Descripcion"
+msgstr "Descripción"
+
+msgid "Desea aplicar los cambios realizados?"
+msgstr "¿Desea aplicar los cambios realizados?"
+
+msgid "Desea sobreescribir el archivo?"
+msgstr "¿Desea sobreescribir el archivo?"
+
+msgid "Deteccion de bordes"
+msgstr "Detección de bordes"
+
+msgid "Dibujar linea"
+msgstr "Dibujar línea"
+
+msgid "Dibujar poligono"
+msgstr "Dibujar polígono"
+
+msgid "Dimension"
+msgstr "Dimensión"
+
+msgid "Dimension del nucleo"
+msgstr "Dimensión del núcleo"
+
+msgid "Ecuacion"
+msgstr "Ecuación:"
+
+msgid "Ecuacion:"
+msgstr "Ecuación:"
+
+msgid "Edicion de vectores con GPS"
+msgstr "Edición de vectores con GPS"
+
+msgid "Edicion vectorial"
+msgstr "Edición vectorial"
+
+msgid "Configuracion General"
+msgstr "Configuración General"
+
+msgid "Poligonos durante creacion"
+msgstr "Poligonos durante creación"
+
+msgid "Poligonos marcados a eliminar"
+msgstr "Polígonos marcados a eliminar"
+
+msgid "Poligonos en edicion"
+msgstr "Polígonos en edición"
+
+msgid "Poligonos durante seleccion"
+msgstr "Polígonos durante selección"
+
+msgid "Factor de ampliacion:"
+msgstr "Factor de ampliación:"
+
+msgid "Geometria durante creacion"
+msgstr "Geometría durante creación"
+
+msgid "Geometria marcada para eliminar"
+msgstr "Geometría marcada para eliminar"
+
+msgid "Geometria en edicion"
+msgstr "Geometría en edición"
+
+msgid "Geometria seleccionada"
+msgstr "Goemetría seleccionada"
+
+msgid "Espaniol"
+msgstr "Español"
+
+#msgid "Espaniol"
+#msgstr "Español"
+
+msgid "Navegacion"
+msgstr "Navegación"
+
+
+msgid "Editor de hipervinculos"
+msgstr "Editor de hipervínculos"
+
+msgid "Formato de coordenadas geograficas"
+msgstr "Formato de coordenadas geográficas"
+
+
+msgid "El area de entrenamiento se encuentra fuera de la imagen: %s."
+msgstr "El área de entrenamiento se encuentra fuera de la imagen: %s."
+
+msgid "El rango coordenadas debe ser latitud +/-90.0 y longitud +/-180.0."
+msgstr "El rango coordenadas debe ser latitud ±90.0 y longitud ±180.0."
+
+msgid "El terreno y la textura no tienen superposicion."
+msgstr "El terreno y la textura no tienen superposición."
+
+msgid "Eliminar del listado de seleccion"
+msgstr "Eliminar del listado de selección"
+
+msgid "Enmascarar exterior del poligono"
+msgstr "Enmascarar exterior del polígono"
+
+msgid "Enmascarar interior del poligono"
+msgstr "Enmascarar interior del polígono"
+
+msgid "Enmascarar usando poligonos"
+msgstr "Enmascarar usando polígonos"
+
+msgid ""
+"Error al calcular los parametros estadisticos de las areas de "
+"entrenamiento."
+msgstr ""
+"Error al calcular los parámetros estadísticos de las áreas de "
+"entrenamiento."
+
+msgid ""
+"Error al inicializar la configuracion. Por favor reinstalar el software."
+msgstr ""
+"Error al inicializar la configuración. Por favor reinstalar el software."
+
+msgid "Error al obtener el tipo de vector a patir del estilo."
+msgstr "Error al obtener el tipo de vector a patir del estílo."
+
+msgid ""
+"Error al salvar registro. La tabla de datos fue modificada con la "
+"geomertia abierta."
+msgstr ""
+"Error al salvar registro. La tabla de datos fue modificada con la "
+"geomertía abierta."
+
+msgid "Error al validar la instalacion. Por favor reinstalar el software."
+msgstr "Error al validar la instalación. Por favor reinstalar el software."
+
+msgid "Error en fila %d columna %d. Deberia ser entero."
+msgstr "Error en fila %d columna %d. Debería ser entero."
+
+msgid "Error en fila %d columna %d. Deberia ser real."
+msgstr "Error en fila %d columna %d. Debería ser real."
+
+msgid "Error en la operacion raster para el elemento %s."
+msgstr "Error en la operación raster para el elemento %s."
+
+msgid "Estadisticas de clase"
+msgstr "Estadísticas de clase"
+
+msgid "Este filtro no tiene opciones de seleccion de nucleo."
+msgstr "Este filtro no tiene opciones de selección de núcleo."
+
+msgid "Exageracion"
+msgstr "Exageración"
+
+msgid "Exageracion de Relieve"
+msgstr "Exageración de Relieve"
+
+msgid "Excepcion: %s."
+msgstr "Excepción: %s."
+
+msgid "Existe un elemento en edicion."
+msgstr "Existe un elemento en edición."
+
+msgid "Exportar seleccion de capa vectorial"
+msgstr "Exportar selección de capa vectorial"
+
+msgid "Expresar en areas"
+msgstr "Expresar en áreas"
+
+msgid "Extension invalida."
+msgstr "Extensión inválida."
+
+msgid "Fotografias"
+msgstr "Fotografías"
+
+msgid "Fusion banda pancromatica"
+msgstr "Fusión banda pancromática"
+
+msgid "Fusion de clases"
+msgstr "Fusión de clases"
+
+msgid "Graficos y anotaciones"
+msgstr "Gráficos y anotaciones"
+
+msgid "Guardar visualizacion"
+msgstr "Guardar visualización"
+
+msgid "Hay al menos un elemento activo afuera del grupo de animacion."
+msgstr "Hay al menos un elemento activo afuera del grupo de animación."
+
+msgid "Hectareas"
+msgstr "Hectáreas"
+
+msgid "Herramienta para calculo de indices"
+msgstr "Herramienta para cálculo de índices"
+
+msgid "Identificacion"
+msgstr "Identificación"
+
+msgid "Imagenes"
+msgstr "Imágenes"
+
+msgid "Informacion de capa raster"
+msgstr "Información de capa raster"
+
+msgid "Informacion de capas"
+msgstr "Información de capas"
+
+msgid "Informacion general de pixel"
+msgstr "Información general de píxel"
+
+msgid "Informacion valida"
+msgstr "Información válida"
+
+msgid "Ingresar anotacion"
+msgstr "Ingresar anotación"
+
+msgid "Intento de excepcion: %s."
+msgstr "Intento de excepción: %s."
+
+msgid "Interpretacion de Color:"
+msgstr "Interpretación de Color:"
+
+msgid "Italica"
+msgstr "Itálica"
+
+msgid "KMeansAlgorithm"
+msgstr "Algoritmo K-means"
+
+msgid "Kilometros"
+msgstr "Kilómetros"
+
+msgid "Kilometros^2"
+msgstr "Kilómetros²"
+
+msgid "Las opciones contienen cambios. Desea guardarlos?"
+msgstr "Las opciones contienen cambios. ¿Desea guardarlos?"
+
+msgid "Linea"
+msgstr "Línea"
+
+msgid "Linea Gps"
+msgstr "Línea Gps"
+
+msgid "Lineas:"
+msgstr "Líneas:"
+
+msgid "Lineas: "
+msgstr "Líneas:"
+
+msgid "Mantener relacion de aspecto del pixel"
+msgstr "Mantener relación de aspecto del píxel"
+
+msgid "Matriz de confusion"
+msgstr "Matriz de confusión"
+
+msgid "MaxLikelihoodAlgorithm"
+msgstr "Algoritmo máxima verosimilitud"
+
+msgid "Maxima verosimilitud"
+msgstr "Máxima verosimilitud"
+
+msgid "Medicion"
+msgstr "Medición"
+
+msgid "Medicion invalida"
+msgstr "Medición inválida"
+
+msgid "Medicion rapida"
+msgstr "Medición rápida"
+
+msgid "Medir area"
+msgstr "Medir área"
+
+msgid "Menu"
+msgstr "Menú"
+
+msgid "Metros^2"
+msgstr "Metros²"
+
+msgid "Mision:"
+msgstr "Misión:"
+
+msgid "Modo visualizacion"
+msgstr "Modo visualización"
+
+msgid "Navegar por Pixel y Linea"
+msgstr "Navegar por Píxel y Línea"
+
+msgid "No se encontro una aplicacion para desplegar %s."
+msgstr "No se encontro una aplicación para desplegar %s."
+
+msgid "No se pudo usar el area de entrenamiento %s para la clasificacion."
+msgstr "No se pudo usar el área de entrenamiento %s para la clasificación."
+
+msgid "Nombre de archivo invalido."
+msgstr "Nombre de archivo inválido."
+
+msgid "Numero maximo iteraciones"
+msgstr "Número máximo iteraciones"
+
+msgid "Ocurrio un error al eliminar el archivo."
+msgstr "Ocurrió un error al eliminar el archivo."
+
+msgid "Opciones de clasificacion"
+msgstr "Opciones de clasificación"
+
+msgid "Operacion"
+msgstr "Operación"
+
+msgid "Operacion en progreso"
+msgstr "Operación en progreso"
+
+msgid "Operacion:"
+msgstr "Operación:"
+
+msgid "Organizacion de los datos"
+msgstr "Organización de los datos"
+
+msgid "Orientacion al Norte (Grados):"
+msgstr "Orientación al Norte (Grados):"
+
+msgid "Parametros"
+msgstr "Parámetros"
+
+msgid "Parametros Bursa-Wolf"
+msgstr "Parámetros Bursa-Wolf"
+
+msgid "Parametros de proyeccion"
+msgstr "Parámetros de proyección"
+
+msgid "Parametros estadisticos"
+msgstr "Parámetros estadísticos"
+
+msgid "Parametros procesamiento"
+msgstr "Parámetros procesamiento"
+
+msgid "Parametros*"
+msgstr "Parámetros*"
+
+msgid ""
+"Parametros: Translation X (meters), Translation Y (meters), Translation Z "
+"(meters),  Rotation X (degrees), Rotation Y (degrees),  Rotation Z "
+"(degrees), Scale"
+msgstr ""
+"Parámetros: Translation X (meters), Translation Y (meters), Translation Z "
+"(meters),  Rotation X (degrees), Rotation Y (degrees),  Rotation Z "
+"(degrees), Scale"
+
+msgid "Pentagono"
+msgstr "Pentágono"
+
+msgid "Pentagono sin relleno"
+msgstr "Pentágono sin relleno"
+
+msgid "Pixel"
+msgstr "Píxel"
+
+msgid "Pixel Line Input"
+msgstr "Píxel Line Input"
+
+msgid "PixelInformation"
+msgstr "Información de píxel"
+
+msgid "Pixeles"
+msgstr "Píxeles"
+
+msgid "Pixeles no clasificados"
+msgstr "Píxeles no clasificados"
+
+msgid "Pixeles:"
+msgstr "Píxeles:"
+
+msgid "Poligono"
+msgstr "Polígono"
+
+msgid "Poligono Gps"
+msgstr "Polígono Gps"
+
+msgid "Post-clasificacion"
+msgstr "Post-clasificación"
+
+msgid "Punto afuera del area valida."
+msgstr "Punto afuera del área válida."
+
+msgid "Punto y linea"
+msgstr "Punto y línea"
+
+msgid "Rango numerico"
+msgstr "Rango numérico"
+
+msgid "Recortar segun visualizador"
+msgstr "Recortar según visualizador"
+
+msgid "Registracion"
+msgstr "Registración"
+
+msgid "Relacion 1:1 con imagen"
+msgstr "Relación 1:1 con imagen"
+
+msgid "Relacion con pixel de entrada"
+msgstr "Relacion con píxel de entrada"
+
+msgid "Seleccion"
+msgstr "Selección"
+
+msgid "Seleccion de Bandas"
+msgstr "Selección de Bandas"
+
+msgid "Seleccion de Realce"
+msgstr "Selección de Realce"
+
+msgid "Seleccion de algoritmo"
+msgstr "Selección de algoritmo"
+
+msgid "Seleccion de banda"
+msgstr "Selección de banda"
+
+msgid "Seleccion de bandas invalida."
+msgstr "Selección de bandas inválida."
+
+msgid "Seleccion de elementos incompatible para animacion."
+msgstr "Selección de elementos incompatible para animación."
+
+msgid "Seleccion de filtro"
+msgstr "Selección de filtro"
+
+msgid "Seleccion de indice"
+msgstr "Selección de índice"
+
+msgid "Seleccion de parametros"
+msgstr "Selección de parámetros"
+
+msgid "Seleccion de realce"
+msgstr "Selección de realce"
+
+msgid "Seleccion de tipo de realce"
+msgstr "Selección de tipo de realce"
+
+msgid "Seleccion de visualizadores"
+msgstr "Selección de visualizadores"
+
+msgid "Seleccion espacial"
+msgstr "Selección espacial"
+
+msgid "Seleccion espectral"
+msgstr "Selección espectral"
+
+msgid "Seleccion tabla de colores"
+msgstr "Selección tabla de colores"
+
+msgid "Seleccion visualizadores"
+msgstr "Selección visualizadores"
+
+msgid "Selection espectral"
+msgstr "Selección espectral"
+
+msgid "Simbolo"
+msgstr "Símbolo"
+
+msgid "Sin hipervinculo"
+msgstr "Sin hipervínculo"
+
+msgid "Sin simbolo"
+msgstr "Sin símbolo"
+
+msgid "Sincronizacion visualizadores"
+msgstr "Sincronización visualizadores"
+
+msgid "Sistema de Coordenadas Geografico"
+msgstr "Sistema de Coordenadas Geográfico"
+
+msgid "Sistema geografico"
+msgstr "Sistema geográfico"
+
+msgid "Solido"
+msgstr "Sólido"
+
+msgid "Solo Lectura"
+msgstr "Sólo Lectura"
+
+msgid "Subir en el listado de seleccion"
+msgstr "Subir en el listado de selección"
+
+msgid "Tabulacion"
+msgstr "Tabulación"
+
+msgid "Tamanio"
+msgstr "Tamaño"
+
+msgid "Tamanio de requerido"
+msgstr "Tamaño requerido"
+
+msgid "Tamanio:"
+msgstr "Tamaño:"
+
+msgid "Tamano"
+msgstr "Tamaño"
+
+msgid "Tamano del pixel de salida"
+msgstr "Tamaño del píxel de salida"
+
+msgid "Tamano del raster de salida"
+msgstr "Tamaño del raster de salida"
+
+msgid "Textura invalida."
+msgstr "Textura inválida."
+
+msgid "Tipo de sincronizacion:"
+msgstr "Tipo de sincronización:"
+
+msgid "Tipo proyeccion"
+msgstr "Tipo proyección"
+
+msgid "Tipo proyeccion:"
+msgstr "Tipo proyección:"
+
+msgid "Titulo"
+msgstr "Título"
+
+msgid "Titulo y subtitulo"
+msgstr "Título y subtítulo"
+
+msgid "Tomar valor no valido de la imagen"
+msgstr "Tomar valor no válido de la imagen"
+
+msgid "Triangulo"
+msgstr "Triángulo"
+
+msgid "Triangulo sin relleno"
+msgstr "Triángulo sin relleno"
+
+msgid "Umbral de variacion de la media para terminar"
+msgstr "Umbral de variación de la media para terminar"
+
+msgid "Utilizar seleccion"
+msgstr "Utilizar selección"
+
+msgid "Valor de mascara"
+msgstr "Valor de máscara"
+
+msgid "Valor digital no valido"
+msgstr "Valor digital no válido"
+
+msgid "Valor digital no valido:"
+msgstr "Valor digital no válido:"
+
+msgid "Valores unicos"
+msgstr "Valores únicos"
+
+msgid "Vel. Camara"
+msgstr "Vel. Cámara"
+
+msgid "Velocidad de Camara"
+msgstr "Velocidad de Cámara"
+
+msgid "Visualizador HTML generico"
+msgstr "Visualizador HTML genérico"
+
+msgid "Ya existe una instancia de la aplicacion corriendo."
+msgstr "Ya existe una instancia de la aplicación corriendo."
+
+msgid "^2"
+msgstr "²"
+
+msgid "^g"
+msgstr "º"
+
+msgid "aplicacion"
+msgstr "aplicación"
+
+msgid "caracteristicas"
+msgstr "características"
+
+msgid "clasificacion"
+msgstr "clasificación"
+
+msgid "combinacion"
+msgstr "combinación"
+
+msgid "compresion"
+msgstr "compresión"
+
+msgid "degree"
+msgstr "grados"
+
+msgid "descripcion"
+msgstr "descripción"
+
+msgid "dimension"
+msgstr "dimensión"
+
+msgid "ecuacion"
+msgstr "ecuación"
+
+msgid "estacion"
+msgstr "estación"
+
+msgid "estadisticas"
+msgstr "estadísticas"
+
+msgid "exageracion"
+msgstr "exageración"
+
+msgid "generica"
+msgstr "genérica"
+
+msgid "generico"
+msgstr "genérico"
+
+msgid "informacion"
+msgstr "información"
+
+msgid "interpolacion"
+msgstr "interpolación"
+
+msgid "kilometre"
+msgstr "kilómetro"
+
+msgid "linea:"
+msgstr "línea:"
+
+msgid "m2"
+msgstr "m²"
+
+msgid "mascara"
+msgstr "máscara"
+
+msgid "matriz"
+msgstr "matríz"
+
+msgid "max x"
+msgstr "máx x"
+
+msgid "max y"
+msgstr "máx y"
+
+msgid "maximo"
+msgstr "máximo"
+
+msgid "metre"
+msgstr "metro"
+
+msgid "minimo"
+msgstr "mínimo"
+
+msgid "mision"
+msgstr "misión"
+
+msgid "pixel:"
+msgstr "píxel:"
+
+msgid "Seleccion de clases "
+msgstr "Selección de clases "
+
+msgid "Seleccion de parametros "
+msgstr "Selección de parametros"
+
+msgid "tamano"
+msgstr "tamaño"
+
+msgid "titulo"
+msgstr "título"
+
+msgid "version"
+msgstr "versión"
+
+msgid "(%2d^g %2d' %2.2f\" %s ; %2d^g %2d' %2.2f\" %s)"
+msgstr "(%2dº %2d' %2.2f\" %s ; %2dº %2d' %2.2f\" %s)"
+
+msgid "Fuera de area valida"
+msgstr "Fuera de área válida"
+
+msgid "Color de pixels no clasificados"
+msgstr "Color de píxels no clasificados"
+
+msgid "Edicion de tabla de datos"
+msgstr "Edición de tabla de datos"
+
+msgid "Propiedades de anotacion"
+msgstr "Propiedades de anotación"
+
+msgid "Seleccion de bandas"
+msgstr "Selección de bandas"
+
+msgid "Solo se pueden agregar puntos en latitud longitud"
+msgstr "Sólo se pueden agregar puntos en latitud longitud"
+
+msgid "Tamano de Pixel [metros]:"
+msgstr "Tamaño de Píxel [metros]:"
+
+msgid "EqualizationEnhancement"
+msgstr "Ecualización de histograma"
+
+msgid "GaussianEnhancement"
+msgstr "Gaussiano"
+
+msgid "LinearEnhancement"
+msgstr "Lineal"
+
+msgid "Linear2PercentEnhancement"
+msgstr "Lineal 2%"
+
+msgid "SquareRootEnhancement"
+msgstr "Raíz cuadrada"
+
+msgid "Fusion de bandas con pancromatica"
+msgstr "Fusión de bandas con pancromática"
+
+msgid "Analizando imagen para componer los valores RVA..."
+msgstr "Analizando imagen para componer los valores RVA..."
+
+msgid "Preparando imagen para componer los valores RVA..."
+msgstr "Preparando imagen para componer los valores RVA..."
+
+msgid "Procesando imagen para componer los valores RVA..."
+msgstr "Procesando imagen para componer los valores RVA..."
+
+msgid "Ajustando imagen para componer los valores RVA..."
+msgstr "Ajustando imagen para componer los valores RVA..."
+
+msgid "Analizando imagen con banda de alta resolucion..."
+msgstr "Analizando imagen con banda de alta resolución..."
+
+msgid "Preparando imagen con banda de alta resolucion..."
+msgstr "Preparando imagen con banda de alta resolución..."
+
+msgid "Procesando imagen con banda de alta resolucion..."
+msgstr "Procesando imagen con banda de alta resolución..."
+
+msgid "Realizando fusion de bandas..."
+msgstr "Realizando fusión de bandas..."
+
+msgid "Seleccion bandas RVA"
+msgstr "Selección bandas RVA"
+
+msgid "Seleccion banda de alta resolucion"
+msgstr "Selección banda de alta resolución"
+
+msgid "Seleccion de entradas"
+msgstr "Selección de entradas"
+
+msgid "Seleccion de capas"
+msgstr "Selección de capas"
+
+msgid "Union"
+msgstr "Unión"
+
+msgid "Interseccion"
+msgstr "Intersección"
+
+msgid "Modelo geografico"
+msgstr "Modelo geográfico"
+
+msgid "Transformacion Tasseled-Cap"
+msgstr "Transformación Tasseled-Cap"
+
+msgid "LandsatMssTct"
+msgstr "LandSat-1_3 MSS (Kauth & Thomas 1976)"
+
+msgid "LandsatTmTct"
+msgstr "LandSat-4 TM (Crist & al 1986)"
+
+msgid "LandsatEtmTct"
+msgstr "LandSat-7 ETM+ (Huang & al 2002)"
+
+msgid "IkonosTct"
+msgstr "IKONOS (Horne 2003)"
+
+msgid "QuickBirdTct"
+msgstr "QuickBird-2 (Yarbrough & al 2005)"
+
+msgid "Fusion multiespectral con pancromatica"
+msgstr "Fusión multiespectral con pancromática"
+
+msgid "Clasificacion por umbrales"
+msgstr "Clasificación por umbrales"
+
+msgid "Operaciones vectoriales geometricas"
+msgstr "Operaciones vectoriales geométricas"
+
+msgid "Visualizacion"
+msgstr "Visualización"
+
+msgid "TasseledCapBrightness"
+msgstr "Brillo"
+
+msgid "TasseledCapGreenness"
+msgstr "Verdor"
+
+msgid "TasseledCapYellowness"
+msgstr "Amarillez"
+
+msgid "TasseledCapYellowness (*)"
+msgstr "Amarillez (*)"
+
+msgid "TasseledCapFourth"
+msgstr "Cuarta"
+
+msgid "TasseledCapFifth"
+msgstr "Quinta"
+
+msgid "TasseledCapSixth"
+msgstr "Sexta"
+
+msgid "Importacion de parametros de clasificacion"
+msgstr "Importación de parametros de clasificacion"
+
+msgid "Analisis de componentes principales"
+msgstr "Análisis de componentes principales"
+
+msgid "TasseledCapIncomparable"
+msgstr "Incomparable"
+
+msgid "TasseledCapFog"
+msgstr "Bruma"
+
+msgid "TasseledCapHumidity"
+msgstr "Humedad"
+
+msgid "TasseledCapThird"
+msgstr "Tercera"
+
+msgid "Consulta de pixel"
+msgstr "Consulta de píxel"
+
+msgid "Algebra de bandas"
+msgstr "Álgebra de bandas"
+
+msgid "Indices estandarizados"
+msgstr "Índices estandarizados"
+
+msgid "Exportar estadisticas en areas de clasificacion"
+msgstr "Exportar estadísticas en áreas de clasificación"
+
+msgid "Crear capa vectorial de lineas"
+msgstr "Crear capa vectorial de líneas"
+
+msgid "Crear capa vectorial de poligonos"
+msgstr "Crear capa vectorial de polígonos"
+
+msgid "Seleccionar geometria"
+msgstr "Seleccionar geometría"
+
+msgid "Iniciar / Finalizar edicion vectorial"
+msgstr "Iniciar / Finalizar edición vectorial"
+
+msgid "Iniciar / Finalizar edición de puntos de control"
+msgstr "Iniciar / Finalizar edicion de puntos de control"
+
+msgid "Iniciar / Finalizar edicion de puntos de control"
+msgstr "Iniciar / Finalizar edición de puntos de control"
+
+msgid "Exportar visualizacion"
+msgstr "Exportar visualización"
+
+msgid "Margenes (cm)"
+msgstr "Márgenes (cm)"
+
+msgid "Agregar margenes"
+msgstr "Agregar márgenes"
+
+msgid "Configuracion de pagina"
+msgstr "Configuración de página"
+
+msgid "Perimetro"
+msgstr "Perímetro"
+
+msgid "Pos-clasificacion"
+
+msgstr "Pos-clasificación"
+
+msgid "Convertir poligonos a areas de test"
+
+msgstr "Convertir poligonos a áreas de prueba" 
+
+msgid "Convertir poligonos a areas de entrenamiento"
+
+msgstr "Convertir poligonos a áreas de entrenamientos"
+
+msgid "Test"
+
+msgstr "Prueba"

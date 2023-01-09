@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema version="1.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.suremptec.com/proyecto_suri"
+	xmlns:project="http://www.suremptec.com/proyecto_suri"
+	xmlns:ogc="http://www.suremptec.com/ogc_suri"
+	xmlns:old="http://www.suremptec.com/old_suri"
+	xmlns:sld="http://www.opengeospatial.net/sld"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<xs:import schemaLocation="http://www.opengeospatial.net/sld" namespace="http://www.opengis.net/sld"></xs:import>
+	<!-- Definicion de XML para nueva version de proyecto" -->
+	<xs:element name="Project" type="project:ProjectType"/>
+	<xs:complexType name="ProjectType">
+		<xs:sequence>
+			<xs:element name="General" type="project:GeneralProjectType"/>
+			<xs:element name="DatasourceList" type="project:DatasourceListType"/>
+			<xs:element name="Group" type="project:DatasourceGroupType"/>
+			<xs:element name="ViewContextCollection" type="ogc:ViewContextCollectionType"/>
+		</xs:sequence>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="absolute"></xs:enumeration>
+					<xs:enumeration value="relative"></xs:enumeration>
+					<xs:enumeration value="mixed"></xs:enumeration>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="aplication" type="project:VersionType"/>
+		<xs:attribute name="version" type="project:VersionType"/>
+		<xs:attribute name="os" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="GeneralProjectType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="CopyRight" type="xs:string"/>
+			<xs:element name="Author" type="xs:string"/>
+			<xs:element name="Date" type="project:DateType"/>
+			<s:element name="LibraryList" type="project:LibraryListTypex"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DateType">
+		<xs:sequence>
+			<xs:element name="Year" type="xs:string"/>
+			<xs:element name="Month" type="xs:string"/>
+			<xs:element name="Day" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="VersionType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d+\.\d+\.\d+"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Definicion de libraria de proyecto -->
+	<xs:complexType name="LibraryListType">
+		<xs:sequence>
+			<xs:element name="Library" type="LibraryType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="type" type="xs:string"/>
+		<xs:attribute name="version" type="project:VersionType"/>
+	</xs:complexType>
+	<xs:complexType name="LibraryType">
+		<xs:sequence>
+			<xs:element name="LibraryItem" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="type" type="xs:string"/>
+		<xs:attribute name="version" type="project:VersionType"/>
+	</xs:complexType>
+	<xs:complexType name="DatasourceListType">
+		<xs:sequence>
+			<xs:element name="Datasource" type="project:DatasourceType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DatasourceType">
+		<xs:sequence>
+			<xs:element name="elemento" type="old:ElementType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+		<xs:attributeGroup ref="project:identificablegroup" />
+	</xs:complexType>
+	<!-- Agrupacion de fuente de datos -->
+	<xs:complexType name="DatasourceGroupType">
+		<xs:sequence>
+			<xs:element name="Group" type="project:DatasourceGroupType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="DatasourceId" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<!-- esquema para element viejo -->
+	<xs:complexType name="ElementType">
+		<xs:sequence>
+			<xs:element name="url" type="xs:string"/>
+			<xs:element name="georreferencia" type="old:GeorreferenceType"/>
+			<xs:element name="renderizacion" type="xs:string"/>
+			<xs:element name="dimension" type="old:DimensionType"/>
+			<xs:element name="archivo" type="old:FileType"/>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="capa_activa" type="xs:string"/>
+			<xs:element name="dependencias" type="old:DependencyType"/>
+		</xs:sequence>
+		<xs:attribute name="tipo" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="GeorreferenceType">
+		<xs:sequence>
+			<xs:element name="sistema" type="xs:string"/>
+			<xs:element name="matriz" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DimensionType">
+		<xs:sequence>
+			<xs:element name="raster" type="old:ExtentType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="extent" type="old:ExtentType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ExtentType">
+		<xs:sequence>
+			<xs:element name="ul" type="old:XYType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="lr" type="old:XYType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="XYType">
+		<xs:sequence>
+			<xs:element name="x" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="y" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- Fin de definicion de esquema para element -->
+	<!-- Definicion de ViewContextCollection y ViewContext -->
+	<xs:complexType name="ViewContextCollectionType">
+		<xs:sequence>
+			<xs:element name="ViewContext" type="ogc:ViewContextType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="version" type="xs:string" use="required" fixed="1.1.0"/>
+	</xs:complexType>
+	<xs:complexType name="ViewContextType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="General" type="ogc:GeneralOGCType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="LayerList" type="ogc:LayerListType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Extension" type="ogc:ExtensionType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+				<xs:attribute name="type">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Raster"></xs:enumeration>
+					<xs:enumeration value="GIS"></xs:enumeration>
+					<xs:enumeration value="3D"></xs:enumeration>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="version" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:string" use="required"/>	
+	</xs:complexType>
+	<xs:complexType name="GeneralOGCType">
+		<xs:sequence>
+			<!-- son los limites impuesto del visualizador -->
+			<xs:element name="BoundingBox" type="ogc:BoundingBoxType" minOccurs="1" maxOccurs="1"/>
+			<!-- El titulo del visualizador es el nombre -->
+			<xs:element name="Title" type="xs:string" minOccurs="1" maxOccurs="1"/> 
+			<xs:element name="Extension" type="ogc:ExtensionType" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="BoundingBoxType">
+		<!-- Para esta nueva version el atributo SRS es un indicador del modo en el que se encuentra el visualizador -->
+		<xs:attribute name="SRS" type="xs:string" use="required"/> 
+		<xs:attribute name="minx" type="xs:decimal" use="required"/>
+		<xs:attribute name="miny" type="xs:decimal" use="required"/>
+		<xs:attribute name="maxx" type="xs:decimal" use="required"/>
+		<xs:attribute name="maxy" type="xs:decimal" use="required"/>
+	</xs:complexType>
+	<!-- Defincion de capas y lista de capas -->
+	<xs:complexType name="LayerListType">
+		<xs:sequence>
+			<xs:element name="Layer" type="ogc:LayerType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LayerType">
+		<xs:sequence>
+			<xs:element name="Server" type="ogc:ServerType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Extension" type="ogc:ExtensionLayerType" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="project:identificablegroup" />
+	</xs:complexType>
+	<!-- Para resolver el problema de fuente de datos locales se utiliza el nodo de server en donde se hace que la capa tenga como referencia el id de la fuente de datos-->
+	<xs:complexType name="ServerType">
+		<xs:sequence>
+			<xs:element name="OnlineResource" type="ogc:OnlineResourceType"/>
+		</xs:sequence>
+		<xs:attribute name="service" type="xs:string" use="required"/>
+		<xs:attribute name="version" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:attributeGroup name="identificablegroup">
+    	<!-- Mantener id para compatibilidad OGC -->
+	    <xs:attribute name="hidden" type="xs:boolean"></xs:attribute>
+        <xs:attribute name="queryable" type="xs:boolean"></xs:attribute>
+        <xs:attribute name="active" type="xs:boolean"></xs:attribute>
+        <xs:attribute name="version" type="project:VersionType"></xs:attribute>
+        <xs:attribute name="id" type="xs:string"></xs:attribute>
+        <xs:attribute name="type" type="xs:string"></xs:attribute>
+    </xs:attributeGroup>
+	<xs:complexType name="ExtensionLayerType">
+		<xs:sequence>
+			<xs:element name="renderizacion" type="old:RenderizationType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OnlineResourceType">
+		<xs:attributeGroup ref="xlink:simpleLink"/>
+	</xs:complexType>
+	<!-- Contenido nodo renderizacion -->
+	<xs:complexType name="RenderizationType">
+		<xs:sequence>
+			<xs:element name="combinacion" type="xs:string"/>
+			<xs:element name="cache" type="xs:string"/>
+			<xs:element name="lut" type="old:LutType"/>
+			<xs:element name="interpolacion" type="old:InterpolationType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LutType">
+		<xs:sequence>
+			<xs:element name="brillo" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="contraste" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="nombre" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="InterpolationType">
+		<xs:attribute name="mas" type="xs:string" default="NN"/>
+		<xs:attribute name="menos" type="xs:string" default="NN"/>
+	</xs:complexType>
+	<!-- Fin nodo renderizacion -->
+	<xs:complexType name="ExtensionType">
+		<xs:annotation>
+			<xs:documentation>This allows additional elements to be added to support non WMS Layer services.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:any namespace="##any"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

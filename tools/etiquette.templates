@@ -1,0 +1,47 @@
+# begin heading-app
+/*! \file ${filename} */
+/**
+ *  Software de Procesamiento de Imagenes Satelitales de CONAE.
+ *  Copyright ${year}-2007 CONAE.
+ *
+ *  Este producto contiene software desarrollado por
+ *  SUR Emprendimientos Tecnologicos S.R.L. (http://www.suremptec.com/)
+ *
+ */
+# end heading-app
+
+# begin includes-app
+// Includes Estandar
+// Includes Suri
+// Includes Wx
+// Includes App
+// Defines
+// forwards
+# end includes-app
+
+
+# begin heading-suri
+/*! \file ${filename} */
+/**
+ *  Biblioteca de procesamiento GeoEspacial SuriLib.
+ *  Copyright ${year}-2007 CONAE - SUR Emprendimientos Tecnologicos S.R.L.
+ *
+ *  Este producto contiene software desarrollado por
+ *  SUR Emprendimientos Tecnologicos S.R.L. (http://www.suremptec.com/)
+ *
+ */
+# end heading-suri
+
+# begin includes-suri
+// Includes Estandar
+// Includes Suri
+// Includes Wx
+// Defines
+// forwards
+# end includes-suri
+
+# begin no-includes-suri
+// Includes App
+// Includes Standard
+# end no-includes-suri
+

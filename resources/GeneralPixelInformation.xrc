@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_GENERAL_PIXEL_INFORMATION_PART">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Informacion general de pixel</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_PANEL17">
+                    <style>wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>5</border>
+                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                <orient>wxHORIZONTAL</orient>
+                                <label>Informacion de capas</label>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL</flag>
+                                    <border>5</border>
+                                    <object class="wxPanel" name="ID_PANEL20">
+                                        <style>wxTAB_TRAVERSAL</style>
+                                        <object class="wxGridSizer">
+                                            <cols>2</cols>
+                                            <rows>0</rows>
+                                            <vgap>0</vgap>
+                                            <hgap>0</hgap>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                    <size>128,-1</size>
+                                                    <label>Cantidad de capas</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="ID_GENERAL_PINFO_LAYERS_COUNT">
+                                                    <label>0</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                    <size>128,-1</size>
+                                                    <label>Capas con hipervinculo</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="ID_GENERAL_PINFO_LAYERS_WH_COUNT">
+                                                    <label>0</label>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>5</border>
+                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                <orient>wxHORIZONTAL</orient>
+                                <label>Capas raster</label>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL</flag>
+                                    <border>5</border>
+                                    <object class="wxPanel" name="ID_PANEL21">
+                                        <style>wxTAB_TRAVERSAL</style>
+                                        <object class="wxGridSizer">
+                                            <cols>2</cols>
+                                            <rows>0</rows>
+                                            <vgap>0</vgap>
+                                            <hgap>0</hgap>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                    <size>128,-1</size>
+                                                    <label>Cantidad de capas</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="ID_GENERAL_PINFO_RASTER_COUNT">
+                                                    <label>0</label>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>5</border>
+                            <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                <orient>wxHORIZONTAL</orient>
+                                <label>Capas vectoriales</label>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL</flag>
+                                    <border>5</border>
+                                    <object class="wxPanel" name="ID_PANEL22">
+                                        <style>wxTAB_TRAVERSAL</style>
+                                        <object class="wxGridSizer">
+                                            <cols>2</cols>
+                                            <rows>0</rows>
+                                            <vgap>0</vgap>
+                                            <hgap>0</hgap>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                    <size>128,-1</size>
+                                                    <label>Cantidad de capas</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="ID_GENERAL_PINFO_VECTOR_COUNT">
+                                                    <label>0</label>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

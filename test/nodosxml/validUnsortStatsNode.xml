@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<clasificacion>
+	<clases cantidad="2">	
+		<clase id="2">
+			<nombre>Clase2</nombre>
+			<estadisticas>
+				<media>2 3 4</media>
+				<maximo>3 4 6</maximo>
+				<varianza>4 8 9</varianza>
+				<covarianza filas="3" columnas="3">
+					<fila>4 5 1</fila>
+					<fila>5 8 3</fila>
+					<fila>1 3 9</fila>
+				</covarianza>
+				<muestras>645</muestras>
+				<minimo>0 1 0</minimo>
+			</estadisticas>
+			<color>#ff0066</color>
+		</clase>
+		<clase id="1">
+			<color>#ff0044</color>
+			<estadisticas>
+				<muestras>500</muestras>
+				<media>1 2 1</media>
+				<maximo>6 7 10</maximo>
+				<minimo>1 2 4</minimo>
+				<varianza>3 5 4</varianza>
+				<covarianza filas="3" columnas="3">
+					<fila>3 4 2</fila>
+					<fila>4 5 6</fila>
+					<fila>2 6 4</fila>
+				</covarianza>
+			</estadisticas>
+			<nombre>Clase1</nombre>
+		</clase>
+	</clases>
+	<clase id="0">
+		<color>#ff0044</color>
+		<estadisticas>
+	        <covarianza/>
+	        <maximo></maximo>
+	        <minimo></minimo>
+	        <varianza></varianza>
+	        <media></media>
+	        <muestras>0</muestras>
+		</estadisticas>
+		<nombre>NoClase</nombre>
+	</clase>
+</clasificacion>

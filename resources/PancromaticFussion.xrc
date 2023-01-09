@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_PANCROMATICFUSSION">
+        <style>wxRESIZE_BORDER|wxTAB_TRAVERSAL</style>
+        <size>400,300</size>
+        <title>Fusion banda pancromatica</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+        </object>
+    </object>
+</resource>

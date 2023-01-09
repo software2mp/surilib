@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_CORREGISTER_SELECT_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>VectorTableToolbar</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="wxID_STATIC">
+                    <label>Interp. Polinomial: Orden</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxSpinCtrl" name="ID_MODEL_ORDER_SPINCTRL">
+                    <style>wxSP_ARROW_KEYS</style>
+                    <value>1</value>
+                    <min>1</min>
+                    <max>100</max>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="wxID_RMSE_STATIC_TEXT">
+                    <label>rmse: 000.000</label>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

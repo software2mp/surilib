@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clasificacion>
+  <MaxLikelihoodAlgorithm>
+    <clase id="1">
+      <umbral>34.0</umbral>
+      <constante>-2.0</constante>
+      <NodoLU filas="3" columnas="3">
+        <fila>6 3 3</fila>
+        <fila>0.5 2.5 0.5</fila>
+        <fila>0.5 0.2 5.4</fila>
+      </NodoLU>
+      <estadisticas>
+        <covarianza filas="3" columnas="3">
+          <fila>6 3 3</fila>
+          <fila>3 4 2</fila>
+          <fila>3 2 7</fila>
+        </covarianza>
+        <maximo>6 7 10</maximo>
+        <minimo>1 2 4</minimo>
+        <varianza>6 4 7</varianza>
+        <media>1 2 1</media>
+        <muestras>500</muestras>
+      </estadisticas>
+    </clase>
+  </MaxLikelihoodAlgorithm>
+</clasificacion>

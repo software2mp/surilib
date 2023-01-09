@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_FIELDLAYER_SELECTION_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <size>400,300</size>
+        <title>FieldLayerSelection</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxTreeCtrl" name="ID_FIELD_TREECTRL">
+                    <size>100,100</size>
+                    <style>wxTR_SINGLE</style>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_ADD_FIELD_BUTTON">
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>./bitmaps/button-BandAdd-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_REVOKE_FIELD_BUTTON">
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>./bitmaps/button-BandRemove-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_FIELD_SORT_UP_BUTTON">
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>./bitmaps/button-BandUp-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_FIELD_SORT_DOWN_BUTTON">
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>./bitmaps/button-BandDown-16.png</bitmap>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxListCtrl" name="ID_FIELD_SELECTED">
+                    <size>100,100</size>
+                    <style>wxLC_REPORT</style>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_CLASSIFICATION_TOOLBAR">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>toolbar__vector</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_CLASSIFICATION_TOOL_PANEL">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxPanel" name="ID_PANEL9">
+                    <style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+                    <hidden>1</hidden>
+                    <enabled>0</enabled>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_CLASSSTATISTICS_BUTTON">
+                                <tooltip>Estadisticas de clase</tooltip>
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/picture-ClassStatistics-16.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_SUPERVISED_CLASSIFICATION_BUTTON">
+                                <tooltip>Clasificacion supervisada</tooltip>
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/icon-ClassificationParameters-16.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_NONSUPERVISED_CLASSIFICATION_BUTTON">
+                                <tooltip>Clasificacion no supervisada</tooltip>
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/tool-UnsupervisedClassification-16.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_POSTCLASSIFICATIONFILTER_BUTTON">
+                                <tooltip>Filtro postclasificacion</tooltip>
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/icon-FilterSelection-16.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_CONFUSIONMATRIX_BUTTON">
+                                <tooltip>Calcular matriz de confusion</tooltip>
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/tool-ConfusionMatrix-16.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_CLASSFUSION_BUTTON">
+                                <tooltip>Fusion de clases</tooltip>
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/picture-ClassFusion-16.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxStaticLine" name="wxID_STATIC">
+                                <style>wxLI_VERTICAL</style>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_BITMAPBUTTON9">
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/tool-DrawClass-16.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                            <border>1</border>
+                            <object class="wxToggleButton" name="ID_CLASSIFICACTION_TOGGLEBUTTON">
+                                <size>-1,24</size>
+                                <style>wxBU_EXACTFIT</style>
+                                <label>Editar</label>
+                                <checked>0</checked>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_ACTIVITY_TOGGLEPULLDOWNBUTTON">
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/tool-DropDownArrow.png</bitmap>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>1</border>
+                            <object class="wxBitmapButton" name="ID_BITMAPBUTTON26">
+                                <tooltip>Agregar area entrenamiento</tooltip>
+                                <style>wxBU_AUTODRAW</style>
+                                <bitmap>bitmaps/button-NewGeometry-16.png</bitmap>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

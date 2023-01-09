@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+<!--128-->
+	<object class="wxBitmap">bitmaps/picture-NorthArrow-128.png</object>
+<!--48-->
+<!--32-->  
+  	<object class="wxBitmap">bitmaps/tool-threshold-classification-32.png</object>
+  	<object class="wxBitmap">bitmaps/tool-spectral-angle-mapper-32.png</object>
+   <object class="wxBitmap">bitmaps/tool-ACP-32.png</object>
+  	<object class="wxBitmap">bitmaps/tool-export-statistics-32.png</object>
+	<object class="wxBitmap">bitmaps/tool-general-config-32.png</object>
+	<object class="wxBitmap">bitmaps/tool-histogram-viewer-32.png</object>
+	<object class="wxBitmap">bitmaps/tool-manual-enhancement-32.png</object>	
+   <object class="wxBitmap">bitmaps/tool-threshold-classification-32.png</object>
+	<object class="wxBitmap">bitmaps/tool-tesseled-cap-32.png</object>
+ 	<object class="wxBitmap">bitmaps/tool-buffer-opration-32.png</object>
+   <object class="wxBitmap">bitmaps/tool-ConfusionMatrix-32.png</object>
+   <object class="wxBitmap">bitmaps/icon-RasterRgbSelection-32.png</object>
+   <object class="wxBitmap">bitmaps/icon-RasterPancromatic-32.png</object>
+   <object class="wxBitmap">bitmaps/icon-RasterMetadata-32.png</object>
+   <object class="wxBitmap">bitmaps/icon-VectorOperations-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-Reproject-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-DocumentElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-PhotoElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-PhotoProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-AnotationElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-AnotationProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-VectorElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-PointVectorElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-LineVectorElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-PolygonVectorElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-RasterElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-TerrainElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-ElementGeneralProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-RasterProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-VectorProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-TerrainProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-SpectralSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-ImageFormatSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-SpatialSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-VectorTable-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-ListElementSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-IndexSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-FilterSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandCombinationSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-HotlinkTable-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-GeorreferenceProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-EnhancementSelection-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandCombinationAndEnhancement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-ClassificationParameters-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-KMeansParameters-32.png</object>
+   <object class="wxBitmap">bitmaps/icon-ClassProperties-32.png</object>
+	<object class="wxBitmap" name="ID_OUTPUT_SIZE_SELECTOR_PANEL_ICON">bitmaps/icon-RasterOutputSize-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandMath-32.png</object>
+	<object class="wxBitmap" name="ID_CLASS_MAPPING_PANEL_ICON">bitmaps/icon-ClassMapping-32.png</object>
+	<object class="wxBitmap" name="ID_REPROJECTION_PARAMETERS_PANEL_ICON">bitmaps/icon-Reproject-32.png</object>
+	<object class="wxBitmap" name="ID_CLASS_FUSION_PANEL_ICON">bitmaps/icon-ClassFusion-32.png</object>
+	<object class="wxBitmap" name="ID_MASK_SELECTION_PANEL_ICON">bitmaps/icon-MaskSelection-32.png</object>
+	<object class="wxBitmap" name="ID_SPATIAL_SELECTION_PANEL_ICON">bitmaps/icon-SpatialSelection-32.png</object>
+	<object class="wxBitmap" name="ID_CLASS_SELECTION_PANEL_ICON">bitmaps/icon-ClassificationClassSelection-32.png</object>
+	<object class="wxBitmap" name="ID_STATISTIC_PARAMETER_SELECTION_PANEL_ICON">bitmaps/picture-Statistics-32.png</object>
+	<object class="wxBitmap" name="ID_WARP_PARAMETERS_PANEL_ICON">bitmaps/icon-WarpParameters-32.png</object>
+	<object class="wxBitmap" name="ID_BAND_ENHANCEMENT_PANEL_ICON">bitmaps/icon-BandEnhancement-32.png</object>
+	<object class="wxBitmap" name="ID_GEORREFERENCE_PROPERTIES_PART_ICON">bitmaps/icon-GeorreferenceProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-NavigationWidget-32.png</object>
+	<object class="wxBitmap" name="ID_VECTOR_TABLE_STRUCTURE_EDITION_PANEL_ICON">bitmaps/icon-TableStructure-32.png</object>
+   <object class="wxBitmap" name="ID_WXS_VISUALIZATION_PANEL_ICON">bitmaps/icon-WxsVisualization-32.png</object>
+   <object class="wxBitmap" name="ID_WXS_PROPERTIES_PANEL_ICON">bitmaps/icon-WxsProperties-32.png</object>
+   <object class="wxBitmap" name="ID_GENERAL_PIXEL_INFORMATION_PART_ICON">bitmaps/icon-GeneralPixelInfo-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ClearSelection-32.png</object>
+   <object class="wxBitmap">bitmaps/button-SelectAll-32.png</object>
+   <object class="wxBitmap">bitmaps/button-InvertSelection-32.png</object>
+   <object class="wxBitmap">bitmaps/button-ConvertToClass-32.png</object>
+   <object class="wxBitmap" name="ID_SHAPENING_INPUT_RGB_PART_ICON">bitmaps/icon-SpectralSelection-32.png</object>
+   <object class="wxBitmap" name="ID_SHARPENING_INPUT_PAN_PART_ICON">bitmaps/icon-SpectralSelection-32.png</object>
+   <object class="wxBitmap" name="ID_SHARPENING_ELEMENTS_PART_ICON">bitmaps/icon-SpectralSelection-32.png</object>   
+
+<!--24-->
+   <object class="wxBitmap">bitmaps/button-ToggleButtonToggled-24.png</object> 
+   <object class="wxBitmap">bitmaps/button-ClearSelection-24.png</object>
+   <object class="wxBitmap">bitmaps/button-SelectAll-24.png</object>
+   <object class="wxBitmap">bitmaps/button-InvertSelection-24.png</object>
+   <object class="wxBitmap">bitmaps/button-ConvertToClass-24.png</object>
+<!--19-->
+	<object class="wxBitmap">bitmaps/button-ToggleButtonSelected-19.png</object>
+<!--16-->
+   <object class="wxBitmap">bitmaps/icon-InvalidBandList-GreyScale-16.png</object>
+   <object class="wxBitmap">bitmaps/icon-InvalidBandList-16.png</object>
+   <object class="wxBitmap">bitmaps/icon-TestClass-16.png</object>
+   <object class="wxBitmap">bitmaps/icon-TrainClass-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ConvertToTestClass-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ConvertToTrainClass-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-export-statistics-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-general-config-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-manual-enhancement-16.png</object>	
+   <object class="wxBitmap">bitmaps/tool-threshold-classification-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-tesseled-cap-16.png</object>
+   <object class="wxBitmap">bitmaps/button-SelectGeometry-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-xy-import-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-vector-operation-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-buffer-opration-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-OpenGcpPoint-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-ClassFusion-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-DocumentElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-PhotoElement-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawAnotation-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawPoint-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawLine-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawPolygon-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-SnapProperties-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-GpsPoint-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-GpsLine-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-GpsPolygon-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-MeasureDistance-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-MeasureArea-16.png</object>
+	<object class="wxBitmap">bitmaps/button-Mark-16.png</object>	
+	<object class="wxBitmap">bitmaps/button-Delete-16.png</object>
+	<object class="wxBitmap">bitmaps/button-Close-16.png</object>
+	<object class="wxBitmap">bitmaps/button-SaveVector-16.png</object>
+	<object class="wxBitmap">bitmaps/button-DiscardVector-16.png</object>
+	<object class="wxBitmap">bitmaps/button-PauseAnimation-16.png</object>
+	<object class="wxBitmap">bitmaps/button-PlayAnimation-16.png</object>
+	<object class="wxBitmap">bitmaps/button-Play-16.png</object>
+	<object class="wxBitmap">bitmaps/button-MapLegend-16.png</object>
+	<object class="wxBitmap">bitmaps/button-MapScale-16.png</object>
+	<object class="wxBitmap">bitmaps/button-MapNorthArrow-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-RasterElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-Frame-16.png</object>
+	<object class="wxBitmap">bitmaps/button-SaveView-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ZoomFullExtent-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ZoomLayerExtent-16.png</object>
+	<object class="wxBitmap">bitmaps/button-ZoomOneToOne-16.png</object>
+	<object class="wxBitmap">bitmaps/button-Go-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-Drag-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-IdentifyHotlink-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-SphericalCamera-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-EyeCamera-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-ZoomIn-16.png</object>
+      <object class="wxBitmap">bitmaps/tool-ZoomMagnif-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-ZoomOut-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-Navigation-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-PixelLineNavigation-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandList-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandList-RGB-Red-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandList-RGB-Green-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandList-RGB-Blue-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-BandList-GreyScale-16.png</object>
+	<object class="wxBitmap">bitmaps/button-CheckOn-16.png</object>
+	<object class="wxBitmap">bitmaps/button-CheckOff-16.png</object>
+	<object class="wxBitmap">bitmaps/button-CheckBoth-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-HourGlass-16.png</object>
+	<object class="wxBitmap">bitmaps/button-PrintDocument-16.png</object>
+	<object class="wxBitmap" name="ID_VIEWER2D_PROPERTIES_PANEL_ICON">bitmaps/icon-Viewer2DProperties-16.png</object>
+	<object class="wxBitmap" name="ID_VIEWER3D_PROPERTIES_PANEL_ICON">bitmaps/icon-Viewer3DProperties-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-VectorEditToggle-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-NewGcp-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-AddGcpPoint-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-VectorSelectToggle-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DeleteVectorPoint-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-VectorTable-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawClass-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-Measure-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-GeorreferenceProperties-16.png</object>
+	<object class="wxBitmap">bitmaps/button-DeleteGeometry-16.png</object>
+	<object class="wxBitmap">bitmaps/button-DeleteArea-16.png</object>
+	<object class="wxBitmap">bitmaps/button-ExpandedNode-16.png</object>
+	<object class="wxBitmap">bitmaps/button-CollapsedNode-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-AnotationElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-VectorElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-PointVectorElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-LineVectorElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-PolygonVectorElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-RasterElement-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-Drive-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-GeneralPixelInfo-16.png</object>
+   <object class="wxBitmap">bitmaps/icon-TerrainElement-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-ViewportLink-16.png</object>
+   <object class="wxBitmap">bitmaps/icon-ViewportProperties-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-RasterExporter-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-RasterFilter-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-RasterIndex-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-RasterClassification-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-RasterUnsupervisedClassification-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-RasterStatistics-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-RasterBandMath-16.png</object>
+   <object class="wxBitmap">bitmaps/tool-ConfusionMatrix-16.png</object>
+   <object class="wxBitmap">bitmaps/button-NewProject-16.png</object>
+   <object class="wxBitmap">bitmaps/button-OpenProject-16.png</object>
+   <object class="wxBitmap">bitmaps/button-SaveProject-16.png</object>
+   <object class="wxBitmap">bitmaps/button-SaveProjectAs-16.png</object>
+   <object class="wxBitmap">bitmaps/button-AddElement-16.png</object>
+   <object class="wxBitmap">bitmaps/button-AddWmsElement-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ShowElement-16.png</object>
+   <object class="wxBitmap">bitmaps/button-CloseElement-16.png</object>
+   <object class="wxBitmap">bitmaps/button-AddColumn-16.png</object>
+   <object class="wxBitmap">bitmaps/button-AddRow-16.png</object>
+   <object class="wxBitmap">bitmaps/button-DeleteColumn-16.png</object>
+   <object class="wxBitmap">bitmaps/button-DeleteRow-16.png</object>
+   <object class="wxBitmap">bitmaps/button-NewGeometry-16.png</object>
+   <object class="wxBitmap">bitmaps/button-WarpParameters-16.png</object>
+   <object class="wxBitmap">bitmaps/button-Switch-16.png</object>
+   <object class="wxBitmap">bitmaps/button-Prediction-16.png</object>
+   <object class="wxBitmap">bitmaps/button-StartCoregisterProcess-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ClearSelection-16.png</object>
+   <object class="wxBitmap">bitmaps/button-SelectAll-16.png</object>
+   <object class="wxBitmap">bitmaps/button-InvertSelection-16.png</object>
+   <object class="wxBitmap">bitmaps/button-QueryBuilder-16.png</object>
+   <object class="wxBitmap">bitmaps/button-ConvertToClass-16.png</object>
+   <object class="wxBitmap">bitmaps/button-StopAnimation-16.png</object>
+   <object class="wxBitmap">bitmaps/button-PreviousFrame-16.png</object>
+   <object class="wxBitmap">bitmaps/button-NextFrame-16.png</object> 
+   <object class="wxBitmap">bitmaps/button-Stop-16.png</object>
+   <object class="wxBitmap">bitmaps/button-Previous-16.png</object>
+   <object class="wxBitmap">bitmaps/button-Next-16.png</object>
+   <object class="wxBitmap">bitmaps/button-Swapper_On-16.png</object>
+   <object class="wxBitmap">bitmaps/button-Swapper_Off-16.png</object>
+<!--16-48-->
+   <object class="wxBitmap">bitmaps/tool-EditTask-16_48.png</object>
+<!--13-->
+	<object class="wxBitmap">bitmaps/button-CloseFrame-13.png</object>
+<!--7-->
+	<object class="wxBitmap">bitmaps/button-CloseFrame-7.png</object>
+	<object class="wxBitmap">bitmaps/button-MinimizeFrame-7.png</object>
+	<object class="wxBitmap">bitmaps/button-MaximizeFrame-7.png</object>
+</resource>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_VIEWER3D_PROPERTIES_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Propiedades viewer 3D</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Propiedades visualizador</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <object class="wxFlexGridSizer">
+                            <cols>2</cols>
+                            <rows>0</rows>
+                            <vgap>4</vgap>
+                            <hgap>4</hgap>
+                            <growablecols>1</growablecols>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Nombre:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="ID_VIEWER_NAME_LABEL">
+                                    <style>wxALIGN_RIGHT</style>
+                                    <label>Visualizador 3D</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Tipo:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="ID_VIEWER_TYPE_LABEL">
+                                    <style>wxALIGN_RIGHT</style>
+                                    <label>3D</label>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>MDE</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <object class="wxChoice" name="ID_MDE_CHOICE">
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Opciones</label>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <object class="wxFlexGridSizer">
+                            <cols>2</cols>
+                            <rows>0</rows>
+                            <vgap>4</vgap>
+                            <hgap>4</hgap>
+                            <growablecols>1</growablecols>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Color de fondo:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxColourPickerCtrl" name="ID_BACKGROUND_COLOURCTRL">
+                                    <style>wxCLRP_DEFAULT_STYLE</style>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxFlexGridSizer">
+                            <cols>5</cols>
+                            <rows>3</rows>
+                            <vgap>4</vgap>
+                            <hgap>4</hgap>
+                            <growablecols>2</growablecols>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Calidad</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBitmap" name="wxID_STATIC">
+                                    <size>32,32</size>
+                                    <bitmap>bitmaps/picture-TerrainLowQuality-32.png</bitmap>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <option>1</option>
+                                <object class="wxSlider" name="ID_SLIDER_QUALITY">
+                                    <size>200,-1</size>
+                                    <tooltip>Calidad del Terreno</tooltip>
+                                    <style>wxSL_HORIZONTAL|wxSL_AUTOTICKS</style>
+                                    <value>1</value>
+                                    <min>1</min>
+                                    <max>20</max>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                                <border>1</border>
+                                <object class="wxStaticText" name="ID_QUAL_VALUE_LABEL">
+                                    <label>1</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBitmap" name="wxID_STATIC">
+                                    <size>32,32</size>
+                                    <bitmap>bitmaps/picture-TerrainHighQuality-32.png</bitmap>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Exageracion</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBitmap" name="wxID_STATIC">
+                                    <size>32,32</size>
+                                    <bitmap>bitmaps/picture-TerrainLowExaggeration-32.png</bitmap>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <option>1</option>
+                                <object class="wxSlider" name="ID_SLIDER_EXAGERATION">
+                                    <size>200,-1</size>
+                                    <tooltip>Exageracion de Relieve</tooltip>
+                                    <style>wxSL_HORIZONTAL|wxSL_AUTOTICKS</style>
+                                    <value>1</value>
+                                    <min>1</min>
+                                    <max>20</max>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                                <border>1</border>
+                                <object class="wxStaticText" name="ID_EXAG_VALUE_LABEL">
+                                    <label>1 </label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBitmap" name="wxID_STATIC">
+                                    <size>32,32</size>
+                                    <bitmap>bitmaps/picture-TerrainHighExaggeration-32.png</bitmap>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="wxID_STATIC">
+                                    <label>Vel. Camara</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBitmap" name="wxID_STATIC">
+                                    <size>32,32</size>
+                                    <bitmap>bitmaps/picture-TerrainSlowCamera-32.png</bitmap>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <option>1</option>
+                                <object class="wxSlider" name="ID_SLIDER_CAMERA">
+                                    <size>200,-1</size>
+                                    <tooltip>Velocidad de Camara</tooltip>
+                                    <style>wxSL_HORIZONTAL|wxSL_AUTOTICKS</style>
+                                    <value>1</value>
+                                    <min>1</min>
+                                    <max>20</max>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                                <border>1</border>
+                                <object class="wxStaticText" name="ID_VEL_CAM_VALUE_LABEL">
+                                    <label>1 </label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBitmap" name="wxID_STATIC">
+                                    <size>32,32</size>
+                                    <bitmap>bitmaps/picture-TerrainFastCamera-32.png</bitmap>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

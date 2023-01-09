@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_MAXLIKELIHOOD_PARAMS">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Opciones clasificador</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_PARAMS_CONTAINER">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                            <border>2</border>
+                            <object class="wxStaticText" name="wxID_STATIC">
+                                <tooltip>Umbral de probabilidad</tooltip>
+                                <label>Umbral</label>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>2</border>
+                            <object class="wxStaticText" name="wxID_STATIC">
+                                <label>0 %</label>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>2</border>
+                            <option>1</option>
+                            <object class="wxSlider" name="ID_THRESHOLD">
+                                <tooltip>Umbral de probabilidad</tooltip>
+                                <style>wxSL_HORIZONTAL</style>
+                                <value>50</value>
+                                <min>0</min>
+                                <max>100</max>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>2</border>
+                            <object class="wxTextCtrl" name="ID_SELECTED_THRESHOLD_TEXT">
+                                <size>30,-1</size>
+                                <value>50</value>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>2</border>
+                            <object class="wxStaticText" name="wxID_STATIC">
+                                <label>%</label>
+                            </object>
+                        </object>
+                        <object class="spacer">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                            <border>5</border>
+                            <size>5,5</size>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                            <border>2</border>
+                            <object class="wxStaticText" name="wxID_STATIC">
+                                <label>SIN CLASE</label>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                            <border>5</border>
+                            <object class="wxColourPickerCtrl" name="ID_COLOR_PICKER">
+                                <size>-1,10</size>
+                                <tooltip>Color de pixels sin clase</tooltip>
+                                <style>wxNO_BORDER</style>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

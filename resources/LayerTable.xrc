@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_LAYER_TABLE">
+        <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+        <title>Layer Table </title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>0</border>
+                <option>1</option>
+                <object class="wxGrid" name="ID_LAYER_GRID">
+                    <size>100,100</size>
+                    <style>wxSUNKEN_BORDER</style>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

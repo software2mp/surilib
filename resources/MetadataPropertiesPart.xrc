@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_METADATA_PROPERTIES_PART">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>MetadataPropertiesPart</title>
+        <centered>1</centered>
+        <object class="wxStaticBoxSizer" name="wxID_ANY">
+            <orient>wxVERTICAL</orient>
+            <label>Metadatos</label>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxListCtrl" name="ID_METADATA_PROPERTIES_LIST" subclass="wxListView">
+                    <style>wxLC_REPORT|wxLC_NO_HEADER</style>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_LEFT|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxButton" name="ID_METADATA_PROPERTIES_SAVE_BUTTON">
+                    <label>Exportar...</label>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

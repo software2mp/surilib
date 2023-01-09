@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+	<object class="wxMenuBar" name="ID_APPLICATION_MENU">
+		<object class="wxMenu" name="ID_FILE_MENU">
+			<label>Archivo</label>
+				<object class="wxMenuItem" name="ID_NEW_PROJECT_MENUTIEM">
+					<label>Nuevo proyecto</label>
+					<bitmap>bitmaps/button-NewProject-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_OPEN_PROJECT_MENUTIEM">
+					<label>Abrir proyecto</label>
+					<bitmap>bitmaps/button-OpenProject-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_CLOSE_PROJECT_MENUTIEM">
+					<label>Cerrar proyecto</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_SAVE_PROJECT_MENUTIEM">
+					<label>Guardar proyecto</label>
+					<bitmap>bitmaps/button-SaveProject-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_SAVEAS_PROJECT_MENUTIEM">
+					<label>Guardar proyecto como...</label>
+					<bitmap>bitmaps/button-SaveProject-16.png</bitmap>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_EXPORT_PROJECT_MENUTIEM">
+					<label>Exportar proyecto</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_IMPORT_MENUTIEM">
+					<label>Importar PAT</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_ADD_LAYER_MENUTIEM">
+					<label>Agregar capa</label>
+					<bitmap>bitmaps/button-AddElement-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_ADD_REMOTE_LAYER_MENUTIEM">
+					<label>Acceder a capa remota</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_REMOVE_LAYER_MENUTIEM">
+					<label>Eliminar capa</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_CREATE_GROUP_MENUTIEM">
+					<label>Crear grupo</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="wxID_EXIT">
+					<label>Salir</label>
+					<bitmap></bitmap>
+				</object>
+		</object>
+		<object class="wxMenu" name="ID_TOOLS_MENU">
+			<label>Herramientas</label>
+				<object class="wxMenuItem" name="ID_ZOOM_IN_MENUTIEM">
+					<label>Acercar </label>
+				</object>
+				<object class="wxMenuItem" name="ID_ZOOM_OUT_MENUTIEM">
+					<label>Alejar </label>
+				</object>
+				<object class="wxMenuItem" name="ID_NAVIGATION_MENUTIEM">
+					<label>Navegar</label>
+					<bitmap>bitmaps/tool-Navigation-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_PIXEL_QUERY_MENUTIEM">
+					<label>Consulta de pixel</label>
+					<checkable>bitmaps/tool-IdentifyHotlink-16.png</checkable>
+				</object>
+				<object class="wxMenuItem" name="ID_MEASSURE_MENUTIEM">
+					<label>Medicion rapida</label>
+					<checkable>bitmaps/tool-Measure-16.png</checkable>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_BAND_STACKING_MENUTIEM">
+					<label>Apilar bandas</label>
+					<bitmap></bitmap>
+				</object>				
+				<object class="wxMenuItem" name="ID_SCALE_IMAGE_MENUTIEM">
+					<label>Escalar imagen</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_GLOBAL_STATISTICS_MENUTIEM">
+					<label>Calcular estadisticas globales</label>
+					<bitmap>bitmaps/tool-GlobalStatistics-16.png</bitmap>
+				</object>		
+				<object class="wxMenuItem" name="ID_EXPORT_LAYER_MENUTIEM">
+					<label>Exportar capa raster</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_RASTER_GENERIC_IMPORTER_MENUTIEM">
+					<label>Importar raster generico</label>
+				</object>
+				<object class="wxMenuItem" name="ID_EXPORT_VISUALIZATION_MENUTIEM">
+					<label>Exportar visualizacion</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_RASTER_MOSAIC_MENUTIEM">
+                    <label>Mosaico</label>
+                    <bitmap></bitmap>
+                </object>
+				<object class="separator"/>
+				   <object class="wxMenuItem" name="ID_RASTERIZATION_MENUTIEM">
+                    <label>Rasterizar capa vectorial</label>
+                    <bitmap></bitmap>
+                </object>
+				<object class="wxMenuItem" name="ID_EDIT_VECTOR_MENUTIEM">
+					<label>Edicion vectorial</label>
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="ID_EXPORT_VECTOR_OPERATION_LAYER_MENUTIEM">
+					<label>Operaciones vectoriales geometricas</label>
+				</object>
+				<object class="wxMenuItem" name="ID_MERGE_LAYERS_MENUTIEM">
+					<label>Fusion de capas vectoriales</label>
+				</object>
+				<object class="wxMenuItem" name="ID_EXPORT_BUFFER_VECTOR_LAYER_MENUTIEM">
+					<label>Calculo de buffer para capas vectoriales</label>
+					<bitmap>bitmaps/tool-buffer-opration-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_EXPORT_VECTOR_LAYER_MENUTIEM">
+					<label>Exportar capa vectorial </label>
+				</object>
+		 		<object class="wxMenuItem" name="ID_ADD_CSV_LAYER_MENUTIEM">
+					<label>Importar tabla X/Y </label>
+					<bitmap>bitmaps/tool-xy-import-16.png</bitmap>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_EDIT_MAP_MENUTIEM">
+					<label>Creacion de mapas</label>
+					<checkable>1</checkable>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_CONFIG_OPTIONS_MENUITEM">
+					<label>Opciones</label>
+				</object>
+			</object>
+			<object class="wxMenu" name="ID_PROCESSING_MENU">
+				<label>Procesamiento</label>
+				<object class="wxMenuItem" name="ID_REPROJECT_MENUTIEM">
+					<label>Reproyectar capa raster</label>
+					<bitmap>bitmaps/tool-Warp-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_COREGISTER_MENUTIEM">
+					<label>Corregistrar/georreferenciar </label>
+					<bitmap>bitmaps/tool-Warp-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_GEOREFERENCE_MENUTIEM">
+					<label>Georreferenciar con PCT</label>
+					<bitmap>bitmaps/tool-Warp-16.png</bitmap>
+				</object>
+				<object class="wxMenu" name="wxID_ANY">
+					<label>Editar puntos de control </label>
+					<object class="wxMenuItem" name="ID_IMAGE_TO_IMAGE_GCPS_MENUTIEM">
+						<label>Imagen a imagen</label>
+						<checkable>1</checkable>
+					</object>
+					<object class="wxMenuItem" name="ID_IMAGE_TO_MAP_GCPS_MENUTIEM">
+						<label>En terreno</label>
+						<checkable>1</checkable>
+					</object>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_FILTER_RASTER_MENUTIEM">
+					<label>Filtros espaciales</label>
+					<bitmap>bitmaps/icon-FilterSelection-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_FILTER_LIBRARY_MENUTIEM">
+					<label>Aplicar filtros de convolucion</label>
+					<bitmap>bitmaps/icon-FilterSelection-16.png</bitmap>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_BAND_MATH_MENUTIEM">
+					<label>Algebra de bandas</label>
+					<bitmap>bitmaps/icon-BandMath-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_INDICES_MENUTIEM">
+					<label>Indices estandarizados</label>
+					<bitmap>bitmaps/icon-IndexSelection-16.png</bitmap>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_PCANALYSIS_MENUITEM">
+					<label>Analisis de componentes principales</label>
+				</object>				
+				<object class="wxMenuItem" name="ID_TCTRANSFORMATION_MENUITEM">
+					<label>Transformacion Tasseled Cap</label>
+					<bitmap>bitmaps/tool-tesseled-cap-16.png</bitmap>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_SHARPENING_MENUITEM">
+					<label>Fusion multiespectral con pancromatica</label>
+				</object>
+				<object class="wxMenuItem" name="ID_HISTOGRAM_MATCHING_MENUITEM">
+                    <label>Ajuste de histograma</label>
+                </object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_THRESHOLD_CLASSIFICATION_MENUTIEM">
+					<label>Clasificacion por umbrales</label>
+					<bitmap>bitmaps/tool-threshold-classification-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_SPECTRAL_ANGLE_MAPPER_MENUTIEM">
+					<label>Clasificacion por angulo espectral</label>
+				</object>
+				<object class="wxMenuItem" name="ID_NON_SUPERVISED_CLASSIFICATION_MENUTIEM">
+					<label>Clasificacion no supervisada</label>
+					<bitmap>bitmaps/tool-UnsupervisedClassification-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_SUPERVISED_CLASSIFICATION_MENUTIEM">
+					<label>Clasificacion supervisada</label>
+					<bitmap>bitmaps/icon-ClassificationParameters-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_CONVERT_AREA_TRAIN_MENUTIEM">
+					<label>Convertir poligonos a areas de entrenamiento</label>
+					<bitmap>bitmaps/button-ConvertToTrainClass-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_CONVERT_AREA_TEST_MENUTIEM">
+					<label>Convertir poligonos a areas de test</label>
+					<bitmap>bitmaps/button-ConvertToTestClass-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_CLASS_STATISTICS_MENUTIEM">
+					<label>Calcular estadisticas en areas de clasificacion</label>
+					<bitmap>bitmaps/picture-ClassStatistics-16.png</bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_CLASS_STATISTICS_EXPORTER_MENUTIEM">
+					<label>Exportar estadisticas en areas de clasificacion</label>
+					<bitmap>bitmaps/tool-export-statistics-16.png</bitmap>
+				</object>
+				<object class="wxMenu" name="wxID_ANY">
+					<label>Pos-clasificacion</label>
+					<object class="wxMenuItem" name="ID_CLASS_FUSION_MENUTIEM">
+						<label>Fusionar clases</label>
+						<bitmap>bitmaps/icon-ClassFusion-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_CONFUSION_MATRIX_MENUTIEM">
+						<label>Matriz de confusion</label>
+						<bitmap>bitmaps/tool-ConfusionMatrix-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_CLASSIFICATION_FILTERS_MENUTIEM">
+						<label>Filtros</label>
+						<bitmap>bitmaps/icon-FilterSelection-16.png</bitmap>
+					</object>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_VECTOR_REPROJECTION_MENUITEM">
+					<label>Reproyectar capa vectorial</label>
+				</object>
+			</object>
+
+			<object class="wxMenu" name="ID_VIEWERS_MENU">
+				<label>Visualizacion</label>
+				<object class="wxMenuItem" name="ID_SPHERICAL_CAM_MENUITEM">
+						<label>Camara esferica </label>
+						<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="ID_EYE_CAM_MENUTIEM">
+						<label>Camara sobre el terreno </label>
+						<checkable>1</checkable>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenu" name="wxID_ANY">
+					<label>Disposicion</label>
+					<object class="wxMenuItem" name="ID_1_UNIQUE_MENUTIEM">
+						<label>1 unico</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_1_off-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_2_HORIZONTAL_MENUTIEM">
+						<label>2 horizontal</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_2h_off-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_2_VERTICAL_MENUTIEM">
+						<label>2 vertical</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_2v_off-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_2_1_HORIZONTAL_MENUTIEM">
+						<label>2x1 horizontal</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_2x1h_off-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_2_1_VERTICAL_MENUTIEM">
+						<label>2x1 vertical</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_2x1v_off-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_3_HORIZONTAL_MENUTIEM">
+						<label>3 horizontal</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_3h_off-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_3_VERTICAL_MENUTIEM">
+						<label>3 vertical</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_3v_off-16.png</bitmap>
+					</object>
+					<object class="wxMenuItem" name="ID_2_2_GRID_MENUTIEM">
+						<label>2x2 cuadricula</label>
+						<bitmap>bitmaps/icon-ViewerArrangement_2x2_off-16.png</bitmap>
+					</object>
+				</object>
+				<object class="wxMenu" name="wxID_ANY">
+					<label>Activos</label>
+					<object class="wxMenuItem" name="ID_SELECT_VIEWER1_MENUTIEM">
+						<label>Visualizador #1</label>
+						<radio>1</radio>
+					</object>
+					<object class="wxMenuItem" name="ID_SELECT_VIEWER2_MENUTIEM">
+						<label>Visualizador #2</label>
+						<radio>1</radio>
+					</object>
+					<object class="wxMenuItem" name="ID_SELECT_VIEWER3_MENUTIEM">
+						<label>Visualizador #3</label>
+						<radio>1</radio>
+					</object>
+					<object class="wxMenuItem" name="ID_SELECT_VIEWER4_MENUTIEM">
+						<label>Visualizador #4</label>
+						<radio>1</radio>
+					</object>
+				</object>
+				<object class="separator"/>
+				<object class="wxMenuItem" name="ID_SINCRONIZE_VIEWERS_MENUTIEM">
+					<label>Sincronizar visualizadores</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_VIEWER_PROPERTIES_MENUTIEM">
+					<label>Propiedades de visualizador</label>
+					<bitmap></bitmap>
+				</object>
+				<object class="wxMenuItem" name="ID_SAVE_VISIALIZATION_MENUTIEM">
+					<label>Guardar vista</label>
+					<bitmap>bitmaps/button-SaveView-16.png</bitmap>
+				</object>
+			</object>
+
+		<object class="wxMenu" name="ID_LIBRARY_MENU">
+			<label>Bibliotecas</label>
+			<object class="wxMenuItem" name="ID_SR_LIBRARY_MENUTIEM">
+				<label>Sistema de referencia</label>
+				<bitmap>bitmaps/icon-GeorreferenceProperties-16.png</bitmap>
+			</object>
+			<object class="wxMenuItem" name="ID_DATUM_LIBRARY_MENUTIEM">
+				<label>Datum</label>
+			</object>
+			<object class="wxMenuItem" name="ID_PELLIPSOID_LIBRARY_MENUTIEM">
+				<label>Elipsoide</label>
+			</object>
+			<object class="separator"/>
+			<object class="wxMenuItem" name="ID_DENSITY_SLICE_LIBRARY_MENUTIEM">
+				<label>Tabla de intervalos</label>
+			</object>
+			<object class="wxMenuItem" name="ID_WMS_LIBRARY_MENUTIEM">
+				<label>Servidores WMS</label>
+			</object>
+			<object class="wxMenuItem" name="ID_VECTORSTYLE_LIBRARY_MENUTIEM">
+				<label>Estilos vectoriales</label>
+			</object>
+			<object class="wxMenuItem" name="ID_SPECTRAL_SIGN_LIBRARY_MENUTIEM">
+				<label>Firmas espectrales</label>
+			</object>
+			<object class="wxMenuItem" name="ID_CONVOLUTION_FILTERS_LIBRARY_MENUTIEM">
+				<label>Filtros de convolucion</label>
+			</object>
+			<object class="wxMenuItem" name="ID_EQUATION_LIBRARY_MENUTIEM">
+				<label>Ecuaciones</label>
+			</object>
+			<object class="wxMenuItem" name="ID_INDEX_LIBRARY_MENUTIEM">
+				<label>Indices</label>
+			</object>
+		</object>
+
+		<object class="wxMenu" name="ID_HELP_MENU">
+			<label>Ayuda</label>
+			<object class="wxMenuItem" name="wxID_HELP">
+				<label>Ayuda</label>
+				<bitmap>bitmaps/button-Help-16.png</bitmap>
+			</object>
+			<object class="wxMenuItem" name="wxID_ABOUT">
+				<label>Acerca de</label>
+			</object>
+		</object>
+		
+	</object>
+</resource>

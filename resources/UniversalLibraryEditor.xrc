@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_UNIVERSAL_LIBRARY_EDITOR_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>bibliotecatest</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxSplitterWindow" name="ID_SPLITTERWINDOW3">
+                    <style>wxSP_3DBORDER|wxSP_3DSASH|wxSP_LIVE_UPDATE</style>
+                    <orientation>vertical</orientation>
+                    <sashpos>150</sashpos>
+                    <minsize>150</minsize>
+                    <object class="wxPanel" name="ID_PANEL2">
+                        <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                        <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                            <object class="sizeritem">
+                                <flag>wxGROW</flag>
+                                <border>5</border>
+                                <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                                        <border>1</border>
+                                        <object class="wxBitmapButton" name="ID_ADD_ITEM_BTN">
+                                            <style>wxBU_AUTODRAW</style>
+                                            <bitmap>bitmaps/button-Mark-16.png</bitmap>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                                        <border>1</border>
+                                        <object class="wxBitmapButton" name="ID_REMOVE_ITEM_BTN">
+                                            <style>wxBU_AUTODRAW</style>
+                                            <bitmap>bitmaps/button-Delete-16.png</bitmap>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxTOP|wxBOTTOM</flag>
+                                <border>1</border>
+                                <object class="wxStaticLine" name="wxID_STATIC">
+                                    <style>wxLI_HORIZONTAL</style>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW</flag>
+                                <border>5</border>
+                                <option>1</option>
+                                <object class="wxBoxSizer">
+                                    <orient>wxVERTICAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxGROW</flag>
+                                        <border>5</border>
+                                        <option>1</option>
+                                        <object class="wxPanel" name="ID_ITEM_SELECTOR_PANEL">
+                                            <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                            <object class="wxBoxSizer">
+                                                <orient>wxHORIZONTAL</orient>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="wxScrolledWindow" name="ID_ITEM_EDITOR_PANEL">
+                        <style>wxNO_BORDER|wxHSCROLL|wxVSCROLL</style>
+                        <scrollrate>1,1</scrollrate>
+                        <unitsx>0</unitsx>
+                        <unitsy>0</unitsy>
+                        <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

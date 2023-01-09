@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:apkg="http://autopackage.org/xdgmime-extensions">
+  <mime-type type="application/">
+    <comment></comment>
+    <comment xml:lang="en"></comment>
+    <comment xml:lang="es"></comment>
+    <glob pattern="" />
+    <apkg:icon></apkg:icon>
+    <icon name=""/>
+  </mime-type>
+</mime-info>

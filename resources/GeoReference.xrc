@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_GEOREFERENCE_TOOL_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>GeoReference</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_START_GEOREFERENCE_BUTTON">
+                    <tooltip>Georreferenciar imagen</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-WarpParameters-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                <border>1</border>
+                <object class="wxToggleButton" name="ID_GEOREFERENCE_TOGGLEBUTTON">
+                    <size>-1,24</size>
+                    <style>wxBU_EXACTFIT</style>
+                    <label>Editar</label>
+                    <checked>0</checked>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_ACTIVITY_TOGGLEPULLDOWNBUTTON">
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/tool-DropDownArrow.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_BITMAPBUTTON181">
+                    <tooltip>Predecir</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/icon-Prediction-16.png</bitmap>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

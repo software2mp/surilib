@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+ <elemento tipo="raster">
+  <url>creciente</url>
+  <histograma bin="256" min="-1.000000" max="1.000000" filas="1" columnas="256">
+    <fila> 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1</fila>
+  </histograma>
+  <estadisticas>
+   <muestras>100.000000</muestras>
+   <media>0.000000</media>
+   <varianza>0.343502</varianza>
+   <maximo>1.000000</maximo>
+   <minimo>-1.000000</minimo>
+  </estadisticas>
+ </elemento>
+ <elemento tipo="raster">
+  <url>aleatoria</url>
+  <histograma bin="256" min="-1.000000" max="1.000000" filas="1" columnas="256">
+    <fila> 1 0 1 1 0 0 0 0 0 2 1 1 1 0 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 2 0 0 0 1 0 1 0 1 2 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 3 0 0 1 1 2 1 0 1 0 0 0 0 0 2 0 0 0 2 0 1 1 1 1 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 1 0 1 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 2 0 0 1 0 0 1 1 0 0 1 0 0 1 0 3 0 0 0 1 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 1 1 1 0 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 1 1 0 0 1 0 0 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 2 0 0 0 0 0 1 1</fila>
+  </histograma>
+  <estadisticas>
+   <muestras>100.000000</muestras>
+   <media>-0.130378</media>
+   <varianza>0.342712</varianza>
+   <maximo>1.000000</maximo>
+   <minimo>-1.000000</minimo>
+  </estadisticas>
+ </elemento>
+</datos>

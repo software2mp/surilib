@@ -1,0 +1,162 @@
+
+ADD_EXTRA_SOURCES(SURIWIDGETS AnimationTool.cpp AnotationPropertiesPart.cpp
+	BandCombinationAndEnhancementPart.cpp BandCombinationSelectionPart.cpp
+	BandSelectionPart.cpp BrightnessTool.cpp ChoiceSelectionPart.cpp
+	ClassificationProcess.cpp ClassSelectionPart.cpp CloseButton.cpp
+	CloseVectorButton.cpp ColorTableSelectionPart.cpp DeleteButton.cpp
+	DialogWidget.cpp DragButton.cpp DrawTool.cpp ElementListWidget.cpp
+	ElementPropertiesWidget.cpp EnhancementSelectionPart.cpp RasterProcess.cpp
+	FileExporterProcess.cpp FilterProcess.cpp FilterSelectionPart.cpp
+	FilterLibraryPart.cpp FilterPart.cpp
+	FiltredElementListWidget.cpp GenericPropertiesPart.cpp
+	GeorreferenceProperties.cpp GoButton.cpp GpsTool.cpp GpsVectorButton.cpp
+	HotlinkFieldEditorPart.cpp HourglassProgressManager.cpp HtmlViewerPart.cpp
+	ImageFormatSelectionPart.cpp IndexProcess.cpp IndexSelectionPart.cpp
+	KMeansPart.cpp LatitudeLongitudeInputWidget.cpp LayerListWidget.cpp
+	LayerTablePart.cpp LutSelectionPart.cpp MapTool.cpp MarkButton.cpp
+	MaxLikelihoodPart.cpp NavigationButton.cpp
+	NavigationWidget.cpp NotebookWidget.cpp ParametersSelectionPart.cpp
+	ParametricClassificationPart.cpp PartContainerWidget.cpp Part.cpp
+	PixelLineInputWidget.cpp PixelLineNavigationButton.cpp
+	PixelVectorButton.cpp QueryButton.cpp RasterProperties.cpp
+	SaveVectorButton.cpp SpatialSelectionPart.cpp SpectralSelectionPart.cpp
+	TerrainPropertiesPart.cpp ToggleButton.cpp VectorEditorButton.cpp 
+	VectorPropertiesPart.cpp Viewer2D.cpp Viewer3D.cpp ViewerWidget.cpp
+	Widget.cpp WorldWidget.cpp wxToggleBitmapButton.cpp
+	wxVectorLayerGridTable.cpp XmlPropertiesPart.cpp ZoomButton.cpp
+	ZoomImageScaleButton.cpp Button.cpp XrcWidget.cpp PartCollection.cpp
+	StatisticParameterSelectionPart.cpp
+	ProjectionSystemEditionPart.cpp SpatialReferenceEditionPart.cpp
+	DatumEditionPart.cpp EllipsoidEditionPart.cpp RegistrationCodeInputPart.cpp
+	DualViewerSelectionPart.cpp SingleViewerSelectionPart.cpp BandMathPart.cpp
+	RasterOutputSizePart.cpp ViewerSynchronizationPart.cpp WxsProperties.cpp 
+	WxsLayerConfigurationPart.cpp WxsDataSourcePart.cpp WxsVisualizationPart.cpp
+	UniversalLibraryNameEditionPart.cpp PixelInformationWidget.cpp 
+	GeneralPixelInformationPart.cpp RasterPixelInformationPart.cpp
+	VectorQueryInformationPart.cpp Viewer2DProperties.cpp Viewer3DProperties.cpp 
+	MinimumDistanceParametersPart.cpp MahalanobisParametersPart.cpp
+	ParallelepipedParametersPart.cpp ClassMappingPart.cpp UniversalCoordinateInputPart.cpp 
+	PixelLineInputPart.cpp DecimalCoordinateInputPart.cpp LatitudeLongitudeInputPart.cpp 
+	SubsetCoordinateInputPart.cpp HtmlTreePart.cpp MaskSelectionPart.cpp 
+	ClassificationClassSelectionPart.cpp GenericToolWidget.cpp 
+	VectorTableEditorPart.cpp CoregisterTableEditorToolbarPart.cpp
+	VectorTool.cpp VectorTableEditorToolbarPart.cpp 
+	GeoReferenceTableEditorToolbarPart.cpp KMeansParametersPart.cpp 
+	NonSupervisedParameterSelectionPart.cpp SupervisedParameterSelectionPart.cpp
+	WarpParametersPart.cpp FullFledgeLibraryEditorWidget.cpp
+	MeassureWidget.cpp AboutPart.cpp NavigationPart.cpp ControlArrangement.cpp
+	DensitySliceEditionPart.cpp VectorTableStructureEditionPart.cpp
+	BandEnhancementPart.cpp RasterAdjustmentsPart.cpp wxDecoratedHtmlListCtrl.cpp
+	ItemId.cpp DecoratedHtmlItem.cpp TreeNodeId.cpp HtmlConfigurationData.cpp
+	wxSimpleHtmlTreeCtrl.cpp TreeNode.cpp TreeInnerNode.cpp TreeLeaf.cpp
+	wxNoModelTreeEventHandler.cpp PaintEvent.cpp MouseEvent.cpp 
+	ForwardMouseEventImpl.cpp ForwardPaintEventImpl.cpp CommandToggleButton.cpp
+	CommandButton.cpp ToolCommand.cpp CommandEvent.cpp ForwardCommandEventImpl.cpp
+	CommandMenu.cpp FocusViewportEvent.cpp ForwardEventImpl.cpp
+	ViewportEvent.cpp MultiZoom.cpp NavigationTool.cpp DragEvent.cpp InfoTool.cpp
+	LayerTreeEventHandler.cpp LayerTreeWidget.cpp ElementHtmlConfigurationData.cpp
+	GuiImpl.cpp StatisticsExporterProcess.cpp HelpTool.cpp ViewportLinkManager.cpp 
+	StatisticsTool.cpp ToolSupport.cpp StatisticsXmlToHtmlConverter.cpp LayerTool.cpp
+	HtmlReportWidget.cpp BandMathTool.cpp RasterClassificationTool.cpp 
+	RasterTool.cpp ReprojectionTool.cpp ViewportLinkImpl.cpp
+	GeographicLink.cpp RasterLink.cpp wxGenericTableBase.cpp
+	ProcessNotebookWidget.cpp BandMathProcess.cpp ClusterClassificationPart.cpp
+	ClassFussionParametersPart.cpp wxGridColorCellEditor.cpp
+	wxGridColorCellRenderer.cpp ClassEditionPart.cpp ConfussionMatrixProcess.cpp
+	Query.cpp ConfusionMatrixPart.cpp TextFormatConverterInterface.cpp HtmlFunctions.cpp
+	ConfusionMatrixTextConverter.cpp wxGridColAttrProvider.cpp
+	UniversalGraphicalComponentPart.cpp PermissionList.cpp TableOperation.cpp
+	TablePart.cpp TableTool.cpp TablePartConfigurator.cpp LibraryItemEditorDebugPart.cpp
+	LibraryItemEditorNotificator.cpp LibraryItemEditorPart.cpp HtmlTreeEventHandler.cpp
+	HtmlTreeGroupChangedNotification.cpp GuiHtmlEditor.cpp ReprojectionProcess.cpp
+	HtmlTreeWidget.cpp
+	TransformationModelParametersPart.cpp ViewcontextTreeSelectionManager.cpp
+	UniversalSubsetInputPart.cpp SingleRasterElementActivationLogic.cpp
+	LibraryItemListViewWidget.cpp LibraryTool.cpp LibraryItemListNotificator.cpp
+	GeometryRenderer.cpp GeometryEditionEvent.cpp
+	GuiGeometryEditor.cpp GuiGeometryCreator.cpp FeatureSelectionObserver.cpp 
+	FeatureSelection.cpp FeatureSelectionUpdatedNotification.cpp
+	FeatureSelectionSource.cpp VectorDatasourceSelectionSource.cpp 
+	GeometrySelectionEvent.cpp AttachedTaskConfig.cpp CompositeCommand.cpp
+	VectorDataLayerSelectionSource.cpp VectorEditionTask.cpp GeometryCreationEvent.cpp
+	VectorEditionTool.cpp Viewer2DSelectorPart.cpp CoregisterTask.cpp
+	VectorEditionTaskEvent.cpp TaskManager.cpp
+	PointDeleteEvent.cpp GeometryDeleteEvent.cpp
+	SelectionPart.cpp SingleLayerBandSelectionPart.cpp
+	CoregisterTaskEvent.cpp MultiLayerBandSelectionPart.cpp CoregisterTool.cpp
+	GcpAutoGenerationPart.cpp
+	GcpAutoGenerationProcess.cpp
+	GcpDetectionSubprocess.cpp
+	GcpEditionEvent.cpp
+	FeatureSelectionCachedSource.cpp
+	CoregisterSelectionSource.cpp
+	CombinationInfo.cpp CombinationInfoGenerator.cpp GeometryColumnEditionState.cpp
+	TableEditionTask.cpp ModelOrderWidget.cpp 
+	GuiTreeModel.cpp LayerTreeModel.cpp LayerHtmlTreeNodeHandler.cpp 
+	wxHotLinkCellRenderer.cpp wxHotLinkEditor.cpp 
+	HotLinkCellTableHandler.cpp
+	GeometryNodeFilter.cpp IndependentTreeSelectionManager.cpp
+	SpatialSubsetSelectionPart.cpp TreeNodeDoubleClickNotification.cpp
+	RmseRequestNotification.cpp	
+	GeoreferenceRefSysPart.cpp GeoreferenceTool.cpp GeoreferenceTask.cpp
+	GeoreferenceSelectionSource.cpp GeoreferenceTaskEvent.cpp
+	GeoreferenceEditionEvent.cpp StatisticsReport.cpp ConfusionMatrixReport.cpp
+	EnclosureNodeFilter.cpp VectorFormatSelectionPart.cpp
+	Slider.cpp SliderCommand.cpp Choice.cpp ChoiceCommand.cpp
+	LabelText.cpp SourceSrsChangeNotification.cpp MapEditionTool.cpp
+	MapEditionTask.cpp AnimationTask.cpp AnimationTaskTool.cpp
+	GuiStateChangeMediator.cpp StateChangeNotification.cpp
+	RasterProcessPartProvider.cpp FileExporterProcessPartProvider.cpp
+	BandMathProcessPartProvider.cpp ClassificationProcessPartProvider.cpp
+	IndexProcessPartProvider.cpp FilterProcessPartProvider.cpp
+	ReprojectionProcessPartProvider.cpp StaticsExporterProcessPartProvider.cpp
+	VectorProcessPartProvider.cpp FileVectorExporterProcessPartProvider.cpp
+	ConfusionMatrixProcessPartProvider.cpp BandInfo.cpp
+	ClassStatisticsProcess.cpp MultipleStatisticsReport.cpp
+	GeoreferenceProcess.cpp ReprojectionProcess2.cpp VectorSelectionButton.cpp 
+	VectorDeleteButton.cpp MultimediaPropertiesPart.cpp VectorEditorButtonTool.cpp
+	VectorEditionButton.cpp Query2DButton.cpp VectorCreationButton.cpp
+	Event.cpp SearchWidget.cpp CoordinatesNavigatorPart.cpp QueryBuilderPart.cpp
+	HotLinkPropertiesPart.cpp HotLinkVectorElement.cpp AddColumnPart.cpp
+	ContextGroupNodeFilter.cpp CrossHairPaintEvent.cpp TableImportXyPart.cpp
+	DynCommandButton.cpp WmsEditionPart.cpp
+	BasicLibraryItemSelector.cpp VectorOperationPart.cpp VectorOperationProcess.cpp
+	BufferPart.cpp WxsLayerImporter.cpp
+	SharpeningInputPanPart.cpp SharpeningInputRGBPart.cpp
+	SharpeningProcess.cpp SharpeningProcessPartProvider.cpp
+	SharpeningTool.cpp SharpeningInputElementsPart.cpp
+	ExtendedThresholdEditionCellHandler.cpp VectorOperationProcessPartProvider.cpp 
+	ThresholdClassSelectionPart.cpp ThresholdClassDefinitionWidget.cpp
+	RasterGenericImporterWidget.cpp GenericRasterHeaderDescriptionFile.cpp
+	RasterOffsetConfigurationWidget.cpp MetadataPropertiesPart.cpp
+	ViewerBlockedNotification.cpp ViewerUnblockedNotification.cpp
+	SimpleVectorStylePart.cpp CategorizedVectorStylePart.cpp CsvFormatSelectionPart.cpp
+	wxVectorStyleCellRenderer.cpp wxWidgetCellEditor.cpp
+	wxSimpleVectorStyleCellEditor.cpp wxQueryBuilderCellEditor.cpp
+	StatisticsXmlToCsvConverter.cpp CsvStatisticsReport.cpp CsvFunctions.cpp
+	CsvMultipleStatisticsReport.cpp RasterFeaturesWidget.cpp
+	VectorStyleClassGenerationWidget.cpp VectorEditionControllerCommand.cpp
+	HtmlListSelectionWidget.cpp LayerHtmlListItem.cpp SpectralSignEditionPart.cpp
+	HtmlListItemStateChangeNotification.cpp LibraryTableEditionPart.cpp MergeLayersPart.cpp
+	TasseledCapTransformationPart.cpp TasseledCapTransformationPartProvider.cpp
+	TasseledCapTransformationTool.cpp TasseledCapProcess.cpp
+	SpectralAngleMapperPart.cpp SpectralAngleMapperPartProvider.cpp
+	PlotterWidget.cpp wx2DPlotter.cpp ManualEnhancementPart.cpp
+	AppConfigurationWidget.cpp SetupGeneralPart.cpp VisualizationExporterProcess.cpp
+	SetupVectorialEditionPart.cpp SetupMeasurementPart.cpp SetupVectorialVisualizationPart.cpp
+	Setup3DPart.cpp SaveViewButton.cpp ClassStatisticsHtmlListItem.cpp
+	HistogramVisualizationPart.cpp VisualizationExporterProcessPartProvider.cpp
+	PrincipalComponentAnalysisPart.cpp PrincipalComponentAnalysisPartProvider.cpp
+	PrincipalComponentAnalysisTool.cpp PrincipalComponentAnalysisProcess.cpp
+	ConvolutionFiltersEditorPart.cpp EquationInSituEditorPart.cpp ProcessHistoryPart.cpp
+   BandStackingProcess.cpp KMeansClassificationProcess.cpp OutputPageConfigPart.cpp
+   MapToolSetupPart.cpp HtmlFileRepresentationGetter.cpp MultimediaHtmlRepresentationGetter.cpp
+   EquationVariableMappingPart.cpp DynamicViewerWidget.cpp ViewerPropertiesPart.cpp
+	ResizeProcess.cpp SnapPart.cpp SnapTool.cpp
+	ZoomRasterFactorTool.cpp
+	MosaicProcess.cpp MosaicProcessPartProvider.cpp MosaicConfigurationPart.cpp
+	HistogramMatchingProcess.cpp HistogramMatchingPart.cpp HistogramMatchingProcessPartProvider.cpp
+	UseFeatureSelection.cpp wxSuriMouseEvent.cpp RasterizationProcessPartProvider.cpp
+	RasterizationPart.cpp RasterizationProcess.cpp
+)
+

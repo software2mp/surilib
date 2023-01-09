@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_COREGISTER_TABLE_TOOLBAR_PANEL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>CoregisterTableToolbar</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_BITMAPBUTTON17">
+                    <tooltip>Agregar registro</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-AddRow-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxBitmapButton" name="ID_BITMAPBUTTON2">
+                    <tooltip>Eliminar registro</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-DeleteRow-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxStaticLine" name="wxID_STATIC">
+                    <style>wxLI_VERTICAL</style>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxStaticText" name="wxID_STATIC">
+                    <label>Interp. Polinomial</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxStaticText" name="wxID_STATIC">
+                    <label>Orden:</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxSpinCtrl" name="ID_SPINCTRL">
+                    <size>50,-1</size>
+                    <style>wxSP_ARROW_KEYS</style>
+                    <value>0</value>
+                    <min>1</min>
+                    <max>100</max>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT</flag>
+                <border>1</border>
+                <object class="wxStaticText" name="wxID_STATIC">
+                    <label>rmse 0.000</label>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

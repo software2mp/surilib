@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+	<object class="wxMenu" name="ID_EDIT_COLUMS_MENU">
+		<label>Menu</label>
+			<object class="wxMenuItem" name="ID_ADD_COLUM">
+				<label>&amp;Agregar Columna</label>
+				<bitmap>bitmaps/button-AddColumn-16.png</bitmap>
+			</object>
+	</object>
+	<object class="wxMenu" name="ID_EDIT_ROWS_MENU">
+		<label>Menu</label>
+			<object class="wxMenuItem" name="ID_REMOVE_FEATURE">
+				<label>&amp;Eliminar registro</label>
+				<bitmap>bitmaps/button-RemoveFeature-16.png</bitmap>
+			</object>
+	</object>
+</resource>
