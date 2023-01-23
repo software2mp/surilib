@@ -133,7 +133,23 @@ cmake -Wno-dev -DCMAKE_BUILD_TYPE=${BUILD_TYPE} -DCMAKE_CXX_FLAGS="${CL_COMPILER
 
 make -k ${MAKE_PARAMS} || exit 1
 
-bash ./installer.sh || exit 1
+# Generacion del paquete .deb
+cpack ${WORKSPACE}
+
+deb_file=$(ls *.deb 2> /dev/null)
+# fix de permisos sobre la generacion del .deb
+mkdir fix_up_deb
+dpkg-deb -x $deb_file fix_up_deb
+dpkg-deb --control $deb_file fix_up_deb/DEBIAN
+rm $deb_file
+chmod 0644 fix_up_deb/DEBIAN/md5sums
+find -type d -print0 |xargs -0 chmod 755
+fakeroot dpkg -b fix_up_deb $deb_file
+rm -rf fix_up_deb
+# fin fix de permisos
+
+# Deprecated
+false && { bash ./installer.sh || exit 1 ; }
 rm -Rf package
 
 export PATH=$OLDPATH
