@@ -24,7 +24,7 @@ namespace suri {
 
 namespace ui {
 /**
- * Clase que representa un conjunto de parametros estad�sticos que definen una clase valida
+ * Clase que representa un conjunto de parametros estadísticos que definen una clase valida
  * para el proceso de clasificacion supervisada
  */
 class ClassStatisticsHtmlListItem : public HtmlListItemInterface {

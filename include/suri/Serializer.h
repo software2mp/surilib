@@ -48,7 +48,7 @@ public:
    virtual Serializable* Deserialize(wxXmlNode* xmlNode) const = 0;
 
    /**
-    * Devuelve el nombre de la clase, que se persistir· junto al objeto
+    * Devuelve el nombre de la clase, que se persistir√° junto al objeto
     * serializado para poder revertir el proceso.
     */
    virtual std::string GetName() const = 0;
@@ -70,8 +70,8 @@ public:
    virtual ~DefaultSerializer() { }
 
    /**
-    * Serializa un objeto y lo devuelve como un xml, llamando a la funciÛn
-    * SerializeXML propia de la clase del objeto pasado por par·metro. Los
+    * Serializa un objeto y lo devuelve como un xml, llamando a la funci√≥n
+    * SerializeXML propia de la clase del objeto pasado por par√°metro. Los
     * objetos no serializables devuelven un nodo null
     */
    wxXmlNode* Serialize(Serializable* Serializable) const;
@@ -82,7 +82,7 @@ public:
    Serializable* Deserialize(wxXmlNode* xmlNode) const;
 
    /**
-    * Devuelve un string vacÌo.
+    * Devuelve un string vac√≠o.
     */
    std::string GetName() const;
 };

@@ -132,7 +132,7 @@ public:
    int GetFixedColumnIndex(int ColumnIndex) const;
    /** Establece el SRS del tablepart */
    void SetSrs(const std::string& Srs);
-   /** Aplica el filtro recibido por parï¿½metro sobre la tabla */
+   /** Aplica el filtro recibido por parÃ¡metro sobre la tabla */
    virtual void SetFilter(const std::string &Condition);
    void SetOption(const Option& Options) {
       options_.SetOption(Options.GetOption());
@@ -156,9 +156,9 @@ private:
    void OnCellClick(wxGridEvent &Event);
    /** Metodo que captura el evento de doble click sobre una celda **/
    void OnCellDoubleClick(wxGridEvent &Event);
-   /** Metodo que maneja la selección múltiple de filas*/
+   /** Metodo que maneja la selecciÃ³n mÃºltiple de filas*/
    void OnMultipleSelection(wxGridRangeSelectEvent &Event);
-   /** Función auxiliar para verificar si se debe actualizar la selección de geometrías*/
+   /** FunciÃ³n auxiliar para verificar si se debe actualizar la selecciÃ³n de geometrÃ­as*/
    bool ValidateMultipleSelection(wxGridCellCoords, wxGridCellCoords) const;
    /** Declara el objeto de eventos como clase friend */
    FRIEND_EVENT_OBJECT(TablePartEventHandler);

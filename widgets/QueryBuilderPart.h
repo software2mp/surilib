@@ -49,7 +49,7 @@ private:
    EVENT_OBJECT_PROPERTY(QueryBuilderPartEvent);
    /** Declara el objeto de eventos como clase friend */
    FRIEND_EVENT_OBJECT(QueryBuilderPartEvent);
-   /** Inicializa la ejecuci�n de la consulta */
+   /** Inicializa la ejecución de la consulta */
    virtual void OnButtonOk(wxCommandEvent &Event);
    /** Captura el evento de click sobre el boton con el operador > */
    void OnButtonGreaterOperation(wxCommandEvent &Event);
