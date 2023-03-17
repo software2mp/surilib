@@ -47,7 +47,7 @@ public:
    void AddAttribute(const std::string& Key, V& Value){
       params_->AddValue<V>(Key, &Value);
    }
-   /** Agregar un atributo con la clave y valor, que luego se serializar·
+   /** Agregar un atributo con la clave y valor, que luego se serializar√°
     *  @return true en caso de poder agregarlo correctamente
     *  @return false en caso contrario */
    template<class V>
@@ -63,7 +63,7 @@ public:
    std::string GetAttributesAsXmlString() const;
 
    /**
-    * Agrega un serializador custom a la colecciÛn.
+    * Agrega un serializador custom a la colecci√≥n.
     * El mismo es eliminado en el destructor de la clase.
     */
    void AddSerializer(const std::string& KeyP, Serializer* Serializer);

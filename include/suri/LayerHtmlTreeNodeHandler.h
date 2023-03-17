@@ -69,7 +69,7 @@ public:
    virtual void ExecuteHtmlLink(const NodePath &Node,
                               const std::string &LinkId);
    /** Reformatea el string del nombre del elemento dependiendo de
-    * el tamaño de la ventana de la lista (izquierda).*/
+    * el tamaÃ±o de la ventana de la lista (izquierda).*/
    std::string Reformat( std::string str, unsigned int charsbyLine );
 
    /** Retorna listado de nodos hoja activos. */

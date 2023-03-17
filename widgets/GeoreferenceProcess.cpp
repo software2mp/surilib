@@ -1236,7 +1236,7 @@ GDALDatasetH GeoreferenceProcess::GDALWarpCreateOutput(GDALDatasetH hSrcDS,
    pixels = static_cast<int>(((dfWrkMaxX - dfWrkMinX) / dfWrkResX + 0.5));
    lines = static_cast<int>(((dfWrkMaxY - dfWrkMinY) / dfWrkResY + 0.5));
 
-   // Sobreescribo tamaño de pixel
+   // Sobreescribo tamaÃ±o de pixel
    if (PixelWidth != 0 && PixelHeight != 0) {
       double dfMinX = adfdstgeotransform[0];
       double dfMaxX = adfdstgeotransform[0] + adfdstgeotransform[1] * pixels;

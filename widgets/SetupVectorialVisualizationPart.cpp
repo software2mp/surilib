@@ -80,9 +80,9 @@ bool SetupVectorialVisualizationPart::RollbackChanges() {
 void SetupVectorialVisualizationPart::Update() {
 }
 
-/** Actualiza las opciones de configuración en el archivo xml. */
+/** Actualiza las opciones de configuraciÃ³n en el archivo xml. */
 void SetupVectorialVisualizationPart::WriteNewStyles() {
-  /** Escribimos los diferentes estilos en el archivo de configuración */
+  /** Escribimos los diferentes estilos en el archivo de configuraciÃ³n */
    Configuration::SetParameter("geo_polygon_style", PolygonStyle_);
    Configuration::SetParameter("geo_line_style", LineStyle_);
    Configuration::SetParameter("geo_point_style", PointStyle_);

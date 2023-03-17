@@ -75,7 +75,7 @@ public:
    static const std::string ComplexString;
    /** String que describe los atributos de tipo rango **/
    static const std::string RangeString;
-   /** String que describe los atributos de tipo de filtros de convolución. */
+   /** String que describe los atributos de tipo de filtros de convoluciÃ³n. */
    static const std::string ConvolutionFilterString;
 private:
    /** String que describe los atributos de tipo link de biblioteca **/

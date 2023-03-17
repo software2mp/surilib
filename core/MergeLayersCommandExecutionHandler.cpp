@@ -113,7 +113,7 @@ bool MergeLayersCommandExecutionHandler::Execute(const Command* pCommand, Generi
                pDataView_->GetDatasourceManager()->AddDatasource(pdatasource);
          }
       } else {
-         //TODO: Detallar m·s el error.
+         //TODO: Detallar m√°s el error.
          SHOW_WARNING(message_PROCESS_MERGE_LAYERS_START_ERROR);
       }
    } else {

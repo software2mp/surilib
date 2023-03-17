@@ -124,7 +124,7 @@ wxXmlNode* BandInfo::SerializeXml() const{
 
 BandInfo* BandInfo::DeserializeXml(wxXmlNode* pRoot){
    wxXmlNode* pChild = pRoot->GetChildren();
-   //Deserializo asumiendo que se mantienen en el orden que los guardé
+   //Deserializo asumiendo que se mantienen en el orden que los guardÃ³
    int position = Serializable::DeserializeInt(pChild, BAND_POSITION);
    pChild = pChild->GetNext();
    std::string name = Serializable::DeserializeString(pChild, NAME_NODE);

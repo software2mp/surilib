@@ -75,7 +75,7 @@ public:
 
    /**
     * Obtiene el nombre del proceso desde el adaptLayer
-    * Devuelve vacío en caso de que falle
+    * Devuelve vacÃ­o en caso de que falle
     **/
    std::string GetProcessName() const{
       if (pAdaptLayer_){

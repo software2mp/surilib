@@ -32,9 +32,9 @@ class SerializableFactory{
 public:
    /**
     * Crea una instancia de un serializable a partir de un string con la
-    * representación xml del objeto
+    * representaciÃ³n xml del objeto
     * @pre: El xml debe estar bien formado.
-    * @param[in]: String con una representación válida del objeto Serializable
+    * @param[in]: String con una representaciÃ³n vÃ¡lida del objeto Serializable
     * @return: puntero a una instancia de Serializable
     */
    static Serializable* GetSerializable(const std::string& xml);

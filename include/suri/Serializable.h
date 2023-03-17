@@ -28,16 +28,15 @@ namespace suri{
 class Serializable{
 public:
    /**
-    * Devuelve una versión xml del objeto
+    * Devuelve una versiÃ³n xml del objeto
     */
    virtual wxXmlNode* SerializeXml() const = 0;
    /**
-    * Genera el objeto a través de los parámetros persistidos en Serialize
+    * Genera el objeto a travÃ©s de los parÃ¡metros persistidos en Serialize
     */
    virtual ~Serializable();
    /**
-    * TODO Matías TCK #8451
-    * Es un asco que exista una función así, pero dado que
+    * Es un asco que exista una funciÃ³n asÃ­, pero dado que
     * SerializableCollection es una bolsa de gatos, con esto puedo unwrappear
     * NonSerializables
     * Creo que lo ideal es que esa clase no exista, pero eso hay que
@@ -76,7 +75,7 @@ private:
 };
 
 /**
- * Null serializer genérico
+ * Null serializer genÃ©rico
  */
 
 template <class T>

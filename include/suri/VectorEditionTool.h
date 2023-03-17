@@ -103,7 +103,7 @@ private:
    bool CanDeleteVectorDatasource(const std::string &Filename);
    /** Elimina la FD vectorial y sus archivos asociados */
    bool DeleteVectorDatasource(const std::string &Filename);
-   /** Verifica, al momento de cambiar de herramienta, si se debe finalizar la edición vectorial*/
+   /** Verifica, al momento de cambiar de herramienta, si se debe finalizar la ediciÃ³n vectorial*/
    bool EndEditFeatureIsNecessary();
    /** Comando asociado a la tarea de edicion vectorial */
    Command* pTaskCommand_;

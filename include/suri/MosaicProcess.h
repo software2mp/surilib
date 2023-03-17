@@ -59,7 +59,7 @@ protected:
    virtual void DoOnProcessAdaptLayerSet();
 private:
    /**
-    * Obtiene el tamaño de pixel mayor y escala las imagenes para que todas tengan el mismo tamaño
+    * Obtiene el tamaÃ±o de pixel mayor y escala las imagenes para que todas tengan el mismo tamaÃ±o
     * de pixel.
     */
    void SetElementsPixelSize();

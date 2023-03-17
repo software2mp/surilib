@@ -48,7 +48,7 @@ private:
    int      zoomfactor_; // Zoom factor.
    wxString coordgeo_; // formato coordenadas geo.
    wxString coordmts_; // formato coordenadas metros.
-   bool restrictedmode_; // Deshabilita opciones que estan de m·s para esa apliciÛn.
+   bool restrictedmode_; // Deshabilita opciones que estan de m√°s para esa aplici√≥n.
 };
 
 } /* namespace suri */

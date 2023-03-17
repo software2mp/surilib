@@ -255,7 +255,7 @@ void WarpParametersPart::OnFilePickerChanged(wxCommandEvent &Event) {
                                            ID_FILECTRL, wxFilePickerCtrl);
    fileName_ = pfilepicker->HasTextCtrl() ?
          pfilepicker->GetTextCtrl()->GetValue().c_str() : pfilepicker->GetPath().c_str();
-   //Chequeo que sea un archivo de GCPs  válidos
+   //Chequeo que sea un archivo de GCPs  vÃ¡lidos
    this->parseResult_ = LoadGCPList();
    if(!this->parseResult_.isSuccess()) {
 	   DisplayError();

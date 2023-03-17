@@ -585,8 +585,8 @@ void Viewer2D::DisplayElement(Element *pElement) {
  */
 void Viewer2D::HideElement(Element *pElement) {
    // REPORT_DEBUG("D:Oculto Elemento");
-   // Se resetea el viewer para que, en modo GIS, el c·lculo del nuevo extent
-   // del mundo deje de tomar en cuenta la capa reciÈn ocultada
+   // Se resetea el viewer para que, en modo GIS, el c√°lculo del nuevo extent
+   // del mundo deje de tomar en cuenta la capa reci√©n ocultada
    if (dynamic_cast<RasterElement*>(pElement))
       ResetViewer();
 }
@@ -905,7 +905,7 @@ void Viewer2D::AdjustVirtualSize() {
                                true);
    pScrolledWin_->SetScrollbar(wxVERTICAL, lastY_, winlry - winuly, vlry - vuly, true);
    pScrolledWin_->SetVirtualSize(vlrx - vulx, vlry - vuly);
-   // (Pablo-TCK #10637): saquÈ el #ifdef __WXMSW__ que encerraba a la lÌnea de abajo:
+   // (Pablo-TCK #10637): saqu√© el #ifdef __WXMSW__ que encerraba a la l√≠nea de abajo:
    // ( pScrolledWin_->Scroll(lastX_, lastY_); )
    pScrolledWin_->Scroll(lastX_, lastY_);
    pScrolledWin_->Thaw();

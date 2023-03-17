@@ -48,7 +48,7 @@ public:
    /** Metodo que es llamado cuando se actualiza la seleccion. */
    virtual void SelectionUpdated();
 
-   /** Para saber si al ingresar a la edición, se agregó algun punto o se arrepintió. */
+   /** Para saber si al ingresar a la ediciÃ³n, se agregÃ³ algun punto o se arrepintiÃ³. */
    virtual void SetClosedWithoutEdition(bool value);
    virtual bool GetClosedWithoutEdition();
 private:

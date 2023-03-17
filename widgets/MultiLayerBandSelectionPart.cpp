@@ -37,7 +37,7 @@ MultiLayerBandSelectionPart::MultiLayerBandSelectionPart(
  * Dtor
  */
 MultiLayerBandSelectionPart::~MultiLayerBandSelectionPart() {
-   //DELETE_EVENT_OBJECT  ¿Va?
+   //DELETE_EVENT_OBJECT  Va?
 }
 
 /**

@@ -111,7 +111,7 @@ void LibraryManagerFactory::ResetLibraryManager(LibraryManager* pManager) {
    plibrary = pManager->GetLibraryByCode(SpectralSignLibraryCode, fullaccesskey);
    LoadOrigins(plibrary, SpectralSignLibraryCode);
 
-   // Agrego origen con filtros de convolución
+   // Agrego origen con filtros de convoluciÃ³n
    plibrary = pManager->GetLibraryByCode(ConvolutionFiltersCode, fullaccesskey);
    LoadOrigins(plibrary, ConvolutionFiltersCode);
 

@@ -77,7 +77,7 @@ SerializableCollection* SerializableCollection::DeserializeXml(wxXmlNode* pRoot)
 }
 
 /**
- * Serializa un parámetro y devuelve una instancia nueva de wxXmlNode
+ * Serializa un parÃ¡metro y devuelve una instancia nueva de wxXmlNode
  */
 wxXmlNode* SerializableCollection::SerializeParam(const std::string& Name,
                           Serializable* pSerializable) const{
@@ -98,7 +98,7 @@ wxXmlNode* SerializableCollection::SerializeParam(const std::string& Name,
 }
 
 /**
- * Deserializa un parámetro y lo agrega al mapa
+ * Deserializa un parÃ¡metro y lo agrega al mapa
  */
 void SerializableCollection::DeserializeParam(const wxXmlNode* pParam){
    wxString paramName = pParam->GetAttribute(wxT(PARAM_NAME_ATTRIBUTE), wxT(""));
@@ -106,13 +106,13 @@ void SerializableCollection::DeserializeParam(const wxXmlNode* pParam){
          wxT(PARAM_SERIALIZER_ATTRIBUTE), wxT(""));
    Serializable* paramValue = SerializableFactory::
          GetSerializable(pParam->GetChildren(), serializerName.mb_str());
-   //Agrego el parámetro a la colección
+   //Agrego el parÃ¡metro a la colecciÃ³n
    this->params_[paramName.mb_str()] = paramValue;
 }
 
 /**
- * Obtiene el serializador asociado a un parámetro.
- * En caso de que no haya ningún serializador, se devuelve el default
+ * Obtiene el serializador asociado a un parÃ¡metro.
+ * En caso de que no haya ningÃºn serializador, se devuelve el default
  */
 Serializer* SerializableCollection::GetSerializer(const std::string& KeyP) const{
    std::map<std::string, Serializer*>::const_iterator it;

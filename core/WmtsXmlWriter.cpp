@@ -101,8 +101,8 @@ std::string WmtsXmlWriter::GetXml(const std::string& UrlStr,
    return retval;
 }
 
-/** Verifica que el string pasado represente un sistema de referencia v·lido
- * @return true si el sistema de referencia tiene asociado un Wkt no vacÌo
+/** Verifica que el string pasado represente un sistema de referencia v√°lido
+ * @return true si el sistema de referencia tiene asociado un Wkt no vac√≠o
  * @return false en caso contrario
 */
 bool WmtsXmlWriter::validReferenceSystem(std::string referenceSystem){
@@ -110,7 +110,7 @@ bool WmtsXmlWriter::validReferenceSystem(std::string referenceSystem){
    return !Wkt.empty();
 }
 
-/** Devuelve el string con un sistema de referencia v·lido, en base a uno no
+/** Devuelve el string con un sistema de referencia v√°lido, en base a uno no
  *  soportado.
  */
 std::string WmtsXmlWriter::correctReferenceSystem(std::string referenceSystem){

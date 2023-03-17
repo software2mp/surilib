@@ -119,7 +119,7 @@ void ProcessNotebookWidget::OnPageChanging(wxBookCtrlBaseEvent & Event) {
 }
 
 /**
- * Evento que maneja el botón Cerrar en un proceso.
+ * Evento que maneja el botÃ³n Cerrar en un proceso.
  * @param[in] Event CloseEvent
  */
 void ProcessNotebookWidget::OnClose(wxCloseEvent& Event){
@@ -127,7 +127,7 @@ void ProcessNotebookWidget::OnClose(wxCloseEvent& Event){
 }
 
 /**
- *Evento que maneja el botón 'Cancelar' en un proceso
+ *Evento que maneja el botÃ³n 'Cancelar' en un proceso
  *@param[in] CommandEvent wxCommandEvent
  */
 void ProcessNotebookWidget::OnButtonCancel(wxCommandEvent& Event){

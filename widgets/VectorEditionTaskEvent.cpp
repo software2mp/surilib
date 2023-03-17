@@ -109,7 +109,7 @@ void VectorEditionTaskEvent::SelectionUpdated() {
       RefreshViewers(GetViewportManager()->GetViewportIds());
 }
 /** Metodo que se utiliza para saber cuando alguien hace click en
- * editar y antes de hacer cualquier edición */
+ * editar y antes de hacer cualquier ediciÃ³n */
 void VectorEditionTaskEvent::SetClosedWithoutEdition(bool value){
    closedBeforeSetAPoint_ = value;
 }

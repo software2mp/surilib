@@ -546,7 +546,7 @@ void TablePart::QueryBuilder() {
    pquerybuilder->ShowModal();
 }
 
-/** Maneja la selecci髇 m鷏tiple de geometrias */
+/** Maneja la selecci贸n m煤ltiple de geometrias */
 void TablePart::OnMultipleSelection(wxGridRangeSelectEvent &Event){
    if(!Event.Selecting())
       return;
@@ -564,7 +564,7 @@ void TablePart::OnMultipleSelection(wxGridRangeSelectEvent &Event){
    lastRowSelected_ = row;
    if (pFeatureSelection_){
       /** Desconecto temporalmente el handler de este evento, porque el llamado a
-       *  UpdateSelection() vuelve a dispararlo, lo cual resulta en recursi髇 infinita
+       *  UpdateSelection() vuelve a dispararlo, lo cual resulta en recursi贸n infinita
        */
       pGrid_->Disconnect(wxEVT_GRID_RANGE_SELECT,
                         wxGridRangeSelectEventHandler(TablePartEventHandler::OnMultipleSelection),
@@ -577,8 +577,8 @@ void TablePart::OnMultipleSelection(wxGridRangeSelectEvent &Event){
    Event.Skip();
 }
 
-/** Funci髇 auxiliar que valida si se debe actualizar la selecci髇
- *  de las geometr韆s en el evento de selecci髇 m鷏tiple sobre la tabla.
+/** Funci贸n auxiliar que valida si se debe actualizar la selecci贸n
+ *  de las geometr铆as en el evento de selecci贸n m煤ltiple sobre la tabla.
  */
 bool TablePart::ValidateMultipleSelection(wxGridCellCoords topLeft,
                                           wxGridCellCoords bottomRight) const{

@@ -25,8 +25,8 @@ namespace suri {
 Serializer::~Serializer() {}
 
 /**
- * Serializa un objeto y lo devuelve como un xml, llamando a la funciÛn
- * SerializeXML propia de la clase del objeto pasado por par·metro. Los
+ * Serializa un objeto y lo devuelve como un xml, llamando a la funci√≥n
+ * SerializeXML propia de la clase del objeto pasado por par√°metro. Los
  * objetos no serializables devuelven un nodo null
  */
 wxXmlNode* DefaultSerializer::Serialize(Serializable* Serializable) const {
@@ -41,7 +41,7 @@ Serializable* DefaultSerializer::Deserialize(wxXmlNode* xmlNode) const {
 }
 
 /**
- * Devuelve un string vacÌo.
+ * Devuelve un string vac√≠o.
  */
 std::string DefaultSerializer::GetName() const {
    return "";

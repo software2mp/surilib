@@ -16,15 +16,15 @@
 namespace suri {
 
 /**
- * Permite obtener información más detallada de los errores ocurridos al
- * parsear un documento, como número y contenido de la linea donde falló.
+ * Permite obtener informaciÃ³n mÃ¡s detallada de los errores ocurridos al
+ * parsear un documento, como nÃºmero y contenido de la linea donde fallÃ³.
  */
 
 class ParserResult{
 public:
 	/**
-	 * Construye un resultado a partir del número de linea,
-	 * contenido y descripción.
+	 * Construye un resultado a partir del nÃºmero de linea,
+	 * contenido y descripciÃ³n.
 	 */
 	ParserResult(bool Success, int LineNumber = 0,
 				const std::string& Content = "",
@@ -37,11 +37,11 @@ public:
 private:
 	/* Flag para indicar si el parseo fue exitoso o no */
 	bool success_;
-	/* Linea que falló al parsear (si corresponde) */
+	/* Linea que fallÃ³ al parsear (si corresponde) */
 	std::string content_;
-	/* Motivo por el que falló el parseo (si corresponde)*/
+	/* Motivo por el que fallÃ³ el parseo (si corresponde)*/
 	std::string description_;
-	/* Número de linea en el que se produjo la falla (si corresponde) */
+	/* NÃºmero de linea en el que se produjo la falla (si corresponde) */
 	int lineNumber_;
 };
 

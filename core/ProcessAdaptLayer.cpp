@@ -157,7 +157,7 @@ std::string ProcessAdaptLayer::GetAttributesAsXmlString() const{
 }
 
 /**
- * Agrega un serializador custom a la colección.
+ * Agrega un serializador custom a la colecciÃ³n.
  * El mismo es eliminado en el destructor de la clase.
  */
 void ProcessAdaptLayer::AddSerializer(const std::string& KeyP,
