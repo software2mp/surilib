@@ -25,8 +25,7 @@
 
 /**
  * Vector de serializables
- * (Matías - TCK #8451) Hago un vector de instancias y no de punteros para
- * reforzar más el patrón RAII.
+
  */
 
 namespace suri{
@@ -48,7 +47,7 @@ public:
    }
    /**
     * @pre: es un vector de serializables
-    * @pre: la clase a deserializar posee un método DeserializeXml
+    * @pre: la clase a deserializar posee un mÃ©todo DeserializeXml
     */
    static SerializableVector* DeserializeXml(wxXmlNode* pRoot){
       std::vector<T> elementVector;
