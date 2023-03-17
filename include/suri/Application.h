@@ -456,7 +456,7 @@ template<class MainClass>
 Application<MainClass>::Application() :
       pInstanceChecker_(NULL), pPrinter_(NULL), pHelpController_(NULL), pLocale_(NULL),
       cmlParameter_(wxT("")), pApplicationSplash_(NULL) {
-// (Pablo - TCK #10637): Esto est· para que en Ubuntu cargue los scrollers
+// (Pablo - TCK #10637): Esto est√° para que en Ubuntu cargue los scrollers
 //  (horizontal y vertical) como los de Windows, en vez de los de Unity.
 #ifdef __LINUX__
    wxSetEnv(wxS("LIBOVERLAY_SCROLLBAR"), wxS("0"));

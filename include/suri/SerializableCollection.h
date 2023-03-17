@@ -26,8 +26,8 @@ namespace suri {
  * Contendor generico (map) que permite guardar en el mismo contenedor valores
  * de cualquier tipo asociandolo con una clave.
  * Puede almacenar valores de cualquier tipo, con un wrapper no serializable
- * como tambiÈn guardar instancias de Serializable que luego ser·n serializadas
- * al llamar a SerializeXml de la colecciÛn.
+ * como tambi√©n guardar instancias de Serializable que luego ser√°n serializadas
+ * al llamar a SerializeXml de la colecci√≥n.
  */
 class SerializableCollection : public Serializable{
 public:
@@ -113,7 +113,7 @@ public:
    }
 
    /**
-    * Agrega un serializador custom a la colecciÛn.
+    * Agrega un serializador custom a la colecci√≥n.
     * El mismo es eliminado en el destructor de la clase.
     */
    void AddSerializer(const std::string& KeyP, Serializer* Serializer);
@@ -127,18 +127,18 @@ private:
    std::map<std::string, Serializer*> serializerMap_;
    const DefaultSerializer defaultSerializer_;
    /**
-    * Serializa un par·metro y devuelve una instancia nueva de wxXmlNode
+    * Serializa un par√°metro y devuelve una instancia nueva de wxXmlNode
     */
    wxXmlNode* SerializeParam(const std::string& Name,
                              Serializable* Serializable) const;
 
    /**
-    * Deserializa un par·metro y lo agrega al mapa
+    * Deserializa un par√°metro y lo agrega al mapa
     */
    void DeserializeParam(const wxXmlNode* pParam);
    /**
-    * Obtiene el serializador asociado a un par·metro.
-    * En caso de que no haya ning˙n serializador, se devuelve el default
+    * Obtiene el serializador asociado a un par√°metro.
+    * En caso de que no haya ning√∫n serializador, se devuelve el default
     */
    Serializer* GetSerializer(const std::string& KeyP) const;
 };
