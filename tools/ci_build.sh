@@ -48,7 +48,7 @@ DLLS_BASE_DIR=${DLLS_BASE_DIR:-"$HOME/opt/local-${COMPILER_PREFIX}"}
 test -n "${OUT_OF_SOURCE_BUILD}" && { mkdir -p WinBuild ; cd WinBuild ; }
 
 # Cargo variables del entorno
-source "${DLLS_BASE_DIR}/share/sur/build_environment.sh"
+. "${DLLS_BASE_DIR}/share/sur/build_environment.sh"
 
 # Para windows, no levanta bien los flags de release para el GCC, asi que los agrego
 # en forma forzada.
@@ -60,7 +60,7 @@ CL_CMAKE_PARAMETERS="-DCMAKE_TOOLCHAIN_FILE=${WORKSPACE}/lib/suri/tools/Toolchai
     -DMINGW_ROOT_PATH=/usr/${COMPILER_PREFIX} -DCOMPILER_PREFIX=${COMPILER_PREFIX} \                    
     -DSURILIB_INCLUDE_DIR=${WORKSPACE}/lib/suri/include -DUSR_LOCAL=${DLLS_BASE_DIR} ${CMAKE_PARAMETERS}" 
 
-CL_COMPILER_FLAGS="${COMPILER_FLAGS} -O3 -DNDEBUG -static-libgcc -Wno-strict-aliasing"
+CL_COMPILER_FLAGS="${COMPILER_FLAGS} -O3 -DNDEBUG -static-libgcc -Wno-strict-aliasing -D__WINDOWS__"
 CL_LINKER_FLAGS="-L${DLLS_BASE_DIR}/lib/"
 
 OLDPATH=$PATH
@@ -115,7 +115,7 @@ clean
 test -n "${OUT_OF_SOURCE_BUILD}" && { cd .. ; mkdir -p LinuxBuild ; cd LinuxBuild/ ; }
 
 # Cargo variables del entorno
-source "${HOME}/opt/local/share/sur/build_environment.sh"
+. "${HOME}/opt/local/share/sur/build_environment.sh"
 
 OLDPATH=$PATH
 export PATH=$PATH:${HOME}/opt/local/bin:${HOME}/opt/local/lib/ 
@@ -124,7 +124,7 @@ OLDLD_LIBRARY_PATH=$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${HOME}/opt/local/lib/
 
 CL_CMAKE_PARAMETERS="-DSURILIB_INCLUDE_DIR=${WORKSPACE}/lib/suri/include ${CMAKE_PARAMETERS}"
-CL_COMPILER_FLAGS="${COMPILER_FLAGS}"
+CL_COMPILER_FLAGS="${COMPILER_FLAGS} -D__LINUX__"
 CL_LINKER_FLAGS="-L${HOME}/opt/local/lib/"
 
 cmake -Wno-dev -DCMAKE_BUILD_TYPE=${BUILD_TYPE} -DCMAKE_CXX_FLAGS="${CL_COMPILER_FLAGS}" \
@@ -132,6 +132,7 @@ cmake -Wno-dev -DCMAKE_BUILD_TYPE=${BUILD_TYPE} -DCMAKE_CXX_FLAGS="${CL_COMPILER
       -DCMAKE_VERBOSE_MAKEFILE=FALSE -DCMAKE_EXE_LINKER_FLAGS=${CL_LINKER_FLAGS} ${CL_CMAKE_PARAMETERS} ${WORKSPACE}
 
 make -k ${MAKE_PARAMS} || exit 1
+bash ./installer_deb.sh || exit 1
 
 # Generacion del paquete .deb
 cpack ${WORKSPACE}
@@ -147,9 +148,6 @@ find -type d -print0 |xargs -0 chmod 755
 fakeroot dpkg -b fix_up_deb $deb_file
 rm -rf fix_up_deb
 # fin fix de permisos
-
-# Deprecated
-false && { bash ./installer.sh || exit 1 ; }
 rm -Rf package
 
 export PATH=$OLDPATH

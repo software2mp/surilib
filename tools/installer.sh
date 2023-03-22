@@ -14,7 +14,7 @@ AUTOPACKAGELOCALDIR=$HOME/opt/
 # nombre del ejecutable
 EXECUTABLENAME=$(echo ${SHORTPROGRAMNAME} | sed 's/\s*//g' | sed 's/á/a/g' | sed 's/Á/A/g' | sed 's/é/e/g' | sed 's/É/E/g' | sed 's/í/i/g' | sed 's/Í/I/g' | sed 's/ó/o/g'  | sed 's/Ó/O/g' | sed 's/ú/u/g' | sed 's/Ú/U/g' | sed 's/ñ/n/g' | sed 's/Ñ/N/g' | sed 's/\///g')
 # bibliotecas a incluir en el paquete
-INCLUDEDLIBS="wx|gdal|hdf|mfhdf|proj|jasper|geos|geotiff|suri"
+INCLUDEDLIBS="wx|gdal|hdf|mfhdf|proj|jasper|geos|geotiff|suri|curl|expat|kml|muparser|suri|minizip|uriparser|sqlite|openjp2|${AUTOPACKAGELOCALDIR}"
 
 # nombre (deseado) del programa en minuscula
 EXECUTABLENAMELOWERCASE=$(echo ${EXECUTABLENAME} | tr "[:upper:]" "[:lower:]")
@@ -130,17 +130,19 @@ for hidden_file in $(find "${PACKAGEDIR}" -name ".*") ; do
 done
 echo " [ OK ]"
 
-echo -n "GENERANDO INSTALADOR"
-cd "${PACKAGEDIR}"
-makepackage default.apspec > package.log 2>&1
-if [ ! $? ] ; then
-	echo " [ FALLA ]" ; cat package.log ; rm package.log ; exit 1
+if [ `which makepackage` ] ; then
+	echo -n "GENERANDO INSTALADOR" ; set -x
+	cd "${PACKAGEDIR}"
+	makepackage default.apspec > package.log 2>&1
+	if [ ! $? ] ; then
+		echo " [ FALLA ]" ; cat package.log ; rm package.log ; exit 1
+	fi
+	echo " [ OK ]"
+	cat package.log
+	rm package.log
+	cd ..
+	cp "${PACKAGEDIR}"/*.package .
 fi
-echo " [ OK ]"
-cat package.log
-rm package.log
-cd ..
-cp "${PACKAGEDIR}"/*.package .
 
 echo FIN
 exit 0
