@@ -275,7 +275,8 @@ bool Application<MainClass>::InitializeConfig() {
    InitializeOsVariables();
 
    // Cargo el volatil con el directorio de aplicacion
-   suri::Configuration::SetParameter("app_base_dir_volatile", configdir);
+   suri::Configuration::SetParameter("app_base_dir_volatile", 
+      suri::Configuration::GetParameter("app_user_data", configdir));
    // Cargo la version del software
    suri::Configuration::SetParameter("app_version", APPLICATION_BUILD);
 
